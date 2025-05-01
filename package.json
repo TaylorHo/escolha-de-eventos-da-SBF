@@ -1,0 +1,17 @@
+{
+  "name": "eosbf25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve web/",
+    "dev": "serve web/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

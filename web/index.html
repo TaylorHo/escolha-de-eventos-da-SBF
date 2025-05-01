@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EOSBF 2025 | Sessões</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    code {
+      background-color: #ededed;
+      border-radius: 6px;
+      padding: 2px 6px;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 p-6 font-sans pb-20">
+  <!-- Fixed Top Buttons -->
+  <div class="fixed top-0 left-0 right-0 bg-white shadow-md p-3 z-10 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-gray-800">EOSBF 2025 | Escolha de Sessões</h1>
+    <div class="flex space-x-3">
+      <button id="clearAllBtn"
+        class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer">
+        &cross; Limpar escolhas
+      </button>
+    </div>
+  </div>
+
+  <div class="max-w-[1800px] mx-auto bg-white rounded-lg shadow-sm p-6 mt-16">
+
+    <!-- Sessions Groups Container -->
+    <div id="sessionsContainer"></div>
+  </div>
+
+  <script>
+    // Sample data - replace with your JSON file data
+    let sessions = [];
+
+    // Load sessions from JSON file (you'll need to replace this with your actual file)
+    fetch('sessions.json')
+      .then(response => response.json())
+      .then(data => {
+        sessions = data;
+        displaySessions();
+      })
+      .catch(error => {
+        console.error('Error loading sessions:', error);
+        sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>O arquivo <code>sessions.json</code> está no lugar?</div>"
+      });
+
+    // Close any open modal:
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        document.getElementById('presentationsModal')?.remove();
+      }
+    }, false);
+
+    // Group sessions by date and time
+    function groupSessionsByDateTime() {
+      const groups = {};
+
+      sessions.forEach(session => {
+        const key = `${session.date}-${session.time}`;
+        if (!groups[key]) {
+          groups[key] = {
+            date: session.date,
+            time: session.time,
+            sessions: []
+          };
+        }
+        groups[key].sessions.push(session);
+      });
+
+      return Object.values(groups);
+    }
+
+    // Display sessions grouped by date and time
+    function displaySessions() {
+      const container = document.getElementById('sessionsContainer');
+      container.innerHTML = '';
+
+      const groups = groupSessionsByDateTime();
+      const selectedSessions = getSelectedSessions();
+
+      groups.forEach(group => {
+        const dateFormatted = formatDate(group.date);
+        const groupElement = document.createElement('div');
+        groupElement.className = 'mb-8 pb-6 border-b border-gray-300';
+
+        const groupHeader = document.createElement('h2');
+        groupHeader.className = 'text-xl font-semibold mb-3 text-gray-700';
+        groupHeader.textContent = `${dateFormatted} às ${group.time}`;
+        groupElement.appendChild(groupHeader);
+
+        const alreadySelected = group.sessions.some(session =>
+          selectedSessions[`${session.date}-${session.time}`]);
+
+        if (alreadySelected) {
+          const selectedSessionKey = `${group.date}-${group.time}`;
+          const selectedSessionId = selectedSessions[selectedSessionKey];
+          const selectedSession = group.sessions.find(s => s.session === selectedSessionId);
+
+          const selectionInfo = document.createElement('div');
+          selectionInfo.className = 'p-4 bg-blue-50 border border-blue-200 rounded-lg mb-3 relative';
+          selectionInfo.innerHTML = `
+                        <div class="absolute top-2 right-2">
+                            <button class="text-red-500 hover:text-red-700 remove-session-direct" 
+                                    data-key="${group.date}-${group.time}">
+                            </button>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded">Selecionada</span>
+                        </div>
+                        <p class="font-medium text-lg">${selectedSession.session}</p>
+                        <p class="text-sm text-gray-600"> ${selectedSession.location}</p>
+                        <p class="text-sm text-gray-600"> ${selectedSession.presentations.length} apresentações</p>
+                        <div class="mt-3 flex space-x-3">
+                            <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center view-presentations" 
+                                    data-session="${selectedSession.session}">
+                                Ver Apresentações
+                            </button>
+                            <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center change-selection" 
+                                    data-date="${group.date}" 
+                                    data-time="${group.time}">
+                                Trocar Seleção
+                            </button>
+                        </div>
+                    `;
+          groupElement.appendChild(selectionInfo);
+
+          // Add hidden session options that will be shown when "Change" is clicked
+          const sessionsContainer = document.createElement('div');
+          sessionsContainer.className = 'hidden session-options grid grid-cols-1 md:grid-cols-3 gap-4';
+          sessionsContainer.dataset.dateTime = `${group.date}-${group.time}`;
+
+          group.sessions.forEach(session => {
+            const sessionCard = createSessionCard(session, group.date, group.time);
+            sessionsContainer.appendChild(sessionCard);
+          });
+
+          groupElement.appendChild(sessionsContainer);
+        } else {
+          // Show all sessions in this group for selection
+          const sessionsContainer = document.createElement('div');
+          sessionsContainer.className = 'grid grid-cols-1 md:grid-cols-3 gap-4';
+
+          group.sessions.forEach(session => {
+            const sessionCard = createSessionCard(session, group.date, group.time);
+            sessionsContainer.appendChild(sessionCard);
+          });
+
+          groupElement.appendChild(sessionsContainer);
+        }
+
+        container.appendChild(groupElement);
+      });
+
+      // Add event listeners for "Change selection" buttons
+      document.querySelectorAll('.change-selection').forEach(button => {
+        button.addEventListener('click', function () {
+          const date = this.dataset.date;
+          const time = this.dataset.time;
+          const key = `${date}-${time}`;
+
+          // Hide the selection info and show options
+          this.closest('div').classList.add('hidden');
+          document.querySelector(`.session-options[data-date-time="${key}"]`).classList.remove('hidden');
+        });
+      });
+    }
+
+    // Create a card for a session
+    function createSessionCard(session, date, time) {
+      const card = document.createElement('div');
+      card.className = 'border border-gray-300 p-4 rounded-lg shadow-sm hover:shadow transition-shadow duration-200 bg-white';
+
+      // Calculate total presentations
+      const presentationsCount = session.presentations.length;
+
+      // Get unique fields from presentations
+      const fields = [...new Set(session.presentations.map(p => p.field))];
+
+      // Limit fields to 3 for display
+      const displayFields = fields.length > 3
+        ? fields.slice(0, 3).join(', ') + ` +${fields.length - 3} more`
+        : fields.join(', ');
+
+      card.innerHTML = `
+                <h3 class="font-medium text-lg mb-2 text-gray-800">${session.session}</h3>
+                <div class="space-y-1 mb-3">
+                    <p class="text-sm text-gray-600">${session.location}</p>
+                    <p class="text-sm text-gray-600">${presentationsCount} apresentações</p>
+                    <p class="text-sm text-gray-600">${displayFields}</p>
+                </div>
+                <div class="mt-3 flex space-x-2">
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center select-session cursor-pointer"
+                            data-session="${session.session}"
+                            data-date="${date}"
+                            data-time="${time}"
+                            data-location="${session.location}">
+                        Selecionar
+                    </button>
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center view-presentations-unselected cursor-pointer"
+                            data-session="${session.session}">
+                        Ver Apresentações
+                    </button>
+                </div>
+            `;
+
+      // Add event listener for select button
+      card.querySelector('.select-session').addEventListener('click', function () {
+        const sessionData = {
+          session: this.dataset.session,
+          date: this.dataset.date,
+          time: this.dataset.time,
+          location: this.dataset.location
+        };
+
+        selectSession(sessionData);
+      });
+
+      return card;
+    }
+
+    // Select a session
+    function selectSession(sessionData) {
+      const { session, date, time } = sessionData;
+      const key = `${date}-${time}`;
+
+      // Get current selections from localStorage
+      let selectedSessions = getSelectedSessions();
+
+      // Update selection
+      selectedSessions[key] = session;
+
+      // Save to localStorage
+      localStorage.setItem('selectedSessions', JSON.stringify(selectedSessions));
+
+      // Refresh the display
+      displaySessions();
+    }
+
+    // Get selected sessions from localStorage
+    function getSelectedSessions() {
+      const stored = localStorage.getItem('selectedSessions');
+      return stored ? JSON.parse(stored) : {};
+    }
+
+    // Clear all selections
+    function clearAllSelections() {
+      localStorage.removeItem('selectedSessions');
+      displaySessions();
+    }
+
+    // Remove a session selection
+    function removeSession(key) {
+      let selectedSessions = getSelectedSessions();
+      delete selectedSessions[key];
+
+      localStorage.setItem('selectedSessions', JSON.stringify(selectedSessions));
+
+      displaySessions();
+    }
+
+    // Format date from YYYY-MM-DD to more readable format
+    function formatDate(dateStr) {
+      const date = new Date(dateStr);
+      return capitalizeFirstLetter(date.toLocaleDateString('pt-BR', {
+        weekday: 'long',
+        year: undefined,
+        month: 'long',
+        day: 'numeric'
+      }));
+    }
+
+    // Get the session by name
+    function getSessionByName(sessionName) {
+      return sessions.find(s => s.session === sessionName);
+    }
+
+    // Display presentations for a session
+    function showPresentations(sessionName) {
+      const session = getSessionByName(sessionName);
+      if (!session) return;
+
+      // Create modal content for presentations
+      const presentationsModal = document.createElement('div');
+      presentationsModal.classList = "fixed top-0 left-0 right-0 w-full h-screen bg-black/75 flex items-center justify-center z-30 p-6";
+      presentationsModal.id = 'presentationsModal';
+
+      const modalWidth = session.presentations.length > 2 ? 'max-w-6xl' : 'max-w-2xl';
+
+      let presentationsHTML = '';
+      session.presentations.forEach(presentation => {
+        // Get all unique universities from the authors
+        const universities = presentation.authors.reduce((acc, author) => {
+          author.universities.forEach(uni => {
+            if (!acc.includes(uni)) acc.push(uni);
+          });
+          return acc;
+        }, []);
+
+        presentationsHTML += `
+                <div class="border border-gray-300 p-4 rounded-lg mb-4 bg-white shadow-sm">
+                    <h3 class="font-bold text-lg mb-2 text-gray-800 cursor-pointer"><a href="${presentation.abstract}" target="_blank">${presentation.title}</a> &#8599;</h3>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-blue-100 text-blue-800 text-xs text-center px-2 py-1 rounded">
+                            <i class="fas fa-tag mr-1"></i> ${presentation.field}
+                        </span>
+                        <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">
+                            <i class="far fa-clock mr-1"></i> ${presentation.hour}
+                        </span>
+                    </div>
+                    <div class="border-t border-gray-300 pt-2 mt-2">
+                        <p class="text-sm font-medium">Apresentador: ${presentation.presentedBy}</p>
+                        <div class="mt-2">
+                            <p class="text-xs font-medium text-gray-500">Autores:</p>
+                            <ul class="text-sm ml-4 list-disc">
+                                ${presentation.authors.map(author => `
+                                    <li>${author.author} 
+                                        <span class="text-xs text-gray-500">(${author.universities.join(', ')})</span>
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                `;
+      });
+
+      presentationsModal.innerHTML = `
+                <div class="bg-white rounded-lg shadow-lg ${modalWidth} w-full">
+                  <div class="flex justify-between items-center border-b border-gray-300 p-6 mb-4">
+                      <div>
+                          <h2 class="text-2xl font-bold text-gray-800">${session.session}</h2>
+                          <p class="text-sm text-gray-600">
+                              ${formatDate(session.date)} às ${session.time}
+                              ${session.location}
+                          </p>
+                      </div>
+                      <button class="text-gray-500 hover:text-gray-700 close-presentations-modal cursor-pointer">
+                          &cross;
+                      </button>
+                  </div>
+                  <div class="max-h-[75vh] overflow-y-scroll p-6">
+                    <div class="presentations-grid ${session.presentations.length > 2 ? 'grid grid-cols-1 md:grid-cols-3 gap-4' : 'space-y-4'}">
+                      ${presentationsHTML}
+                    </div>
+                  </div>
+                </div>
+            `;
+
+      document.body.appendChild(presentationsModal);
+
+      // Add event listener to close button
+      document.querySelector('.close-presentations-modal').addEventListener('click', function () {
+        document.getElementById('presentationsModal').remove();
+      });
+
+      // Close modal when clicking outside
+      presentationsModal.addEventListener('click', function (e) {
+        if (e.target === presentationsModal) {
+          presentationsModal.remove();
+        }
+      });
+    }
+
+    // Add event listeners for the clear button
+    document.getElementById('clearAllBtn').addEventListener('click', clearAllSelections);
+
+    // Add event listeners to view presentations buttons
+    document.addEventListener('click', function (e) {
+      // For selected sessions
+      if (e.target?.classList?.contains('view-presentations') ||
+        e.target?.parentElement?.classList?.contains('view-presentations')) {
+        const button = e.target.classList.contains('view-presentations') ?
+          e.target : e.target.parentElement;
+        const sessionName = button.dataset.session;
+        showPresentations(sessionName);
+      }
+
+      // For unselected sessions
+      if (e.target?.classList?.contains('view-presentations-unselected') ||
+        e.target?.parentElement?.classList?.contains('view-presentations-unselected')) {
+        const button = e.target.classList.contains('view-presentations-unselected') ?
+          e.target : e.target.parentElement;
+        const sessionName = button.dataset.session;
+        showPresentations(sessionName);
+      }
+    });
+
+    function capitalizeFirstLetter(val) {
+      return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+    }
+  </script>
+</body>
+
+</html>
