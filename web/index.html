@@ -21,6 +21,10 @@
   <div class="fixed top-0 left-0 right-0 bg-white shadow-md p-3 z-10 flex justify-between items-center">
     <h1 class="text-xl font-bold text-gray-800">EOSBF 2025 | Escolha de Sessões</h1>
     <div class="flex space-x-3">
+      <button id="viewSummaryBtn"
+        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
+        📋 Ver Resumo
+      </button>
       <button id="clearAllBtn"
         class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
         &cross; Limpar escolhas
@@ -29,7 +33,6 @@
   </div>
 
   <div class="max-w-[1800px] mx-auto bg-white rounded-lg shadow-sm p-6 mt-16">
-
     <!-- Sessions Groups Container -->
     <div id="sessionsContainer"></div>
   </div>
@@ -44,7 +47,7 @@
       .then(data => {
         sessions = data;
         displaySessions();
-        updateClearButton();
+        updateButtons();
       })
       .catch(error => {
         console.error('Error loading sessions:', error);
@@ -55,19 +58,23 @@
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape") {
         document.getElementById('presentationsModal')?.remove();
+        document.getElementById('summaryModal')?.remove();
       }
     }, false);
 
-    // Update clear button state
-    function updateClearButton() {
+    // Update button states
+    function updateButtons() {
       const clearButton = document.getElementById('clearAllBtn');
+      const summaryButton = document.getElementById('viewSummaryBtn');
       const selectedSessions = getSelectedSessions();
       const hasSelections = Object.keys(selectedSessions).length > 0;
 
       if (hasSelections) {
         clearButton.classList.remove('opacity-50', 'pointer-events-none');
+        summaryButton.classList.remove('opacity-50', 'pointer-events-none');
       } else {
         clearButton.classList.add('opacity-50', 'pointer-events-none');
+        summaryButton.classList.add('opacity-50', 'pointer-events-none');
       }
     }
 
@@ -131,8 +138,8 @@
                         </div>
                         <p class="font-medium text-lg">${selectedSession.session}</p>
                         <p class="text-sm text-gray-600">${selectedSession.location}</p>
-                        <p class="text-sm text-gray-600">${selectedSession.presentations.length} apresentações</p>
-                        <div class="mt-3 flex space-x-3">
+                       <p class="text-sm text-gray-600">${selectedSession.presentations.length} ${selectedSession.presentations.length > 1 ? "apresentações" : "apresentação"}</p>
+                                               <div class="mt-3 flex space-x-3">
                             <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
                                     onclick="showPresentations('${selectedSession.session}')">
                                 Ver Apresentações
@@ -208,7 +215,7 @@
                 <h3 class="font-medium text-lg mb-2 text-gray-800">${session.session}</h3>
                 <div class="space-y-1 mb-3">
                     <p class="text-sm text-gray-600">${session.location}</p>
-                    <p class="text-sm text-gray-600">${presentationsCount} apresentações</p>
+                    <p class="text-sm text-gray-600">${presentationsCount} ${presentationsCount > 1 ? "apresentações" : "apresentação"}</p>
                     <p class="text-sm text-gray-600">${displayFields}</p>
                 </div>
                 <div class="mt-3 flex space-x-2">
@@ -242,7 +249,7 @@
 
       // Refresh the display
       displaySessions();
-      updateClearButton();
+      updateButtons();
     }
 
     // Get selected sessions from localStorage
@@ -251,11 +258,237 @@
       return stored ? JSON.parse(stored) : {};
     }
 
+    // Show summary of selected sessions
+    function showSessionsSummary() {
+      const selectedSessions = getSelectedSessions();
+      if (Object.keys(selectedSessions).length === 0) return;
+
+      // Create array of selected session details
+      let selectedSessionsDetails = [];
+      Object.keys(selectedSessions).forEach(key => {
+        const [date, time] = key.split('-');
+        const sessionName = selectedSessions[key];
+        const session = getSessionByName(sessionName);
+        if (session) {
+          selectedSessionsDetails.push({
+            date,
+            time,
+            session: sessionName,
+            location: session.location,
+            presentations: session.presentations.length
+          });
+        }
+      });
+
+      // Sort by date and time
+      selectedSessionsDetails.sort((a, b) => {
+        if (a.date !== b.date) return a.date.localeCompare(b.date);
+        return a.time.localeCompare(b.time);
+      });
+
+      // Create modal for summary
+      const summaryModal = document.createElement('div');
+      summaryModal.classList = "fixed top-0 left-0 right-0 w-full h-screen bg-black/75 flex items-center justify-center z-30 p-6";
+      summaryModal.id = 'summaryModal';
+
+      let sessionsList = '';
+      selectedSessionsDetails.forEach(details => {
+        // Get the session to access presentation details
+        const session = getSessionByName(details.session);
+
+        // Create list of presentations with links to abstracts
+        let presentationsList = '';
+        if (session && session.presentations) {
+          presentationsList = `
+            <div class="mt-3 border-t border-gray-200 pt-3">
+              <p class="text-sm font-medium text-gray-700 mb-2">Apresentações:</p>
+              <ul class="text-sm space-y-1 pl-4">
+                ${session.presentations.map(pres => `
+                  <li>
+                    <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800">
+                      ${pres.hour}: ${pres.title}
+                    </a>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+          `;
+        }
+
+        sessionsList += `
+          <div class="border border-gray-300 p-4 rounded-lg mb-4 bg-white shadow-sm">
+            <div>
+              <h3 class="font-bold text-lg mb-1 text-gray-800">${details.session}</h3>
+              <p class="text-sm text-gray-600">
+                ${formatDate(details.date)} | ${details.time} | ${details.location}
+              </p>
+              ${presentationsList}
+            </div>
+          </div>
+        `;
+      });
+
+      summaryModal.innerHTML = `
+        <div class="bg-white rounded-lg shadow-lg max-w-4xl w-full">
+          <div class="flex justify-between items-center border-b border-gray-300 p-6">
+            <div>
+              <h2 class="text-2xl font-bold text-gray-800">Resumo das Sessões Selecionadas</h2>
+              <p class="text-sm text-gray-600">
+                Total: ${selectedSessionsDetails.length} sessões
+              </p>
+            </div>
+            <button class="text-gray-500 hover:text-gray-700 cursor-pointer" onclick="closeSummaryModal()">
+              &cross;
+            </button>
+          </div>
+          <div class="max-h-[75vh] overflow-y-auto p-4">
+            ${sessionsList}
+          </div>
+          <div class="border-t border-gray-300 p-4 flex justify-between">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                    onclick="exportSelections()">
+              🖨️ Imprimir Agenda
+            </button>
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-700 px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                    onclick="closeSummaryModal()">
+              Fechar
+            </button>
+          </div>
+        </div>
+      `;
+
+      document.body.appendChild(summaryModal);
+
+      // Close modal when clicking outside
+      summaryModal.onclick = function (e) {
+        if (e.target === summaryModal) {
+          closeSummaryModal();
+        }
+      };
+    }
+
+    // Export selections as printable HTML page
+    function exportSelections() {
+      const selectedSessions = getSelectedSessions();
+      if (Object.keys(selectedSessions).length === 0) return;
+
+      // Create array of selected session details
+      let selectedSessionsDetails = [];
+      Object.keys(selectedSessions).forEach(key => {
+        const [date, time] = key.split('-');
+        const sessionName = selectedSessions[key];
+        const session = getSessionByName(sessionName);
+        if (session) {
+          selectedSessionsDetails.push({
+            date,
+            time,
+            session: sessionName,
+            location: session.location,
+            presentations: session.presentations
+          });
+        }
+      });
+
+      // Sort by date and time
+      selectedSessionsDetails.sort((a, b) => {
+        if (a.date !== b.date) return a.date.localeCompare(b.date);
+        return a.time.localeCompare(b.time);
+      });
+
+      // Build HTML for the print page with Tailwind CSS
+      let printHTML = `
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Minha Agenda EOSBF 2025</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"><\/script>
+      <style>
+        @media print {
+          .no-print {
+            display: none;
+          }
+          @page {
+            size: A4;
+            margin: 1cm;
+          }
+          body {
+            print-color-adjust: exact;
+            -webkit-print-color-adjust: exact;
+          }
+        }
+      </style>
+    </head>
+    <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+      <div class="max-w-4xl mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8 text-gray-900">Minha Agenda EOSBF 2025</h1>
+  `;
+
+      selectedSessionsDetails.forEach((details, index) => {
+        printHTML += `
+      <div class="mb-10 bg-white rounded-xl overflow-hidden p-6 break-inside-avoid border border-gray-200">
+        <div class="border-b border-gray-200 pb-4 mb-4">
+          <h2 class="text-2xl font-bold text-gray-800">${formatDate(details.date)} - ${details.time}</h2>
+          <h2 class="text-gray-700">${details.session}</h2>
+          <p class="text-gray-600">${details.location}</p>
+        </div>
+        
+        <div class="space-y-2">
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Apresentações:</h3>
+    `;
+
+        details.presentations.forEach(pres => {
+          printHTML += `
+            <div class="p-4 bg-blue-50 rounded-md mb-4">
+              <div class="font-bold text-gray-900">
+                ${pres.hour}: <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">${pres.title}</a>
+              </div>
+         `;
+
+          if (pres.presentedBy) {
+            printHTML += `
+            <div class="mt-2 text-gray-700">
+              <span class="font-semibold">Apresentado por</span>: ${pres.presentedBy}<br>
+              <span class="font-semibold">Universidade</span>: ${pres.authors.find((author) => author.author === pres.presentedBy)?.universities.join(", ")}<br>
+            </div>
+          `;
+          }
+
+          printHTML += `</div>`;
+        });
+
+        printHTML += `
+        </div>
+      </div>
+    `;
+      });
+
+      printHTML += `
+      </div>
+    </body>
+    </html>
+  `;
+
+      // Open the print page in a new tab
+      const printWindow = window.open('', '_blank');
+      printWindow.document.write(printHTML);
+      printWindow.document.close();
+
+      // Trigger print dialog after page loads
+      printWindow.onload = function () {
+        printWindow.focus();
+        setTimeout(() => {
+          printWindow.print();
+        }, 500);
+      };
+    }
+
     // Clear all selections
     function clearAllSelections() {
       localStorage.removeItem('selectedSessions');
       displaySessions();
-      updateClearButton();
+      updateButtons();
     }
 
     // Remove a session selection
@@ -266,7 +499,7 @@
       localStorage.setItem('selectedSessions', JSON.stringify(selectedSessions));
 
       displaySessions();
-      updateClearButton();
+      updateButtons();
     }
 
     // Format date from YYYY-MM-DD to more readable format
@@ -289,6 +522,9 @@
     function showPresentations(sessionName) {
       const session = getSessionByName(sessionName);
       if (!session) return;
+
+      // Close summary modal if open
+      closeSummaryModal();
 
       // Create modal content for presentations
       const presentationsModal = document.createElement('div');
@@ -366,21 +602,27 @@
       };
     }
 
-    // Close modal function
+    // Close modals functions
     function closeModal() {
       document.getElementById('presentationsModal')?.remove();
     }
 
-    // Set onclick for the clear button
-    document.getElementById('clearAllBtn').onclick = clearAllSelections;
+    function closeSummaryModal() {
+      document.getElementById('summaryModal')?.remove();
+    }
 
+    // Capitalize first letter
     function capitalizeFirstLetter(val) {
       return String(val).charAt(0).toUpperCase() + String(val).slice(1);
     }
 
-    // Check for selections on load to update clear button
+    // Set onclick for the buttons
+    document.getElementById('clearAllBtn').onclick = clearAllSelections;
+    document.getElementById('viewSummaryBtn').onclick = showSessionsSummary;
+
+    // Check for selections on load to update buttons
     window.onload = function () {
-      updateClearButton();
+      updateButtons();
     };
   </script>
 </body>
