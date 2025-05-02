@@ -40,7 +40,7 @@
       field: (rawHTML.match(/<strong>Track:\s*<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
       presentedBy: (rawHTML.match(/<strong>Speaker:<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
       authors,
-      hour: row.querySelector("h3 span")?.textContent.replaceAll("\n", "").trim() || "",
+      hour: row.querySelector("h3 span")?.textContent.replaceAll("\n", "").trim().replaceAll(":", "h") || "",
       id: row.querySelector("h3 a")?.textContent.trim() || "",
     };
   }).filter(p => p.id);
@@ -48,11 +48,13 @@
   const headers = card.querySelectorAll(".card-header h4");
   const datetime = (headers[0]?.textContent || "").split("(")[1]?.replace(")", "").trim().split(" ");
 
+  if (!datetime) return {};
+
   return {
-    session: (headers[0]?.textContent || "").split("(")[0]?.trim() || "",
-    date: datetime[0] ? "2025/" + datetime[0] : "",
-    time: datetime[1] ? datetime[1].replaceAll(":", "h") : "",
-    location: headers[1]?.textContent.replace("Place: ", "").trim() || "",
+    session: (headers[0]?.textContent || "").split("(")[0]?.trim().replace("Session ", "") || "",
+    date: "2025/" + datetime[0],
+    time: datetime[1].replaceAll(":", "h"),
+    location: headers[1]?.textContent.replace("Place: ", "").trim().replaceAll("1o ", "1º ") || "",
     presentations
   };
 }).filter(s => s.session);
