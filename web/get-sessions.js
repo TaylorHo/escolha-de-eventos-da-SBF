@@ -18,7 +18,7 @@
       Array.from(tempDiv.childNodes).forEach(node => {
         if (node.nodeName === "#text" || node.nodeName === "U") {
           node.textContent.replace(/;/g, '').split(",").map(n => n.trim()).filter(Boolean).forEach(name => {
-            currentAuthor = { author: name, universities: [] };
+            currentAuthor = { author: name.toLocaleLowerCase().replace(/\b\w/g, char => char.toUpperCase()), universities: [] };
             authors.push(currentAuthor);
           });
         }
@@ -40,7 +40,7 @@
       field: (rawHTML.match(/<strong>Track:\s*<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
       presentedBy: (rawHTML.match(/<strong>Speaker:<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
       authors,
-      hour: row.querySelector("h3 span")?.textContent.replaceAll("\n", "").trim().replaceAll(":", "h") || "",
+      hour: row.querySelector("h3 > span")?.textContent.replaceAll("\n", "").trim().replaceAll(":", "h") || "",
       id: row.querySelector("h3 a")?.textContent.trim() || "",
     };
   }).filter(p => p.id);

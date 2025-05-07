@@ -12,7 +12,7 @@
         "presentedBy": "Henrique Ferreira dos Santos",
         "authors": [
           {
-            "author": "Henrique Ferreira dos Santos",
+            "author": "Henrique Ferreira Dos Santos",
             "universities": [
               "Universidade Federal do ABC",
               "Instituto de Física da USP"
@@ -31,41 +31,25 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "Memory effects on bacteria navigation",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/764_1741808242.pdf",
-        "field": "Física biológica",
-        "presentedBy": "Rodrigo Soto",
-        "authors": [
-          {
-            "author": "Rodrigo Soto",
-            "universities": [
-              "Universidad de Chile"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ESN"
-      },
-      {
         "title": "Self-propelled disks with quorum-sensing motility regulation: reentrant clustering and kinetic arrest",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/183_1739212750.pdf",
         "field": "Física biológica",
         "presentedBy": "Pablo de Castro",
         "authors": [
           {
-            "author": "Lucas de Souza",
+            "author": "Lucas De Souza",
             "universities": [
               "Universidade Federal do Rio Grande do Norte"
             ]
           },
           {
-            "author": "EMANUEL FORTES TEIXEIRA",
+            "author": "Emanuel Fortes Teixeira",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
           },
           {
-            "author": "MADRAS VISWANATHAN GANDHI MOHAN",
+            "author": "Madras Viswanathan Gandhi Mohan",
             "universities": [
               "Universidade Federal do Rio Grande do Norte"
             ]
@@ -77,7 +61,7 @@
             ]
           },
           {
-            "author": "Pablo de Castro",
+            "author": "Pablo De Castro",
             "universities": [
               "ICTP-SAIFR"
             ]
@@ -133,7 +117,7 @@
             ]
           },
           {
-            "author": "Mariano de Souza",
+            "author": "Mariano De Souza",
             "universities": [
               "Universidade Estadual Paulista"
             ]
@@ -145,114 +129,11 @@
     ]
   },
   {
-    "session": "MAG1 - MAGNETISM 1: Spintronics and orbitronics",
-    "date": "2025/05/19",
-    "time": "08h30-10h00",
-    "location": "1º Subsolo - Karajás A",
-    "presentations": [
-      {
-        "title": "Unraveling spin-orbital currents",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/289_1739469293.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Antonio Azevedo da Costa",
-        "authors": [
-          {
-            "author": "Antonio Azevedo da Costa",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DZN"
-      },
-      {
-        "title": "Orbitronics in two-dimensional materials",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/729_1740668132.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Tatiana G. Rappoport",
-        "authors": [
-          {
-            "author": "Tatiana G. Rappoport",
-            "universities": [
-              "Universidade do Minho",
-              "International Iberic Nanotechnology Laboratory"
-            ]
-          }
-        ],
-        "hour": "09h00-09h30",
-        "id": "4ERB"
-      },
-      {
-        "title": "Electron Tunneling and Spin-Dependent Phenomena: Developing Concepts for Random Access Memory",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/773_1744491879.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Marek Przybylski",
-        "authors": [
-          {
-            "author": "Marek Przybylski",
-            "universities": [
-              "AGH University of Krakow"
-            ]
-          }
-        ],
-        "hour": "09h30-10h00",
-        "id": "4ESY"
-      }
-    ]
-  },
-  {
     "session": "NAN1 - NANOMATERIALS 1",
     "date": "2025/05/19",
     "time": "08h30-10h00",
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
-      {
-        "title": "Chiral cobalt oxide nanoparticles templated by a D- and L-tripeptide enantiomeric for spin selectivity in electron transport.",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/59_1738103437.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Iseli Lourenço Nantes",
-            "universities": [
-              "Universidade Federal do ABC"
-            ]
-          },
-          {
-            "author": "Julia Delatorre Bronzato Zazyki",
-            "universities": [
-              "Universidade Federal do ABC"
-            ]
-          },
-          {
-            "author": "Marcelo Yudi Icimoto",
-            "universities": [
-              "Universidade Federal de São Paulo"
-            ]
-          },
-          {
-            "author": "Jefferson Bettini",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          },
-          {
-            "author": "Vani Xavier de Oliveira Junior",
-            "universities": [
-              "Universidade Federal do ABC"
-            ]
-          },
-          {
-            "author": "Marcia Tsuyama Escote",
-            "universities": [
-              "Universidade Federal do ABC"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DPG"
-      },
       {
         "title": "Rapid Recovery and Highly Sensitive Net-Graphene Sensor for Monitoring SF6 Decomposition By-products",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/697_1740187335.pdf",
@@ -341,7 +222,7 @@
         "presentedBy": "Alisson Ronieri Cadore",
         "authors": [
           {
-            "author": "Raphaela de Oliveira",
+            "author": "Raphaela De Oliveira",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -360,7 +241,7 @@
             ]
           },
           {
-            "author": "José Roberto de Toledo",
+            "author": "José Roberto De Toledo",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -372,7 +253,7 @@
             ]
           },
           {
-            "author": "Ronei Cardoso de Oliveira",
+            "author": "Ronei Cardoso De Oliveira",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -384,13 +265,13 @@
             ]
           },
           {
-            "author": "Jéssica Eliza Silva Fonsaca",
+            "author": "JéSsica Eliza Silva Fonsaca",
             "universities": [
               "Universidade Presbiteriana Mackenzie"
             ]
           },
           {
-            "author": "Angelo Malachias de Souza",
+            "author": "Angelo Malachias De Souza",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -402,7 +283,7 @@
             ]
           },
           {
-            "author": "Verônica de Carvalho Teixeira",
+            "author": "VerôNica De Carvalho Teixeira",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -414,19 +295,19 @@
             ]
           },
           {
-            "author": "Christiano J.S. de Matos",
+            "author": "Christiano J.S. De Matos",
             "universities": [
               "Universidade Presbiteriana Mackenzie"
             ]
           },
           {
-            "author": "Adilson J A de Oliveira",
+            "author": "Adilson J A De Oliveira",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
           },
           {
-            "author": "Yara Galvão Gobato",
+            "author": "Yara GalvãO Gobato",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -456,41 +337,25 @@
     "location": "Piso-Térreo - Guará",
     "presentations": [
       {
-        "title": "ENHANCING DEVICE FUNCTIONALITY THROUGH DEFECT ENGINEERING IN SURMOFS",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/749_1741787961.pdf",
-        "field": "Matéria mole",
-        "presentedBy": "Carlos César Bof Bufon",
-        "authors": [
-          {
-            "author": "Carlos César Bof Bufon",
-            "universities": [
-              "Universidade Estadual Paulista \"Júlio de Mesquita Filho\""
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ERZ"
-      },
-      {
         "title": "MOLECULAR DYNAMICS INVESTIGATION ON DESALINATION BY MONOLAYER GRAPHENE OXIDE MEMBRANES: WATER MOBILITY AND SALT REJECTION",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/170_1739478797.pdf",
         "field": "Matéria mole",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Rogelma Maria da Silva Ferreira",
+            "author": "Rogelma Maria Da Silva Ferreira",
             "universities": [
               "Universidade Federal do Recôncavo da Bahia"
             ]
           },
           {
-            "author": "Mateus Köhler",
+            "author": "Mateus KöHler",
             "universities": [
               "Universidade Federal de Santa Maria"
             ]
           },
           {
-            "author": "Márcia Cristina Barbosa",
+            "author": "MáRcia Cristina Barbosa",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
@@ -506,7 +371,7 @@
         "presentedBy": "Paulo Barbeitas Miranda",
         "authors": [
           {
-            "author": "Marcos da Silva Sousa",
+            "author": "Marcos Da Silva Sousa",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -558,67 +423,11 @@
     ]
   },
   {
-    "session": "SS - SPECIAL SESSION",
-    "date": "2025/05/19",
-    "time": "08h30-10h00",
-    "location": "Piso-Térreo - Salão Camarote B",
-    "presentations": [
-      {
-        "title": "Collaboration Opportunities at Joint Institute for Nuclear Research",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/141_1738756313.pdf",
-        "field": "Diversidade/sociedade",
-        "presentedBy": "Norbert Kučerka",
-        "authors": [
-          {
-            "author": "Norbert Kučerka",
-            "universities": [
-              "Joint Institute for Nuclear Research"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DSQ"
-      },
-      {
-        "title": "Bridging Neutron-Based Analytical and Complementary Methods for Ecological Situation Assessment",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/777_1744650862.pdf",
-        "field": "Física ambiental e climática",
-        "presentedBy": "Wael Badawy",
-        "authors": [
-          {
-            "author": "Wael Badawy",
-            "universities": [
-              "Joint Institute for Nuclear Research"
-            ]
-          }
-        ],
-        "hour": "09h00-09h30",
-        "id": "4ET6"
-      }
-    ]
-  },
-  {
     "session": "STAT1 - STATISTICAL PHYSICS 1",
     "date": "2025/05/19",
     "time": "08h30-10h00",
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
-      {
-        "title": "Converse Symmetry Breaking",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/762_1741720333.pdf",
-        "field": "Física estatística",
-        "presentedBy": "Adilson E Motter",
-        "authors": [
-          {
-            "author": "Adilson E Motter",
-            "universities": [
-              "Northwestern University"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ESK"
-      },
       {
         "title": "Effects of stickiness in spectral properties of quantum chaotic billiards with n-fold symmetry",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/91_1738262773.pdf",
@@ -626,13 +435,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Ricardo Batista do Carmo",
+            "author": "Ricardo Batista Do Carmo",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas"
             ]
           },
           {
-            "author": "Tiago Araújo de Paula Lima",
+            "author": "Tiago AraúJo De Paula Lima",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
@@ -648,13 +457,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Tiago Araújo de Paula Lima",
+            "author": "Tiago AraúJo De Paula Lima",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "Ricardo Batista do Carmo",
+            "author": "Ricardo Batista Do Carmo",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas"
             ]
@@ -670,13 +479,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "MARCUS WERNER BEIMS",
+            "author": "Marcus Werner Beims",
             "universities": [
               "Universidade Federal do Paraná"
             ]
           },
           {
-            "author": "Miguel AP Reynoso",
+            "author": "Miguel Ap Reynoso",
             "universities": [
               "Universidad Nacional Autónoma de México"
             ]
@@ -706,83 +515,19 @@
     "location": "1º Subsolo - Karajás B",
     "presentations": [
       {
-        "title": "The quantum geometry of tellurene field effect transistors",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/155_1738885806.pdf",
-        "field": "Matéria topológica",
-        "presentedBy": "Marcello Barbosa da Silva Neto",
-        "authors": [
-          {
-            "author": "Pierpaolo Fontana",
-            "universities": [
-              "Universitat Autònoma de Barcelona"
-            ]
-          },
-          {
-            "author": "Victor Velasco Roland da Silva",
-            "universities": [
-              "International School for Advanced Studies of Trieste"
-            ]
-          },
-          {
-            "author": "Chang Niu",
-            "universities": [
-              "Purdue University"
-            ]
-          },
-          {
-            "author": "Peide Ye",
-            "universities": [
-              "Purdue University"
-            ]
-          },
-          {
-            "author": "PEDRO VALE LOPES",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Kaio Edson Marra de Souza",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Marcus Vinicius de Oliveira Moutinho",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Caio Lewenkopf",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Marcello Barbosa da Silva Neto",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DTC"
-      },
-      {
         "title": "Probing the resilience of topological edge states under vacancy disorder",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/189_1739229609.pdf",
         "field": "Matéria topológica",
         "presentedBy": "",
         "authors": [
           {
-            "author": "ANTONIO BERNARDO FÉLIX DE SOUZA",
+            "author": "Antonio Bernardo FéLix De Souza",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "Leandro Romão Fernandes Lima",
+            "author": "Leandro RomãO Fernandes Lima",
             "universities": [
               "Universidade Federal Rural do Rio de Janeiro"
             ]
@@ -804,13 +549,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Augusto de Lelis Araújo",
+            "author": "Augusto De Lelis AraúJo",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Felipe Crasto de Lima",
+            "author": "Felipe Crasto De Lima",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -834,35 +579,19 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "SPECIATION ON ISLANDS FAVORED BY MIGRATION",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/739_1740782152.pdf",
-        "field": "Física biológica",
-        "presentedBy": "Sabrina Borges Lino Araujo",
-        "authors": [
-          {
-            "author": "Sabrina Borges Lino Araujo",
-            "universities": [
-              "Universidade Federal do Paraná"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ERN"
-      },
-      {
         "title": "Evolutionary rescue in a resource-constrained environment",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/535_1739965423.pdf",
         "field": "Física biológica",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Viviane Moraes de Oliveira",
+            "author": "Viviane Moraes De Oliveira",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "PAULO ROBERTO DE ARAUJO CAMPOS",
+            "author": "Paulo Roberto De Araujo Campos",
             "universities": [
               "Universidade Federal de Pernambuco"
             ]
@@ -896,7 +625,7 @@
             ]
           },
           {
-            "author": "Paulo César Simões-Lopes",
+            "author": "Paulo CéSar SimõEs-Lopes",
             "universities": [
               "Universidade Federal de Santa Catarina"
             ]
@@ -914,22 +643,6 @@
     "location": "1º Subsolo - Karajás A",
     "presentations": [
       {
-        "title": "Designing Topological Spin Textures: Insights from First-Principles",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/664_1740176608.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Angela Burlamaqui Klautau",
-        "authors": [
-          {
-            "author": "Angela Burlamaqui Klautau",
-            "universities": [
-              "Universidade Federal do Pará"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ENN"
-      },
-      {
         "title": "Magnetic monopoles and other peculiarities in single and bilayer artificial spin ices",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/162_1738945755.pdf",
         "field": "Magnetismo",
@@ -943,7 +656,7 @@
             ]
           },
           {
-            "author": "Gabriel Alves de Oliveira",
+            "author": "Gabriel Alves De Oliveira",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -971,7 +684,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Jeovani Brandão",
+            "author": "Jeovani BrandãO",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -983,7 +696,7 @@
             ]
           },
           {
-            "author": "Ivan de Paula Miranda",
+            "author": "Ivan De Paula Miranda",
             "universities": [
               "Uppsala University / Uppsala Universitet"
             ]
@@ -995,7 +708,7 @@
             ]
           },
           {
-            "author": "Fanny Béron",
+            "author": "Fanny BéRon",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -1027,58 +740,6 @@
         ],
         "hour": "11h15-11h30",
         "id": "4DTR"
-      },
-      {
-        "title": "Light-Controlled Spin Current Injection in 2D Materials",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/752_1741372262.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Flavio Garcia",
-        "authors": [
-          {
-            "author": "Rodrigo Torrao Victor",
-            "universities": [
-              "Centro Brasileiro de Pesquisas Físicas"
-            ]
-          },
-          {
-            "author": "Syed Hamza Safeer Gardezi",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "John Fredy Ricardo Marroquin",
-            "universities": [
-              "Universidade de Brasília"
-            ]
-          },
-          {
-            "author": "Marcio Costa",
-            "universities": [
-              "Universidade Federal Fluminense"
-            ]
-          },
-          {
-            "author": "Victor Carozo",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Luiz Carlos Sampaio",
-            "universities": [
-              "Centro Brasileiro de Pesquisas Físicas"
-            ]
-          },
-          {
-            "author": "Flavio Garcia",
-            "universities": [
-              "Centro Brasileiro de Pesquisas Físicas"
-            ]
-          }
-        ],
-        "hour": "11h30-12h00",
-        "id": "4ES6"
       }
     ]
   },
@@ -1089,47 +750,13 @@
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
       {
-        "title": "NOVEL PATHWAYS FOR MORPHOLOGICAL AND MECHANICAL CHARACTERIZATION OF ULTRATHIN 2D MATERIALS USING ATOMIC FORCE MICROSCOPY",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/61_1740748265.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Bernardo Ruegger Almeida Neves",
-            "universities": [
-              "Universidade Federal de Minas Gerais"
-            ]
-          },
-          {
-            "author": "Luana de Avila",
-            "universities": [
-              "Universidade Federal de Minas Gerais"
-            ]
-          },
-          {
-            "author": "Jan Plutnar",
-            "universities": [
-              "Institute of Chemical Technology Prague"
-            ]
-          },
-          {
-            "author": "Zdenek Sofer",
-            "universities": [
-              "Institute of Chemical Technology Prague"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4DPJ"
-      },
-      {
         "title": "ACOUSTIC LEVITATED DROPLETS INVESTIGATED BY SMALL ANGLE X-RAY SCATTERING : A POWERFUL TOOLBOX FOR STUDIES OF INTERPARTICLE INTERACTIONS",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/466_1739625836.pdf",
         "field": "Nanomateriais",
         "presentedBy": "",
         "authors": [
           {
-            "author": "GABRIEL BRAGA MARQUES TEOBALDO",
+            "author": "Gabriel Braga Marques Teobaldo",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1147,7 +774,7 @@
             ]
           },
           {
-            "author": "Cássio Alves",
+            "author": "CáSsio Alves",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -1159,13 +786,13 @@
             ]
           },
           {
-            "author": "Marco Aurélio Brizzotti Andrade",
+            "author": "Marco AuréLio Brizzotti Andrade",
             "universities": [
               "Instituto de Física da USP"
             ]
           },
           {
-            "author": "Cristiano Luis Pinto de Oliveira",
+            "author": "Cristiano Luis Pinto De Oliveira",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1175,59 +802,13 @@
         "id": "4EDQ"
       },
       {
-        "title": "Thermal dynamics induced by surface acoustic waves in lanthanide-doped core@multishell nanoparticles",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/93_1738267190.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Pablo Batista Pinto",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          },
-          {
-            "author": "Pedro Winckler Matrone",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          },
-          {
-            "author": "Flávia de Sousa Ferreira",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          },
-          {
-            "author": "Paulo V. Santos",
-            "universities": [
-              "Paul-Drude-Institut für Festkörperelektronik"
-            ]
-          },
-          {
-            "author": "Fernando Aparecido Sigoli",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          },
-          {
-            "author": "Odilon Divino Damasceno Couto Júnior",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          }
-        ],
-        "hour": "-",
-        "id": "4DQS"
-      },
-      {
         "title": "ORDERED GOLD NANOPARTICLES AND MoS₂: THE EFFECTS OF A PLASMONIC CRYSTAL ON A 2D SEMICONDUCTOR",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/628_1740165282.pdf",
         "field": "Nanomateriais",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Daniel Brito de Araújo",
+            "author": "Daniel Brito De AraúJo",
             "universities": [
               "Universidade da Integração Internacional da Lusofonia Afro-Brasileira"
             ]
@@ -1253,6 +834,52 @@
         ],
         "hour": "-",
         "id": "4EMA"
+      },
+      {
+        "title": "Thermal dynamics induced by surface acoustic waves in lanthanide-doped core@multishell nanoparticles",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/93_1738267190.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Pablo Batista Pinto",
+            "universities": [
+              "Universidade Estadual de Campinas"
+            ]
+          },
+          {
+            "author": "Pedro Winckler Matrone",
+            "universities": [
+              "Universidade Estadual de Campinas"
+            ]
+          },
+          {
+            "author": "FláVia De Sousa Ferreira",
+            "universities": [
+              "Universidade Estadual de Campinas"
+            ]
+          },
+          {
+            "author": "Paulo V. Santos",
+            "universities": [
+              "Paul-Drude-Institut für Festkörperelektronik"
+            ]
+          },
+          {
+            "author": "Fernando Aparecido Sigoli",
+            "universities": [
+              "Universidade Estadual de Campinas"
+            ]
+          },
+          {
+            "author": "Odilon Divino Damasceno Couto JúNior",
+            "universities": [
+              "Universidade Estadual de Campinas"
+            ]
+          }
+        ],
+        "hour": "-",
+        "id": "4DQS"
       }
     ]
   },
@@ -1262,22 +889,6 @@
     "time": "10h30-12h00",
     "location": "Piso-Térreo - Guará",
     "presentations": [
-      {
-        "title": "Theoretical Studies of Electronic Structure of Molecules Interacting with Phospholipid Bilayers",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/756_1741574240.pdf",
-        "field": "Matéria mole",
-        "presentedBy": "Kaline Coutinho",
-        "authors": [
-          {
-            "author": "Kaline Coutinho",
-            "universities": [
-              "Instituto de Física da USP"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ESD"
-      },
       {
         "title": "AI-DRIVEN SAS ANALYSIS: PROCEDURAL ALGORITHMS AND MACHINE LEARNING FOR STRUCTURAL MODELING IN ANISOTROPIC SCATTERING IMAGES",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/249_1741792415.pdf",
@@ -1291,13 +902,13 @@
             ]
           },
           {
-            "author": "Cássio Alves",
+            "author": "CáSsio Alves",
             "universities": [
               "Universidade Federal do Paraná"
             ]
           },
           {
-            "author": "Cristiano Luis Pinto de Oliveira",
+            "author": "Cristiano Luis Pinto De Oliveira",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1313,7 +924,7 @@
         "presentedBy": "Cristiano Luis Pinto de Oliveira",
         "authors": [
           {
-            "author": "Cristiano Luis Pinto de Oliveira",
+            "author": "Cristiano Luis Pinto De Oliveira",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1341,7 +952,7 @@
             ]
           },
           {
-            "author": "Cristiano Luis Pinto de Oliveira",
+            "author": "Cristiano Luis Pinto De Oliveira",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1359,38 +970,6 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Complex networks applied to brain-computer interfaces",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/737_1740772935.pdf",
-        "field": "Física estatística",
-        "presentedBy": "Gabriela Castellano",
-        "authors": [
-          {
-            "author": "Gabriela Castellano",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ERK"
-      },
-      {
-        "title": "Economic Inequality: A Bias-Driven or Random Outcome? An Economics vs. Econophysics Approach",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/767_1743688782.pdf",
-        "field": "Física estatística",
-        "presentedBy": "Ben Hur Francisco Cardoso",
-        "authors": [
-          {
-            "author": "Ben Hur Francisco Cardoso",
-            "universities": [
-              "Petróleo Brasileiro S.A, Logistics Planning"
-            ]
-          }
-        ],
-        "hour": "11h00-11h30",
-        "id": "4ESR"
-      },
-      {
         "title": "Inequality in an agent based model of capitalism",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/350_1739544289.pdf",
         "field": "Física estatística",
@@ -1403,13 +982,13 @@
             ]
           },
           {
-            "author": "JHORDAN SILVEIRA DE BORBA",
+            "author": "Jhordan Silveira De Borba",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
           },
           {
-            "author": "Sebastian Gonçalves",
+            "author": "Sebastian GonçAlves",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
@@ -1425,7 +1004,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "BRUNO MAGACHO DA SILVA",
+            "author": "Bruno Magacho Da Silva",
             "universities": [
               "Instituto Nacional de Matemática Pura e Aplicada"
             ]
@@ -1473,22 +1052,6 @@
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
       {
-        "title": "Anomalous Magnetoresistance in the Normal Phase of Bi3Ni Superconductor",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/274_1739454553.pdf",
-        "field": "Supercondutividade",
-        "presentedBy": "Milton Andre Tumelero",
-        "authors": [
-          {
-            "author": "Milton Andre Tumelero",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4DYZ"
-      },
-      {
         "title": "Interlayer interaction-driven s±-to-dxy-wave superconductivity in La3Ni2O7 under pressure",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/47_1741817396.pdf",
         "field": "Supercondutividade",
@@ -1507,7 +1070,7 @@
             ]
           },
           {
-            "author": "LUIS GREGORIO GODOY DE V D DA SILVA",
+            "author": "Luis Gregorio Godoy De V D Da Silva",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -1523,7 +1086,7 @@
         "presentedBy": "Clodoaldo Irineu Levartoski de Araújo",
         "authors": [
           {
-            "author": "Eloi Benício de Melo",
+            "author": "Eloi BeníCio De Melo",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -1541,7 +1104,7 @@
             ]
           },
           {
-            "author": "Clodoaldo Irineu Levartoski de Araújo",
+            "author": "Clodoaldo Irineu Levartoski De AraúJo",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -1557,7 +1120,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Rubens Quirino de Moraes Filho",
+            "author": "Rubens Quirino De Moraes Filho",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -1587,47 +1150,31 @@
     "location": "1º Subsolo - Karajás B",
     "presentations": [
       {
-        "title": "Chiral states in α-T3 lattices",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/353_1739532427.pdf",
-        "field": "Matéria topológica",
-        "presentedBy": "Diego Rabelo da Costa",
-        "authors": [
-          {
-            "author": "Diego Rabelo da Costa",
-            "universities": [
-              "Universidade Federal do Ceará"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4E6A"
-      },
-      {
         "title": "Sliding-induced topological transitions in bilayer biphenylene",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/195_1739283958.pdf",
         "field": "Matéria topológica",
         "presentedBy": "",
         "authors": [
           {
-            "author": "LUCAS LOPES LAGE",
+            "author": "Lucas Lopes Lage",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "SERGIO BRAVO",
+            "author": "Sergio Bravo",
             "universities": [
               "Universidad Técnica Federico Santa María"
             ]
           },
           {
-            "author": "OLGA ARROYO GASCÓN",
+            "author": "Olga Arroyo GascóN",
             "universities": [
               "Universidad de Salamanca"
             ]
           },
           {
-            "author": "LEONOR MARIA CHICO GOMEZ",
+            "author": "Leonor Maria Chico Gomez",
             "universities": [
               "Universidad Complutense de Madrid"
             ]
@@ -1673,40 +1220,6 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Exploring Retinal Function through In Vivo Imaging of Photoreceptor Dynamics",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/740_1740805644.pdf",
-        "field": "Física biológica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Denise Valente",
-            "universities": [
-              "Universidade de Pernambuco"
-            ]
-          },
-          {
-            "author": "Kari V. Vienola",
-            "universities": [
-              "University of Turku / Turun yliopisto"
-            ]
-          },
-          {
-            "author": "Robert J. Zawadzki",
-            "universities": [
-              "University of California Davis"
-            ]
-          },
-          {
-            "author": "Ravi S. Jonnal",
-            "universities": [
-              "University of California Davis"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ERP"
-      },
-      {
         "title": "Antioxidant and Antimicrobial Activities of Xanthones Isolated from the Endophytic Fungus Guignardia mangiferae: a combined experimental and theoretical approach",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/358_1739535222.pdf",
         "field": "Física biológica",
@@ -1719,7 +1232,7 @@
             ]
           },
           {
-            "author": "Neidy S.S. dos Santos",
+            "author": "Neidy S.S. Dos Santos",
             "universities": [
               "Universidade Estadual de Campinas",
               "Universidade Federal do Sul e Sudeste do Pará"
@@ -1756,7 +1269,7 @@
             ]
           },
           {
-            "author": "Antônio R. da Cunha",
+            "author": "AntôNio R. Da Cunha",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
@@ -1774,13 +1287,13 @@
             ]
           },
           {
-            "author": "PATRÍCIA SANTANA BARBOSA MARINHO",
+            "author": "PatríCia Santana Barbosa Marinho",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Andrey Moacir do Rosario Marinho",
+            "author": "Andrey Moacir Do Rosario Marinho",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -1802,31 +1315,31 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "RAYANE MARIA DE OLIVEIRA",
+            "author": "Rayane Maria De Oliveira",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "CAIO HENRIQUE VIANA DA SILVA",
+            "author": "Caio Henrique Viana Da Silva",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Mariana da Costa Novo Pimenta Brandão",
+            "author": "Mariana Da Costa Novo Pimenta BrandãO",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Andreza Germana da Silva Subtil",
+            "author": "Andreza Germana Da Silva Subtil",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Márcio Santos Rocha",
+            "author": "MáRcio Santos Rocha",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -1842,13 +1355,13 @@
         "presentedBy": "Márcio Santos Rocha",
         "authors": [
           {
-            "author": "RAYANE MARIA DE OLIVEIRA",
+            "author": "Rayane Maria De Oliveira",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Arthur Gomes Soares de Rezende",
+            "author": "Arthur Gomes Soares De Rezende",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
@@ -1860,13 +1373,13 @@
             ]
           },
           {
-            "author": "Neemias de A. Ribeiro",
+            "author": "Neemias De A. Ribeiro",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Márcio Santos Rocha",
+            "author": "MáRcio Santos Rocha",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
@@ -1883,58 +1396,6 @@
     "time": "14h00-15h30",
     "location": "1º Subsolo - Karajás A",
     "presentations": [
-      {
-        "title": "Hard-axis collapse and recoil-curve overshoot in thin magnetic films",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/375_1739540410.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Julian Penkov Geshev",
-        "authors": [
-          {
-            "author": "Antonio Marcos Helgueira de Andrade",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Lucas Felipe Santos de Azeredo",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Heloísa S. Acosta",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Ygor Fernandes",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Alexandre Da Cas Viegas",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Luis Gustavo Pereira",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Julian Penkov Geshev",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4EA2"
-      },
       {
         "title": "Temperature-Dependent Magnetization and Spin-Flop Transitions in TmIG Films with Perpendicular Anisotropy.",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/313_1740072381.pdf",
@@ -1956,19 +1417,19 @@
             ]
           },
           {
-            "author": "Fanny Béron",
+            "author": "Fanny BéRon",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
           },
           {
-            "author": "Dayane de Souza Chaves",
+            "author": "Dayane De Souza Chaves",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Túlio C. R. Rocha",
+            "author": "TúLio C. R. Rocha",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -1986,7 +1447,7 @@
             ]
           },
           {
-            "author": "Jeovani Brandão",
+            "author": "Jeovani BrandãO",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -2009,7 +1470,7 @@
         "presentedBy": "Waldemar A. A. Macedo",
         "authors": [
           {
-            "author": "Bruno Lourencio Dias dos Santos",
+            "author": "Bruno Lourencio Dias Dos Santos",
             "universities": [
               "Centro de Desenvolvimento da Tecnologia Nuclear"
             ]
@@ -2027,7 +1488,7 @@
             ]
           },
           {
-            "author": "EDSON PASSAMANI CAETANO",
+            "author": "Edson Passamani Caetano",
             "universities": [
               "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO"
             ]
@@ -2044,71 +1505,13 @@
         "id": "4DQH"
       },
       {
-        "title": "Thermomagnetic effects and magnetic anisotropy: an experimental and theoretical overview.",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/328_1739490713.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Marcio Assolin Correa",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "ARTUR DE MORAIS",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "Nívia Luciana Costa de Siqueira",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "João de Medeiros Dantas Neto",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "Romuald Trequia Doumbi",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "Awilvhygon M. D. Freitas",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "Sophie A. de Oliveira",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          },
-          {
-            "author": "Felipe Bohn",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          }
-        ],
-        "hour": "15h00-15h15",
-        "id": "4E4A"
-      },
-      {
         "title": "Magnetomemresistance in artificial spin ice based structures",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/267_1739448067.pdf",
         "field": "Magnetismo",
         "presentedBy": "Clodoaldo Irineu Levartoski de Araújo",
         "authors": [
           {
-            "author": "Eloi Benício de Melo",
+            "author": "Eloi BeníCio De Melo",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -2126,7 +1529,7 @@
             ]
           },
           {
-            "author": "Clodoaldo Irineu Levartoski de Araújo",
+            "author": "Clodoaldo Irineu Levartoski De AraúJo",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -2144,89 +1547,13 @@
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
       {
-        "title": "EFFECT OF ELECTRIC FIELD IN THE STABILITY OF REDOX-EXFOLIATED LAYERED TRANSITION METAL DICHALCOGENIDES",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/391_1739544710.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "Isabel Cristina dos Santos Carvalho",
-        "authors": [
-          {
-            "author": "Yan Dalton Rodrigues Machado",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Gabriela A. Prando",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Leonardo de Farias Araujo",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Leandro Vitor da Silva",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Maiara Oliveira Salles",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Daniel Grasseschi",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Walter Margulis",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          },
-          {
-            "author": "Nikolaos Chalmpes",
-            "universities": [
-              "Cornell University"
-            ]
-          },
-          {
-            "author": "Richard A. Vaia",
-            "universities": [
-              "Air Force Research Laboratory"
-            ]
-          },
-          {
-            "author": "Anderson S. L. Gomes",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          },
-          {
-            "author": "Isabel Cristina dos Santos Carvalho",
-            "universities": [
-              "Pontifícia Universidade Católica do Rio de Janeiro"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4EAQ"
-      },
-      {
         "title": "Press-based nanoinfiltration: an effective alternative for producing high number of parallel nanowires",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/524_1739812755.pdf",
         "field": "Nanomateriais",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Alberto Aguiar Mendonça",
+            "author": "Alberto Aguiar MendonçA",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2244,7 +1571,7 @@
             ]
           },
           {
-            "author": "Fanny Béron",
+            "author": "Fanny BéRon",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2260,7 +1587,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Mateus Köhler",
+            "author": "Mateus KöHler",
             "universities": [
               "Universidade Federal de Santa Maria"
             ]
@@ -2288,7 +1615,7 @@
             ]
           },
           {
-            "author": "Vinícius do Nascimento da Rocha",
+            "author": "ViníCius Do Nascimento Da Rocha",
             "universities": [
               "Universidade Federal de Santa Maria"
             ]
@@ -2318,22 +1645,6 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "Graphene-based Optical Modulators for High-Speed Applications",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/734_1740762434.pdf",
-        "field": "Óptica e fotônica",
-        "presentedBy": "Lúcia Akemi Miyazato Saito",
-        "authors": [
-          {
-            "author": "Lúcia Akemi Miyazato Saito",
-            "universities": [
-              "Mackenzie Presbyterian University"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ERG"
-      },
-      {
         "title": "Exploring magneto-optical properties of graphene to tailor two-photon decay pathways",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/545_1739990337.pdf",
         "field": "Óptica e fotônica",
@@ -2346,7 +1657,7 @@
             ]
           },
           {
-            "author": "Patrícia Pinto Abrantes",
+            "author": "PatríCia Pinto Abrantes",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -2358,13 +1669,13 @@
             ]
           },
           {
-            "author": "Felipe Siqueira de Souza da Rosa",
+            "author": "Felipe Siqueira De Souza Da Rosa",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Carlos Farina de Souza",
+            "author": "Carlos Farina De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -2380,25 +1691,25 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Patrícia Pinto Abrantes",
+            "author": "PatríCia Pinto Abrantes",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "Wilton Junior de Melo Kort-Kamp",
+            "author": "Wilton Junior De Melo Kort-Kamp",
             "universities": [
               "Los Alamos National Laboratory"
             ]
           },
           {
-            "author": "Felipe Siqueira de Souza da Rosa",
+            "author": "Felipe Siqueira De Souza Da Rosa",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Carlos Farina de Souza",
+            "author": "Carlos Farina De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -2426,7 +1737,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Leonardo V. S. França",
+            "author": "Leonardo V. S. FrançA",
             "universities": [
               "The University of Chicago"
             ]
@@ -2461,22 +1772,6 @@
     "time": "14h00-15h30",
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
-      {
-        "title": "Unveiling Helical Superconductivity in Al/NiBr2 Thin Films",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/412_1739549032.pdf",
-        "field": "Supercondutividade",
-        "presentedBy": "Elia Strambini",
-        "authors": [
-          {
-            "author": "Elia Strambini",
-            "universities": [
-              "Istituto Nanoscienze - Consiglio Nazionale delle Ricerche"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4EBK"
-      },
       {
         "title": "Energy efficient phase slip memory element with dispersive single-shot dispersive readout",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/351_1739521259.pdf",
@@ -2527,7 +1822,7 @@
             ]
           },
           {
-            "author": "Joris Van de Vondel",
+            "author": "Joris Van De Vondel",
             "universities": [
               "KU Leuven"
             ]
@@ -2555,7 +1850,7 @@
             ]
           },
           {
-            "author": "Abner de Siervo",
+            "author": "Abner De Siervo",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2571,7 +1866,7 @@
         "presentedBy": "Fanny Béron",
         "authors": [
           {
-            "author": "Alberto A. Mendonça",
+            "author": "Alberto A. MendonçA",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2589,7 +1884,7 @@
             ]
           },
           {
-            "author": "Fanny Béron",
+            "author": "Fanny BéRon",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2607,47 +1902,13 @@
     "location": "1º Subsolo - Karajás B",
     "presentations": [
       {
-        "title": "Exploring topological transport in Pt2HgSe3 nanoribbons: Insights for spintronic device integration",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/163_1738950823.pdf",
-        "field": "Matéria topológica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Rafael L. H. Freire",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          },
-          {
-            "author": "Felipe Crasto de Lima",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          },
-          {
-            "author": "Roberto Hiroki Miwa",
-            "universities": [
-              "Universidade Federal de Uberlândia"
-            ]
-          },
-          {
-            "author": "Adalberto Fazzio",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4DTM"
-      },
-      {
         "title": "Topological signatures in a honeycomb antiferromagnetic Heisenberg model with symmetric and antisymmetric exchange interactions",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/522_1739803769.pdf",
         "field": "Matéria topológica",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Guilherme Fragoso de Figueiredo",
+            "author": "Guilherme Fragoso De Figueiredo",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2659,7 +1920,7 @@
             ]
           },
           {
-            "author": "Ricardo Luís Doretto",
+            "author": "Ricardo LuíS Doretto",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -2675,7 +1936,7 @@
         "presentedBy": "Luan Felipe Santos Martins Veríssimo",
         "authors": [
           {
-            "author": "Luan Felipe Santos Martins Veríssimo",
+            "author": "Luan Felipe Santos Martins VeríSsimo",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -2691,13 +1952,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "João Pedro Gama D'Elia",
+            "author": "JoãO Pedro Gama D'Elia",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Thereza Cristina de Lacerda Paiva",
+            "author": "Thereza Cristina De Lacerda Paiva",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -2709,69 +1970,11 @@
     ]
   },
   {
-    "session": "PL2 - Plenary 2",
-    "date": "2025/05/19",
-    "time": "17h00-18h00",
-    "location": "1º Subsolo - Karajás Auditório",
-    "presentations": [
-      {
-        "title": "Hybrid Magnon Modes",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/548_1739997056.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Axel Hoffmann",
-        "authors": [
-          {
-            "author": "Axel Hoffmann",
-            "universities": [
-              "University of Illinois Urbana Champaign"
-            ]
-          }
-        ],
-        "hour": "17h00-18h00",
-        "id": "4EGY"
-      }
-    ]
-  },
-  {
     "session": "BIO4 - BIOLOGICAL PHYSICS 4",
     "date": "2025/05/20",
     "time": "08h30-10h00",
     "location": "Piso-Térreo - Guará",
     "presentations": [
-      {
-        "title": "Frequency encoding in cell signaling",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/725_1740589554.pdf",
-        "field": "Física biológica",
-        "presentedBy": "Silvina Ponce Dawson",
-        "authors": [
-          {
-            "author": "Silvina Ponce Dawson",
-            "universities": [
-              "Universidad de Buenos Aires",
-              "ICTP-SAIFR",
-              "Consejo Nacional de Investigaciones Cientificas y Tecnicas"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ER2"
-      },
-      {
-        "title": "Brain dynamics: data analysis and numerical simulation of neuronal circuits",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/569_1740078967.pdf",
-        "field": "Física biológica",
-        "presentedBy": "Fernanda Selingardi Matias",
-        "authors": [
-          {
-            "author": "Fernanda Selingardi Matias",
-            "universities": [
-              "Universidade Federal de Alagoas"
-            ]
-          }
-        ],
-        "hour": "09h00-09h30",
-        "id": "4EHT"
-      },
       {
         "title": "Melting brains: towards a new morphological syntax for the cerebral cortex",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/714_1740193212.pdf",
@@ -2779,7 +1982,7 @@
         "presentedBy": "Bruno Coelho César Mota",
         "authors": [
           {
-            "author": "Bruno Coelho César Mota",
+            "author": "Bruno Coelho CéSar Mota",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -2796,22 +1999,6 @@
     "time": "08h30-10h00",
     "location": "1º Subsolo - Karajás A",
     "presentations": [
-      {
-        "title": "Spin pumping by nuclear spin waves",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/731_1740692379.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "SERGIO MACHADO REZENDE",
-        "authors": [
-          {
-            "author": "SERGIO MACHADO REZENDE",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ERD"
-      },
       {
         "title": "Stationary scattering of 1D magnons by an anisotropic and antisymmetric bond defect",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/384_1739543056.pdf",
@@ -2831,13 +2018,13 @@
             ]
           },
           {
-            "author": "Luan Felipe Santos Martins Veríssimo",
+            "author": "Luan Felipe Santos Martins VeríSsimo",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "REINALDO FREIRE DA FONSECA",
+            "author": "Reinaldo Freire Da Fonseca",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -2853,7 +2040,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Bruno Lourencio Dias dos Santos",
+            "author": "Bruno Lourencio Dias Dos Santos",
             "universities": [
               "Eindhoven University of Technology / Technische Universiteit Eindhoven",
               "Centro de Desenvolvimento da Tecnologia Nuclear"
@@ -2872,7 +2059,7 @@
             ]
           },
           {
-            "author": "Diana C. Leitão",
+            "author": "Diana C. LeitãO",
             "universities": [
               "Eindhoven University of Technology / Technische Universiteit Eindhoven"
             ]
@@ -2888,13 +2075,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "ELIE ALBERT MOUJAESS",
+            "author": "Elie Albert Moujaess",
             "universities": [
               "Universidade Federal da Bahia"
             ]
           },
           {
-            "author": "ANTOINE KHATER",
+            "author": "Antoine Khater",
             "universities": [
               "Université du Maine le Mans Laval"
             ]
@@ -2910,7 +2097,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Ramon Cardias Alves de Almeida",
+            "author": "Ramon Cardias Alves De Almeida",
             "universities": [
               "Centro Brasileiro de Pesquisas Físicas"
             ]
@@ -2934,7 +2121,7 @@
             ]
           },
           {
-            "author": "Marcio Jorge Teles da Costa",
+            "author": "Marcio Jorge Teles Da Costa",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -2974,7 +2161,7 @@
         "presentedBy": "João Victor Barbosa Moura",
         "authors": [
           {
-            "author": "João Victor Barbosa Moura",
+            "author": "JoãO Victor Barbosa Moura",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
@@ -2990,13 +2177,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Alan Silva de Menezes",
+            "author": "Alan Silva De Menezes",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
           },
           {
-            "author": "Clenilton Costa dos Santos",
+            "author": "Clenilton Costa Dos Santos",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
@@ -3018,7 +2205,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Cláudio Márcio Rocha Remédios",
+            "author": "CláUdio MáRcio Rocha ReméDios",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -3042,29 +2229,13 @@
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
       {
-        "title": "Optical spectroscopy studies of defects in atomically thin materials",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/733_1740761484.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "Bruno R. Carvalho",
-        "authors": [
-          {
-            "author": "Bruno R. Carvalho",
-            "universities": [
-              "Universidade Federal do Rio Grande do Norte"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ERF"
-      },
-      {
         "title": "Graphene/Water Interaction: Mechanical, Electrical and Defects.",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/486_1739568774.pdf",
         "field": "Nanomateriais",
         "presentedBy": "Eliel Gomes da Silva Neto",
         "authors": [
           {
-            "author": "Eliel Gomes da Silva Neto",
+            "author": "Eliel Gomes Da Silva Neto",
             "universities": [
               "Universidade Federal da Bahia"
             ]
@@ -3080,7 +2251,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "André do Nascimento Barbosa",
+            "author": "André Do Nascimento Barbosa",
             "universities": [
               "Pontifícia Universidade Católica do Rio de Janeiro"
             ]
@@ -3146,13 +2317,13 @@
             ]
           },
           {
-            "author": "Marcelo Eduardo Huguenin Maia da Costa",
+            "author": "Marcelo Eduardo Huguenin Maia Da Costa",
             "universities": [
               "Pontifícia Universidade Católica do Rio de Janeiro"
             ]
           },
           {
-            "author": "Fernando Lázaro Freire Junior",
+            "author": "Fernando LáZaro Freire Junior",
             "universities": [
               "Pontifícia Universidade Católica do Rio de Janeiro"
             ]
@@ -3168,7 +2339,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Marcos Assunção Pimenta",
+            "author": "Marcos AssunçãO Pimenta",
             "universities": [
               "Universidade Federal de Minas Gerais",
               "Centro de Tecnologia de Nanomateriais e Grafeno"
@@ -3183,7 +2354,7 @@
             "universities": []
           },
           {
-            "author": "VIVIANE VALQUIRIA DO NASCIMENTO",
+            "author": "Viviane Valquiria Do Nascimento",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -3207,22 +2378,6 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "Terahertz Cavity Phonon Polaritons in the DSC Regime",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/40_1737993244.pdf",
-        "field": "Óptica e fotônica",
-        "presentedBy": "Felix G. G. Hernandez",
-        "authors": [
-          {
-            "author": "Felix G. G. Hernandez",
-            "universities": [
-              "Universidade de São Paulo"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DNP"
-      },
-      {
         "title": "Spectropolarimetric studies of linear and circular birefringence",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/79_1738200526.pdf",
         "field": "Óptica e fotônica",
@@ -3235,7 +2390,7 @@
             ]
           },
           {
-            "author": "Eric Santos da Silva",
+            "author": "Eric Santos Da Silva",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -3263,7 +2418,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Davi Henrique Soledade da Silva",
+            "author": "Davi Henrique Soledade Da Silva",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -3275,7 +2430,7 @@
             ]
           },
           {
-            "author": "Jonathas de Paula Siqueira",
+            "author": "Jonathas De Paula Siqueira",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -3303,7 +2458,7 @@
             ]
           },
           {
-            "author": "RAFAEL ALVES MAYER",
+            "author": "Rafael Alves Mayer",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -3333,38 +2488,6 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Unraveling the Mysteries: Exploring a Second-Order Phase Transition in Chaotic Systems",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/735_1740766368.pdf",
-        "field": "Física estatística",
-        "presentedBy": "Edson Denis Leonel",
-        "authors": [
-          {
-            "author": "Edson Denis Leonel",
-            "universities": [
-              "Universidade Estadual Paulista"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ERH"
-      },
-      {
-        "title": "From Ernst Ising’s Disappointment to Frustration: Unraveling the Enigma of Anomalies in 1D Models",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/736_1740768505.pdf",
-        "field": "Física estatística",
-        "presentedBy": "onofre rojas",
-        "authors": [
-          {
-            "author": "onofre rojas",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          }
-        ],
-        "hour": "09h00-09h30",
-        "id": "4ERJ"
-      },
-      {
         "title": "CONFORMALLY INVARIANT FREE PARAFERMIONIC QUANTUM CHAINS",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/57_1738086101.pdf",
         "field": "Física estatística",
@@ -3393,7 +2516,7 @@
             ]
           },
           {
-            "author": "ISMAEL SEGUNDO DA SILVA CARRASCO",
+            "author": "Ismael Segundo Da Silva Carrasco",
             "universities": [
               "Universidade de Brasília"
             ]
@@ -3405,7 +2528,7 @@
             ]
           },
           {
-            "author": "Fabio David Alves Aarão Reis",
+            "author": "Fabio David Alves AarãO Reis",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -3423,35 +2546,13 @@
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
       {
-        "title": "Topological superconductivity in spin-orbit assisted altermagnets",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/481_1741816357.pdf",
-        "field": "Supercondutividade",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Vanuildo Silva de Carvalho",
-            "universities": [
-              "Universidade Federal de Goiás"
-            ]
-          },
-          {
-            "author": "Hermann Freire",
-            "universities": [
-              "Universidade Federal de Goiás"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4EED"
-      },
-      {
         "title": "Probing charge density wave with RIXS in underdoped YBa2Cu3O7-δ epitaxial thin films",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/487_1739569972.pdf",
         "field": "Supercondutividade",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Natália Pincelli Westin",
+            "author": "NatáLia Pincelli Westin",
             "universities": [
               "Universidade Estadual de Campinas",
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
@@ -3464,7 +2565,7 @@
             ]
           },
           {
-            "author": "Túlio C. R. Rocha",
+            "author": "TúLio C. R. Rocha",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -3476,7 +2577,7 @@
             ]
           },
           {
-            "author": "Eduardo Granado Monteiro da Silva",
+            "author": "Eduardo Granado Monteiro Da Silva",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -3492,7 +2593,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Edine Silva dos Santos",
+            "author": "Edine Silva Dos Santos",
             "universities": [
               "Centro Brasileiro de Pesquisas Físicas"
             ]
@@ -3568,64 +2669,6 @@
     "location": "Piso-Térreo - Guará",
     "presentations": [
       {
-        "title": "THE BRAZILIAN NETWORK OF WOMAN IN NANOSCIENCE: HISTORY AND GENDER INCLUSION IMPACT",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/217_1739366759.pdf",
-        "field": "Diversidade/sociedade",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Solange Binotto Fagan",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Laura Osmari Vendrame",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Laura Alicia  Geracitano Monserrat",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Eliana Martins Lima",
-            "universities": [
-              "Universidade Federal de Goiás"
-            ]
-          },
-          {
-            "author": "Zélia Maria Da Costa Ludwig",
-            "universities": [
-              "Universidade Federal de Juiz de Fora"
-            ]
-          },
-          {
-            "author": "Rogelma Maria da Silva Ferreira",
-            "universities": [
-              "Universidade Federal do Recôncavo da Bahia"
-            ]
-          },
-          {
-            "author": "Marcela Mohallem Oliveira",
-            "universities": [
-              "Universidade Tecnológica Federal do Paraná"
-            ]
-          },
-          {
-            "author": "Alcineia Conceição Oliveira",
-            "universities": [
-              "Universidade Federal do Ceará"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4DWR"
-      },
-      {
         "title": "SCIENCE COMMUNICATION THROUGH UNIVERSITY OUTREACH: ASSESSING ENGAGEMENT ON SOCIAL MEDIA",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/234_1740173615.pdf",
         "field": "Diversidade/sociedade",
@@ -3644,7 +2687,7 @@
             ]
           },
           {
-            "author": "Camille Vitória Unger",
+            "author": "Camille VitóRia Unger",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -3662,7 +2705,7 @@
             ]
           },
           {
-            "author": "EMERSON CRISTIANO BARBANO",
+            "author": "Emerson Cristiano Barbano",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -3684,31 +2727,31 @@
             ]
           },
           {
-            "author": "KATIELE VALÉRIA PEREIRA BRITO",
+            "author": "Katiele ValéRia Pereira Brito",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "Helena Bordini de Lucas",
+            "author": "Helena Bordini De Lucas",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "Graça Almeida",
+            "author": "GraçA Almeida",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "Joana Mércia Guimarães Lira Silva",
+            "author": "Joana MéRcia GuimarãEs Lira Silva",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "Ketly dos Santos Nascimento",
+            "author": "Ketly Dos Santos Nascimento",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -3720,7 +2763,7 @@
             ]
           },
           {
-            "author": "L.C.P. ALVES",
+            "author": "L.C.P. Alves",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -3744,7 +2787,7 @@
             ]
           },
           {
-            "author": "Viviane Vitória do Nascimento Lima",
+            "author": "Viviane VitóRia Do Nascimento Lima",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -3756,13 +2799,13 @@
             ]
           },
           {
-            "author": "Itiara Mayra Barbosa de Albuquerque",
+            "author": "Itiara Mayra Barbosa De Albuquerque",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
           },
           {
-            "author": "Michele Bertoldo Coêlho",
+            "author": "Michele Bertoldo CoêLho",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -3784,7 +2827,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Nairys Costa de Freitas",
+            "author": "Nairys Costa De Freitas",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
@@ -3796,13 +2839,13 @@
             ]
           },
           {
-            "author": "MAIRTON CAVALCANTE ROMEU",
+            "author": "Mairton Cavalcante Romeu",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
           },
           {
-            "author": "Maria Cleide da Silva Barroso",
+            "author": "Maria Cleide Da Silva Barroso",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
@@ -3820,29 +2863,13 @@
     "location": "1º Subsolo - Karajás A",
     "presentations": [
       {
-        "title": "Addressing energy crisis step-by-step: opportunities for magnetic nanosystems",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/722_1740583857.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Fanny Béron",
-        "authors": [
-          {
-            "author": "Fanny Béron",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4EQX"
-      },
-      {
         "title": "Anisotropic effects on the magnetocaloric properties of magnetic materials",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/322_1739487798.pdf",
         "field": "Magnetismo",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Nilson Antunes de Oliveira",
+            "author": "Nilson Antunes De Oliveira",
             "universities": [
               "Universidade do Estado do Rio de Janeiro"
             ]
@@ -3870,13 +2897,13 @@
             ]
           },
           {
-            "author": "Thomaz de Andrade Costa",
+            "author": "Thomaz De Andrade Costa",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "Maria das Graças Fialho vaz",
+            "author": "Maria Das GraçAs Fialho Vaz",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -3898,7 +2925,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Thomaz de Andrade Costa",
+            "author": "Thomaz De Andrade Costa",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -3946,7 +2973,7 @@
             ]
           },
           {
-            "author": "Maria das Graças Fialho vaz",
+            "author": "Maria Das GraçAs Fialho Vaz",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -3962,13 +2989,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "ROBSON CESAR DE OLIVEIRA GUEDES",
+            "author": "Robson Cesar De Oliveira Guedes",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Rafael Otoniel Ribeiro Rodrigues da Cunha",
+            "author": "Rafael Otoniel Ribeiro Rodrigues Da Cunha",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -3998,13 +3025,13 @@
         "presentedBy": "Sydney Ferreira Santos",
         "authors": [
           {
-            "author": "Vinícius dos Passos de Souza",
+            "author": "ViníCius Dos Passos De Souza",
             "universities": [
               "Universidade Federal do ABC"
             ]
           },
           {
-            "author": "Luís Marcelo Garcia da Silva",
+            "author": "LuíS Marcelo Garcia Da Silva",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -4083,7 +3110,7 @@
             ]
           },
           {
-            "author": "Clenilton Costa dos Santos",
+            "author": "Clenilton Costa Dos Santos",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
@@ -4151,13 +3178,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "DANIEL SUAREZ LOPES",
+            "author": "Daniel Suarez Lopes",
             "universities": [
               "Universidade Federal do Ceará"
             ]
           },
           {
-            "author": "Diego Rabelo da Costa",
+            "author": "Diego Rabelo Da Costa",
             "universities": [
               "Universidade Federal do Ceará"
             ]
@@ -4181,7 +3208,7 @@
             ]
           },
           {
-            "author": "Jeanlex Soares de Sousa",
+            "author": "Jeanlex Soares De Sousa",
             "universities": [
               "Universidade Federal do Ceará"
             ]
@@ -4203,7 +3230,7 @@
             ]
           },
           {
-            "author": "Antonio Bernardo Félix de Souza",
+            "author": "Antonio Bernardo FéLix De Souza",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -4227,40 +3254,6 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "Quantum frequency conversion driven by classically nonseparable light",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/741_1740832642.pdf",
-        "field": "Óptica e fotônica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Rafael Ferreira Pinto do Rego Barros",
-            "universities": [
-              "Instituto de Física da USP"
-            ]
-          },
-          {
-            "author": "André Luiz Santos Junior",
-            "universities": [
-              "Universidade Federal Fluminense"
-            ]
-          },
-          {
-            "author": "Antonio Zelaquett Khoury",
-            "universities": [
-              "Universidade Federal Fluminense"
-            ]
-          },
-          {
-            "author": "Robert Fickler",
-            "universities": [
-              "Tampere University of Technology / Tampereen teknillinen yliopisto"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ERQ"
-      },
-      {
         "title": "2D polaritons from a microscopic quantum perspective",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/730_1740688783.pdf",
         "field": "Óptica e fotônica",
@@ -4283,19 +3276,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "RENNÉ MEDEIROS DE ARAÚJO",
+            "author": "Renné Medeiros De AraúJo",
             "universities": [
               "Universidade Federal de Santa Catarina"
             ]
           },
           {
-            "author": "LUCAS MARQUES FAGUNDES",
+            "author": "Lucas Marques Fagundes",
             "universities": [
               "Universidade Federal de Santa Catarina"
             ]
           },
           {
-            "author": "LAURA MARTINS RODRIGUES",
+            "author": "Laura Martins Rodrigues",
             "universities": [
               "Universidade Federal de Santa Catarina"
             ]
@@ -4313,7 +3306,7 @@
             ]
           },
           {
-            "author": "PAULO HENRIQUE SOUTO RIBEIRO",
+            "author": "Paulo Henrique Souto Ribeiro",
             "universities": [
               "Universidade Federal de Santa Catarina"
             ]
@@ -4329,19 +3322,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Carlos Farina de Souza",
+            "author": "Carlos Farina De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "João Octávio Oliveira Cony",
+            "author": "JoãO OctáVio Oliveira Cony",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Patrícia Pinto Abrantes",
+            "author": "PatríCia Pinto Abrantes",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -4365,29 +3358,13 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Analytical methods in epidemiological surveillance of respiratory infections",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/778_1744727695.pdf",
-        "field": "Física estatística",
-        "presentedBy": "Marcelo Ferreira da Costa Gomes",
-        "authors": [
-          {
-            "author": "Marcelo Ferreira da Costa Gomes",
-            "universities": [
-              "Instituto Oswaldo Cruz"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ETA"
-      },
-      {
         "title": "Susceptible-Infected-Removed model with variable rates on complex networks",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/243_1739389194.pdf",
         "field": "Física estatística",
         "presentedBy": "",
         "authors": [
           {
-            "author": "MASAYUKI O. HASE",
+            "author": "Masayuki O. Hase",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -4409,7 +3386,7 @@
         "presentedBy": "Silvio C. Ferreira",
         "authors": [
           {
-            "author": "Juliane Teixeira de Moraes",
+            "author": "Juliane Teixeira De Moraes",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -4431,7 +3408,7 @@
         "presentedBy": "Antonio R. de C. Romaguera",
         "authors": [
           {
-            "author": "Antonio R. de C. Romaguera",
+            "author": "Antonio R. De C. Romaguera",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
@@ -4455,13 +3432,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Maitê Kessler de Azambuja",
+            "author": "Maitê Kessler De Azambuja",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
           },
           {
-            "author": "David Möckli",
+            "author": "David MöCkli",
             "universities": [
               "Universidade Federal do Rio Grande do Sul"
             ]
@@ -4477,19 +3454,19 @@
         "presentedBy": "Isaac Martins Carvalho",
         "authors": [
           {
-            "author": "Marina Heloysa Sanino da Silva",
+            "author": "Marina Heloysa Sanino Da Silva",
             "universities": [
               "Universidade Estadual Paulista"
             ]
           },
           {
-            "author": "Irene D&#039Amico",
+            "author": "Irene D&#039amico",
             "universities": [
               "University of York"
             ]
           },
           {
-            "author": "Vivian V. França",
+            "author": "Vivian V. FrançA",
             "universities": [
               "Universidade Estadual Paulista"
             ]
@@ -4511,7 +3488,7 @@
         "presentedBy": "ANA MELVA CHAMPI FARFAN",
         "authors": [
           {
-            "author": "ANA MELVA CHAMPI FARFAN",
+            "author": "Ana Melva Champi Farfan",
             "universities": [
               "Universidade Federal do ABC",
               "University of Grenoble Alpes"
@@ -4546,41 +3523,13 @@
     "location": "Piso-Térreo - Guará",
     "presentations": [
       {
-        "title": "IMPACT OF AN ENVIRONMENTAL EDUCATION PROGRAM ON KNOWLEDGE, AWARENESS, AND BEHAVIOR OF LOW-INCOME STUDENTS OF A PUBLIC BRAZILIAN SCHOOL",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/411_1739548823.pdf",
-        "field": "Diversidade/sociedade",
-        "presentedBy": "Fabio David Alves Aarão Reis",
-        "authors": [
-          {
-            "author": "Fabiana Gomes Ferreira",
-            "universities": [
-              "Universidade Federal Fluminense"
-            ]
-          },
-          {
-            "author": "ISMAEL SEGUNDO DA SILVA CARRASCO",
-            "universities": [
-              "Universidade de Brasília"
-            ]
-          },
-          {
-            "author": "Fabio David Alves Aarão Reis",
-            "universities": [
-              "Universidade Federal Fluminense"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4EBJ"
-      },
-      {
         "title": "Análise Cartográfica sob a Óptica da Física: Um Olhar Decolonial",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/570_1740079668.pdf",
         "field": "Diversidade/sociedade",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Fernando Henrique Martins da Silva",
+            "author": "Fernando Henrique Martins Da Silva",
             "universities": [
               "Universidade Federal da Bahia"
             ]
@@ -4602,25 +3551,25 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Nairys Costa de Freitas",
+            "author": "Nairys Costa De Freitas",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
           },
           {
-            "author": "Heliomárzio Rodrigues Moreira",
+            "author": "HeliomáRzio Rodrigues Moreira",
             "universities": [
               "Universidade Federal do Ceará"
             ]
           },
           {
-            "author": "MAIRTON CAVALCANTE ROMEU",
+            "author": "Mairton Cavalcante Romeu",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
           },
           {
-            "author": "Maria Cleide da Silva Barroso",
+            "author": "Maria Cleide Da Silva Barroso",
             "universities": [
               "Instituto Federal de Educação, Ciência e Tecnologia do Ceará"
             ]
@@ -4636,7 +3585,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Adriana Ferreira de Souza Cardinot",
+            "author": "Adriana Ferreira De Souza Cardinot",
             "universities": [
               "Universidade Estadual do Norte Fluminense Darcy Ribeiro"
             ]
@@ -4654,7 +3603,7 @@
             ]
           },
           {
-            "author": "MARIA PRISCILA PESSANHA DE CASTRO",
+            "author": "Maria Priscila Pessanha De Castro",
             "universities": [
               "Universidade Estadual do Norte Fluminense Darcy Ribeiro"
             ]
@@ -4671,22 +3620,6 @@
     "time": "14h00-15h30",
     "location": "1º Subsolo - Karajás A",
     "presentations": [
-      {
-        "title": "Probing magnetic interfaces with X-ray spectroscopies",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/663_1740176197.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Thiago J. A. Mori",
-        "authors": [
-          {
-            "author": "Thiago J. A. Mori",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ENM"
-      },
       {
         "title": "Mn-ferrite multicore nanoparticles for MRI contrast: Tuning cluster size by magnetophoresis",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/99_1738324721.pdf",
@@ -4722,14 +3655,14 @@
         "presentedBy": "Pedro Schio N Muniz",
         "authors": [
           {
-            "author": "Vinícius Pascotto Gastaldo",
+            "author": "ViníCius Pascotto Gastaldo",
             "universities": [
               "Universidade Federal de Mato Grosso do Sul",
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Robert Prudêncio Amaral",
+            "author": "Robert PrudêNcio Amaral",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
@@ -4741,7 +3674,7 @@
             ]
           },
           {
-            "author": "Flávia Regina Estrada",
+            "author": "FláVia Regina Estrada",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -4761,22 +3694,6 @@
         ],
         "hour": "14h45-15h00",
         "id": "4EKZ"
-      },
-      {
-        "title": "The Nobel Prize in Physics",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/772_1744376600.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Olle Eriksson",
-        "authors": [
-          {
-            "author": "Olle Eriksson",
-            "universities": [
-              "Uppsala University"
-            ]
-          }
-        ],
-        "hour": "15h00-15h30",
-        "id": "4ESX"
       }
     ]
   },
@@ -4786,22 +3703,6 @@
     "time": "14h00-15h30",
     "location": "1º Subsolo - Karajás B",
     "presentations": [
-      {
-        "title": "Simulations of excited electronic states in materials across time and length scales",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/775_1744627833.pdf",
-        "field": "Física dos materiais",
-        "presentedBy": "Andre Schleife",
-        "authors": [
-          {
-            "author": "Andre Schleife",
-            "universities": [
-              "University of Illinois Urbana Champaign"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ET2"
-      },
       {
         "title": "Contact conductance in twisted bilayer graphene systems: Interplay between rotation angle, lattice relaxation, and bias",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/408_1739548065.pdf",
@@ -4821,7 +3722,7 @@
             ]
           },
           {
-            "author": "Felipe Crasto de Lima",
+            "author": "Felipe Crasto De Lima",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -4833,13 +3734,13 @@
             ]
           },
           {
-            "author": "Felipe Pérez Riffo",
+            "author": "Felipe PéRez Riffo",
             "universities": [
               "Universidad Técnica Federico Santa María"
             ]
           },
           {
-            "author": "Eric Suárez Morell",
+            "author": "Eric SuáRez Morell",
             "universities": [
               "Universidad Técnica Federico Santa María"
             ]
@@ -4879,7 +3780,7 @@
             ]
           },
           {
-            "author": "Van Sérgio da Silva Alves",
+            "author": "Van SéRgio Da Silva Alves",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -4895,7 +3796,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "António Duarte Neves Cesário",
+            "author": "AntóNio Duarte Neves CesáRio",
             "universities": [
               "University of Porto"
             ]
@@ -4919,19 +3820,19 @@
             ]
           },
           {
-            "author": "João Guilherme Correia",
+            "author": "JoãO Guilherme Correia",
             "universities": [
               "Instituto Superior Técnico, Universidade de Lisboa"
             ]
           },
           {
-            "author": "João Pedro Esteves Araujo",
+            "author": "JoãO Pedro Esteves Araujo",
             "universities": [
               "University of Porto"
             ]
           },
           {
-            "author": "Lucy Vitória Credidio Assali",
+            "author": "Lucy VitóRia Credidio Assali",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -4967,94 +3868,26 @@
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
       {
-        "title": "THEORETICAL STUDY OF LINKERS ADSORPTION ON PRISTINE GRAPHENE FOR BIOSENSING APPLICATIONS",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/214_1739354359.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Solange Binotto Fagan",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Júlia Vaz Schultz",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Mariana Zancan Tonel",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Ivana Zanella da Silva",
-            "universities": [
-              "Universidade Franciscana"
-            ]
-          },
-          {
-            "author": "Telma Domingues",
-            "universities": [
-              "International Iberic Nanotechnology Laboratory"
-            ]
-          },
-          {
-            "author": "Jérôme Borme",
-            "universities": [
-              "International Iberic Nanotechnology Laboratory"
-            ]
-          },
-          {
-            "author": "Pedro Alpuim",
-            "universities": [
-              "International Iberic Nanotechnology Laboratory"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4DWN"
-      },
-      {
         "title": "Molecule Encapsulation in Porous Fullerenes",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/287_1739467961.pdf",
         "field": "Nanomateriais",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Jéssica de Oliveira Fernandes",
+            "author": "JéSsica De Oliveira Fernandes",
             "universities": [
               "Universidade Estadual Paulista"
             ]
           },
           {
-            "author": "Ricardo Paupitz Barbosa dos Santos",
+            "author": "Ricardo Paupitz Barbosa Dos Santos",
             "universities": [
               "Universidade Estadual Paulista"
             ]
           }
         ],
-        "hour": "-",
+        "hour": "14h30-14h50",
         "id": "4DZK"
-      },
-      {
-        "title": "Line defects in graphene for gas sensing",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/680_1740181766.pdf",
-        "field": "Nanomateriais",
-        "presentedBy": "Debora Carvalho de Melo Rodrigues",
-        "authors": [
-          {
-            "author": "Debora Carvalho de Melo Rodrigues",
-            "universities": [
-              "Universidade Federal Rural do Rio de Janeiro"
-            ]
-          }
-        ],
-        "hour": "15h10-15h30",
-        "id": "4EPC"
       },
       {
         "title": "Toxic gas detection using graphenylene nanoflakes",
@@ -5069,7 +3902,7 @@
             ]
           },
           {
-            "author": "Ricardo Paupitz Barbosa dos Santos",
+            "author": "Ricardo Paupitz Barbosa Dos Santos",
             "universities": [
               "Universidade Estadual Paulista"
             ]
@@ -5081,8 +3914,24 @@
             ]
           }
         ],
-        "hour": "-",
+        "hour": "14h50-15h10",
         "id": "4DZZ"
+      },
+      {
+        "title": "Line defects in graphene for gas sensing",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/680_1740181766.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "Debora Carvalho de Melo Rodrigues",
+        "authors": [
+          {
+            "author": "Debora Carvalho De Melo Rodrigues",
+            "universities": [
+              "Universidade Federal Rural do Rio de Janeiro"
+            ]
+          }
+        ],
+        "hour": "15h10-15h30",
+        "id": "4EPC"
       }
     ]
   },
@@ -5092,22 +3941,6 @@
     "time": "14h00-15h30",
     "location": "1º Subsolo - Karajás C",
     "presentations": [
-      {
-        "title": "Modular microwave-optical quantum transduction",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/364_1739538253.pdf",
-        "field": "Óptica e fotônica",
-        "presentedBy": "Rodrigo da Silva Benevides",
-        "authors": [
-          {
-            "author": "Rodrigo da Silva Benevides",
-            "universities": [
-              "Universidade de São Paulo"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4E6N"
-      },
       {
         "title": "Inverse Design in Optomechanics",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/202_1741972662.pdf",
@@ -5121,7 +3954,7 @@
             ]
           },
           {
-            "author": "Flavio Campopiano Dias de Moraes",
+            "author": "Flavio Campopiano Dias De Moraes",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -5185,7 +4018,7 @@
             ]
           },
           {
-            "author": "Christiano J.S. de Matos",
+            "author": "Christiano J.S. De Matos",
             "universities": [
               "Universidade Presbiteriana Mackenzie"
             ]
@@ -5201,19 +4034,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "João Octávio Oliveira Cony",
+            "author": "JoãO OctáVio Oliveira Cony",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Carlos Farina de Souza",
+            "author": "Carlos Farina De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Patrícia Pinto Abrantes",
+            "author": "PatríCia Pinto Abrantes",
             "universities": [
               "Universidade Federal Fluminense",
               "Universidade Federal do Rio de Janeiro"
@@ -5312,7 +4145,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "FERNANDO IEMINI DE REZENDE AGUIAR",
+            "author": "Fernando Iemini De Rezende Aguiar",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -5358,7 +4191,7 @@
             ]
           },
           {
-            "author": "João Pedro Carvalho Costa",
+            "author": "JoãO Pedro Carvalho Costa",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -5386,13 +4219,13 @@
             ]
           },
           {
-            "author": "LEANDRO OLIVEIRA DO NASCIMENTO",
+            "author": "Leandro Oliveira Do Nascimento",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Van Sérgio da Silva Alves",
+            "author": "Van SéRgio Da Silva Alves",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -5410,29 +4243,13 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Toward the Modeling of Organic Thin-Film Growth",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/744_1740993158.pdf",
-        "field": "Física estatística",
-        "presentedBy": "ISMAEL SEGUNDO DA SILVA CARRASCO",
-        "authors": [
-          {
-            "author": "ISMAEL SEGUNDO DA SILVA CARRASCO",
-            "universities": [
-              "Universidade de Brasília"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ERT"
-      },
-      {
         "title": "Inhomogeneous Homotopic Random Walk connecting Tsallis and Kaniadakis PDM deformations",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/28_1737565592.pdf",
         "field": "Física estatística",
         "presentedBy": "Ronaldo Thibes",
         "authors": [
           {
-            "author": "Ignacio Sebastián Gomez",
+            "author": "Ignacio SebastiáN Gomez",
             "universities": [
               "Universidade Estadual do Sudoeste da Bahia"
             ]
@@ -5454,7 +4271,7 @@
         "presentedBy": "Ignacio Sebastián Gomez",
         "authors": [
           {
-            "author": "Ignacio Sebastián Gomez",
+            "author": "Ignacio SebastiáN Gomez",
             "universities": [
               "Universidade Estadual do Sudoeste da Bahia"
             ]
@@ -5494,51 +4311,11 @@
     ]
   },
   {
-    "session": "PL3 - Plenary 3",
-    "date": "2025/05/20",
-    "time": "17h00-18h00",
-    "location": "1º Subsolo - Karajás Auditório",
-    "presentations": [
-      {
-        "title": "A multiscale approach for magnetization dynamics",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/601_1740149873.pdf",
-        "field": "Magnetismo",
-        "presentedBy": "Olle Eriksson",
-        "authors": [
-          {
-            "author": "Olle Eriksson",
-            "universities": [
-              "Uppsala University"
-            ]
-          }
-        ],
-        "hour": "17h00-18h00",
-        "id": "4EK4"
-      }
-    ]
-  },
-  {
     "session": "ATO1 - ATOMIC AND MOLECULAR PHYSICS 1",
     "date": "2025/05/21",
     "time": "08h30-10h00",
     "location": "1º Subsolo - Karajás A",
     "presentations": [
-      {
-        "title": "Matter-Antimatter Asymmetry in the Universe: Spectroscopy of Trapped Antihydrogen and Method for Direct Comparison with Hydrogen",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/719_1740438655.pdf",
-        "field": "Física atômica e molecular",
-        "presentedBy": "CLAUDIO LENZ CESAR",
-        "authors": [
-          {
-            "author": "CLAUDIO LENZ CESAR",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4EQT"
-      },
       {
         "title": "INVESTIGATING THE POTENTIAL CANDIDATES FOR SINGLET FISSION AND THERMALLY ACTIVETED DELAYED FLUORESCENCE IN B,N-SUBSTITUTED TETRACENE",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/369_1739539410.pdf",
@@ -5578,13 +4355,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "LEVI OLIVEIRA DE ARAÚJO AZEVEDO",
+            "author": "Levi Oliveira De AraúJo Azevedo",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "CLAUDIO LENZ CESAR",
+            "author": "Claudio Lenz Cesar",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -5624,7 +4401,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "LEANDRO OLIVEIRA DO NASCIMENTO",
+            "author": "Leandro Oliveira Do Nascimento",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -5636,13 +4413,13 @@
             ]
           },
           {
-            "author": "Van Sérgio da Silva Alves",
+            "author": "Van SéRgio Da Silva Alves",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Luis Fernández",
+            "author": "Luis FernáNdez",
             "universities": [
               "Universidad de la Frontera"
             ]
@@ -5658,13 +4435,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "YURI DA SILVA BORGES",
+            "author": "Yuri Da Silva Borges",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Vitor Lucas Rodrigues de Medeiros",
+            "author": "Vitor Lucas Rodrigues De Medeiros",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -5676,19 +4453,19 @@
             ]
           },
           {
-            "author": "João Gomes de Oliveira Neto",
+            "author": "JoãO Gomes De Oliveira Neto",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
           },
           {
-            "author": "Adenilson Oliveira dos Santos",
+            "author": "Adenilson Oliveira Dos Santos",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
           },
           {
-            "author": "Francisco Ferreira de Sousa",
+            "author": "Francisco Ferreira De Sousa",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -5728,7 +4505,7 @@
             ]
           },
           {
-            "author": "Gilberto Rodrigues da Silva Junior",
+            "author": "Gilberto Rodrigues Da Silva Junior",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
@@ -5740,7 +4517,7 @@
             ]
           },
           {
-            "author": "Angelo Malachias de Souza",
+            "author": "Angelo Malachias De Souza",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -5758,51 +4535,13 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "ASSESSMENT OF THE RADIATION DOSES RECEIVED BY PAEDIATRIC PATIENTS UNDERGOING RADIOLOGICAL EXAMS OF THE HEAD",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/293_1739470674.pdf",
-        "field": "Física médica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Edilaine Honorio da Silva",
-            "universities": [
-              "Instituto de Física da USP"
-            ]
-          },
-          {
-            "author": "Oswaldo Baffa",
-            "universities": [
-              "Universidade de São Paulo"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4DZS"
-      },
-      {
-        "title": "Nanothermometry for Cancer Theranostics",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/43_1737999235.pdf",
-        "field": "Física médica",
-        "presentedBy": "Andris Figueiroa Bakuzis",
-        "authors": [
-          {
-            "author": "Andris Figueiroa Bakuzis",
-            "universities": [
-              "Universidade Federal de Goiás"
-            ]
-          }
-        ],
-        "hour": "09h00-09h30",
-        "id": "4DNS"
-      },
-      {
         "title": "INVESTIGATION OF LASER SINTERED AL2O3:Mg FOR APPLICATIONS IN LUMINESCENCE DOSIMETRY AREA",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/139_1738685978.pdf",
         "field": "Física médica",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Matheus Cavalcanti dos Santos Nunes",
+            "author": "Matheus Cavalcanti Dos Santos Nunes",
             "universities": [
               "universidade estadual paulista"
             ]
@@ -5854,7 +4593,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "THEO LOUZADA MEIRELES",
+            "author": "Theo Louzada Meireles",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -5878,7 +4617,7 @@
             ]
           },
           {
-            "author": "MARCELO MARTINELLI",
+            "author": "Marcelo Martinelli",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -5912,19 +4651,19 @@
             ]
           },
           {
-            "author": "Michelle O. Araújo",
+            "author": "Michelle O. AraúJo",
             "universities": [
               "Universidade Federal de Pernambuco"
             ]
           },
           {
-            "author": "Jesús Pavón López",
+            "author": "JesúS PavóN LóPez",
             "universities": [
               "Universidade Federal da Paraíba"
             ]
           },
           {
-            "author": "Thierry M. Passerat de Silans",
+            "author": "Thierry M. Passerat De Silans",
             "universities": [
               "Universidade Federal da Paraíba"
             ]
@@ -5948,7 +4687,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "ANDRÉ MARTIN TIMPANARO",
+            "author": "André Martin Timpanaro",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -5976,7 +4715,7 @@
         "presentedBy": "Bertúlio de Lima Bernaardo",
         "authors": [
           {
-            "author": "Bertúlio de Lima Bernaardo",
+            "author": "BertúLio De Lima Bernaardo",
             "universities": [
               "Universidade Federal da Paraíba"
             ]
@@ -5992,13 +4731,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "François Impens",
+            "author": "FrançOis Impens",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "David Guéry-Odelin",
+            "author": "David GuéRy-Odelin",
             "universities": [
               "Université de Toulouse"
             ]
@@ -6032,29 +4771,13 @@
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
       {
-        "title": "Magnetism in symmetry-enforced nodal-line semimetals",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/310_1739478128.pdf",
-        "field": "Sistemas fortemente correlacionados",
-        "presentedBy": "Mariana Malard",
-        "authors": [
-          {
-            "author": "Mariana Malard",
-            "universities": [
-              "Universidade de Brasília"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4E2H"
-      },
-      {
         "title": "Spin Symmetry Breaking and Exchange Field in Quantum Materials",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/228_1739380802.pdf",
         "field": "Sistemas fortemente correlacionados",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Daniel de Martini Rivera Ferreira",
+            "author": "Daniel De Martini Rivera Ferreira",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -6116,7 +4839,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "JOSÉ A. HOYOS",
+            "author": "José A. Hoyos",
             "universities": [
               "Instituto de Física de São Carlos"
             ]
@@ -6159,13 +4882,13 @@
             ]
           },
           {
-            "author": "Maria Clara Godinho de Oliveira",
+            "author": "Maria Clara Godinho De Oliveira",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
           },
           {
-            "author": "Frederico Barros de Sousa",
+            "author": "Frederico Barros De Sousa",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -6291,19 +5014,19 @@
             ]
           },
           {
-            "author": "André Felipe Vale da Fonseca",
+            "author": "André Felipe Vale Da Fonseca",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
           },
           {
-            "author": "Ana Flávia Nogueira",
+            "author": "Ana FláVia Nogueira",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
           },
           {
-            "author": "Jonathas de Paula Siqueira",
+            "author": "Jonathas De Paula Siqueira",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -6330,7 +5053,7 @@
             ]
           },
           {
-            "author": "Oscar Marin Ramírez",
+            "author": "Oscar Marin RamíRez",
             "universities": [
               "Universidad Nacional de Tucumán",
               "Instituto de Física del Noroeste Argentino",
@@ -6341,7 +5064,7 @@
             ]
           },
           {
-            "author": "Benjamín Straube",
+            "author": "BenjamíN Straube",
             "universities": [
               "Universidad Nacional de Tucumán",
               "Facultad de Ciencias Exactas y Tecnología",
@@ -6384,29 +5107,13 @@
     "location": "1º Subsolo - Karajás A",
     "presentations": [
       {
-        "title": "Collective saturation of the transmission of light by a dense cloud of cold atoms",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/769_1744036834.pdf",
-        "field": "Física atômica e molecular",
-        "presentedBy": "RAUL CELISTRINO TEIXEIRA",
-        "authors": [
-          {
-            "author": "RAUL CELISTRINO TEIXEIRA",
-            "universities": [
-              "Univerdade Federal de São Carlos"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4EST"
-      },
-      {
         "title": "Out of equilibrium superfluid density evolution of dipolar Bose-Einstein condensate in ramped up disorder",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/129_1738609515.pdf",
         "field": "Física atômica e molecular",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Rodrigo de Paula Almeida Lima",
+            "author": "Rodrigo De Paula Almeida Lima",
             "universities": [
               "Universidade Federal de Alagoas",
               "Universidad de Castilla-La Mancha"
@@ -6453,22 +5160,6 @@
     "location": "Piso-Térreo - Guará",
     "presentations": [
       {
-        "title": "Non-graphitic nanocarbons",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/726_1740592609.pdf",
-        "field": "Simulação computacional e ciência de dados",
-        "presentedBy": "Eduardo Costa Girão",
-        "authors": [
-          {
-            "author": "Eduardo Costa Girão",
-            "universities": [
-              "Universidade Federal do Piauí"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ER4"
-      },
-      {
         "title": "High-throughput dye screening of large molecular databases",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/626_1740164795.pdf",
         "field": "Simulação computacional e ciência de dados",
@@ -6481,7 +5172,7 @@
             ]
           },
           {
-            "author": "Ala Clara Gonzales de Souza",
+            "author": "Ana Clara Gonzalez De Souza",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -6493,13 +5184,13 @@
             ]
           },
           {
-            "author": "James Moraes de Almeida",
+            "author": "James Moraes De Almeida",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Paula Homem-de-Mello",
+            "author": "Paula Homem-De-Mello",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -6528,7 +5219,7 @@
             ]
           },
           {
-            "author": "Mauri Pereira dos Santos Junior",
+            "author": "Mauri Pereira Dos Santos Junior",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -6556,19 +5247,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Arthur da Silva Sousa Santos",
+            "author": "Arthur Da Silva Sousa Santos",
             "universities": [
               "Universidade Federal do ABC"
             ]
           },
           {
-            "author": "James Moraes de Almeida",
+            "author": "James Moraes De Almeida",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Daniel Zanetti de Florio",
+            "author": "Daniel Zanetti De Florio",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -6598,19 +5289,19 @@
             ]
           },
           {
-            "author": "Fernanda de Freitas Quadros",
+            "author": "Fernanda De Freitas Quadros",
             "universities": [
               "Universidade Estadual Paulista"
             ]
           },
           {
-            "author": "Vinicius Richieri Manso Gonçalves",
+            "author": "Vinicius Richieri Manso GonçAlves",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
           },
           {
-            "author": "Gerson Santos de Almeida",
+            "author": "Gerson Santos De Almeida",
             "universities": [
               "Universidade Estadual Paulista"
             ]
@@ -6638,25 +5329,25 @@
         "presentedBy": "Alexandre Magno Rodrigues Teixeira",
         "authors": [
           {
-            "author": "Maria Regivânia Xavier",
+            "author": "Maria RegivâNia Xavier",
             "universities": [
               "Universidade Regional do Cariri"
             ]
           },
           {
-            "author": "IGOR KLEBER CAMPOS LIMA",
+            "author": "Igor Kleber Campos Lima",
             "universities": [
               "Universidade Regional do Cariri"
             ]
           },
           {
-            "author": "José barbosa da Silva",
+            "author": "José Barbosa Da Silva",
             "universities": [
               "Universidade Regional do Cariri"
             ]
           },
           {
-            "author": "Mariana Alves Ribeiro de Melo",
+            "author": "Mariana Alves Ribeiro De Melo",
             "universities": [
               "Universidade Federal do Ceará"
             ]
@@ -6668,13 +5359,13 @@
             ]
           },
           {
-            "author": "Antônio César Honorato Barreto",
+            "author": "AntôNio CéSar Honorato Barreto",
             "universities": [
               "Universidade Federal do Ceará"
             ]
           },
           {
-            "author": "Matheus Nunes da Rocha",
+            "author": "Matheus Nunes Da Rocha",
             "universities": [
               "Universidade Estadual do Ceará"
             ]
@@ -6692,7 +5383,7 @@
             ]
           },
           {
-            "author": "Hélcio Silva dos Santos",
+            "author": "HéLcio Silva Dos Santos",
             "universities": [
               "Universidade Estadual do Vale do Acaraú"
             ]
@@ -6749,7 +5440,7 @@
         "presentedBy": "Rafael Silva Alencar",
         "authors": [
           {
-            "author": "Fábio F. Leite",
+            "author": "FáBio F. Leite",
             "universities": [
               "Universidade Federal do Amapá"
             ]
@@ -6767,7 +5458,7 @@
             ]
           },
           {
-            "author": "Yuset Guerra Dávila",
+            "author": "Yuset Guerra DáVila",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -6809,60 +5500,38 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "THE IMPORTANCE OF MEDICAL PHYSICIST IN HEALTHCARE",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/499_1741021565.pdf",
+        "title": "2D dosimetry for FLASH radiotherapy using radioluminescence from CaF2 films",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/639_1741368670.pdf",
         "field": "Física médica",
-        "presentedBy": "Francisco Glaildo Almeida Sampaio",
+        "presentedBy": "Anna Luiza Metidieri Cruz Malthez",
         "authors": [
           {
-            "author": "Francisco Glaildo Almeida Sampaio",
+            "author": "Giovana Stedile Wozniak",
             "universities": [
-              "Hospital Ophir Loyola"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4EEZ"
-      },
-      {
-        "title": "DEVELOPMENT OF SIMULATORS, OPTIMIZATION AND TREATMENT PLANNING CONSIDERING VOLUNTARY AND INVOLUNTARY MOVEMENTS OF ORGANS IN RADIOTHERAPY",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/205_1741697966.pdf",
-        "field": "Física médica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Simone Coutinho Cardoso",
-            "universities": [
-              "Universidade Federal do Rio de Janeiro"
+              "Universidade Tecnológica Federal do Paraná"
             ]
           },
           {
-            "author": "André L. E. Fidelis",
+            "author": "Verdi Vanreusel",
             "universities": [
-              "Instituto de Radioproteção e Dosimetria"
+              "Belgian Nuclear Research Centre"
             ]
           },
           {
-            "author": "Felipe M. L. de Souza",
+            "author": "Luana Freitas De Nascimento",
             "universities": [
-              "Hospital AC Camargo"
+              "Belgian Nuclear Research Centre"
             ]
           },
           {
-            "author": "Juliana de M. Nascimento",
+            "author": "Anna Luiza Metidieri Cruz Malthez",
             "universities": [
-              "Hospital AC Camargo"
-            ]
-          },
-          {
-            "author": "Luiz antonio ribeiro da rosa",
-            "universities": [
-              "Instituto de Radioproteção e Dosimetria"
+              "Universidade Tecnológica Federal do Paraná"
             ]
           }
         ],
         "hour": "11h00-11h30",
-        "id": "4DWC"
+        "id": "4EMN"
       },
       {
         "title": "Analysis of dosimetric characteristics of CaSO4:Mn,Tb phosphors synthed by four different routes",
@@ -6871,7 +5540,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Anderson Manoel Bezerra da Silva",
+            "author": "Anderson Manoel Bezerra Da Silva",
             "universities": [
               "Instituto de Pesquisas Energéticas e Nucleares (IPEN)"
             ]
@@ -6883,7 +5552,7 @@
             ]
           },
           {
-            "author": "DIVANIZIA DO NASCIMENTO SOUZA",
+            "author": "Divanizia Do Nascimento Souza",
             "universities": [
               "Universidade Federal de Sergipe"
             ]
@@ -6907,52 +5576,6 @@
     "location": "1º Subsolo - Karajás C",
     "presentations": [
       {
-        "title": "Analytical Evaluation of Total Loss in Tubular Hollow-Core Fibers Throughout the Fabrication Process",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/356_1739535581.pdf",
-        "field": "Óptica e fotônica",
-        "presentedBy": "Jonas Henrique Osório",
-        "authors": [
-          {
-            "author": "Duanny Silva Onorio",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          },
-          {
-            "author": "Flavio Augusto de Melo Marques",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          },
-          {
-            "author": "Alexandre Alberto Chaves Cotta",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          },
-          {
-            "author": "Jefferson Esquina Tsuchida",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          },
-          {
-            "author": "Alexandre Bessa dos Santos",
-            "universities": [
-              "Universidade Federal de Juiz de Fora"
-            ]
-          },
-          {
-            "author": "Jonas Henrique Osório",
-            "universities": [
-              "Universidade Federal de Lavras"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4E6D"
-      },
-      {
         "title": "Development of an all-fiber optofluidic device for luminescence-based sensing applications",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/215_1739361853.pdf",
         "field": "Óptica e fotônica",
@@ -6965,7 +5588,7 @@
             ]
           },
           {
-            "author": "Raiane Sodré de Araújo",
+            "author": "Raiane Sodré De AraúJo",
             "universities": [
               "Universidade Presbiteriana Mackenzie"
             ]
@@ -6977,7 +5600,7 @@
             ]
           },
           {
-            "author": "Christiano J.S. de Matos",
+            "author": "Christiano J.S. De Matos",
             "universities": [
               "Universidade Presbiteriana Mackenzie"
             ]
@@ -6999,7 +5622,7 @@
             ]
           },
           {
-            "author": "Ricardo Costa de Santana",
+            "author": "Ricardo Costa De Santana",
             "universities": [
               "Universidade Federal de Goiás"
             ]
@@ -7033,7 +5656,7 @@
             ]
           },
           {
-            "author": "Jean Pierre von der Weid",
+            "author": "Jean Pierre Von Der Weid",
             "universities": [
               "Pontifícia Universidade Católica do Rio de Janeiro"
             ]
@@ -7051,40 +5674,6 @@
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
       {
-        "title": "TRIMERS IN THE EXTENDED HUBBARD MODEL",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/421_1739551595.pdf",
-        "field": "Sistemas fortemente correlacionados",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "RENE RODRIGUES MONTENEGRO FILHO",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          },
-          {
-            "author": "David Rafael de Barros Silva",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          },
-          {
-            "author": "Diego Alejandro Cogollo Aponte",
-            "universities": [
-              "Universidade Federal de Campina Grande"
-            ]
-          },
-          {
-            "author": "Maurício Domingues Coutinho Filho",
-            "universities": [
-              "Universidade Federal de Pernambuco"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4EBW"
-      },
-      {
         "title": "Magnetization plateau in the Kagome antiferromagnet",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/66_1738162102.pdf",
         "field": "Sistemas fortemente correlacionados",
@@ -7097,7 +5686,7 @@
             ]
           },
           {
-            "author": "Eric de Castro e Andrade",
+            "author": "Eric De Castro E Andrade",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -7113,17 +5702,17 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "João Armando Sandron Galdino",
+            "author": "JoãO Armando Sandron Galdino",
             "universities": [
               "Universidade de São Paulo"
             ]
           },
           {
-            "author": "ANDRE DE PINHO VIEIRA",
+            "author": "Andre De Pinho Vieira",
             "universities": []
           },
           {
-            "author": "JOSÉ A. HOYOS",
+            "author": "José A. Hoyos",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -7157,7 +5746,7 @@
             ]
           },
           {
-            "author": "Juliana Gonçalves Dias",
+            "author": "Juliana GonçAlves Dias",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -7175,7 +5764,7 @@
             ]
           },
           {
-            "author": "JULIÁN ANDRÉS MUNÈVAR CAGIGAS",
+            "author": "JuliáN AndréS MunèVar Cagigas",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -7192,70 +5781,6 @@
     "time": "10h30-12h00",
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
-      {
-        "title": "Electrical Manipulation of Intervalley Trions in Twisted MoSe2 Homobilayers at Room Temperature",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/192_1739280510.pdf",
-        "field": "Semicondutores",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Bárbara Rosa",
-            "universities": [
-              "Universidade Estadual de Campinas"
-            ]
-          },
-          {
-            "author": "Paulo Eduardo de Faria Junior",
-            "universities": [
-              "Universität Regensburg"
-            ]
-          },
-          {
-            "author": "Alisson Ronieri Cadore",
-            "universities": [
-              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
-            ]
-          },
-          {
-            "author": "Yuhui Yang",
-            "universities": [
-              "Technische Universität Berlin"
-            ]
-          },
-          {
-            "author": "Aris Koulas-Simos",
-            "universities": [
-              "Technische Universität Berlin"
-            ]
-          },
-          {
-            "author": "Chirag Palekar",
-            "universities": [
-              "Technische Universität Berlin"
-            ]
-          },
-          {
-            "author": "Seth Ariel Tongay",
-            "universities": [
-              "Arizona State University"
-            ]
-          },
-          {
-            "author": "Jaroslav Fabian",
-            "universities": [
-              "Universität Regensburg"
-            ]
-          },
-          {
-            "author": "Stephan Reitzenstein",
-            "universities": [
-              "Technische Universität Berlin"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4DVR"
-      },
       {
         "title": "TAILORING FREE AND SELF-TRAPPED EXCITONS OF 2D HALIDE PEROVSKITES THROUGH OCTAHEDRAL DISTORTION AND SPACER MOLECULES",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/173_1739191983.pdf",
@@ -7307,13 +5832,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Ramiro Marcelo dos santos",
+            "author": "Ramiro Marcelo Dos Santos",
             "universities": [
               "Universidade Estadual Paulista"
             ]
           },
           {
-            "author": "Iván Ornelas-Cruz",
+            "author": "IváN Ornelas-Cruz",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -7343,35 +5868,19 @@
     "location": "1º Subsolo - Karajás A",
     "presentations": [
       {
-        "title": "Van der Waals interaction between atom and thermally emissive dielectric surface",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/771_1744205110.pdf",
-        "field": "Física atômica e molecular",
-        "presentedBy": "João Carlos de Aquino Carvalho",
-        "authors": [
-          {
-            "author": "João Carlos de Aquino Carvalho",
-            "universities": [
-              "Federal University of Pernambuco"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ESW"
-      },
-      {
         "title": "ELECTRON SCATTERING CROSS SECTIONS FOR C2H7N ISOMERS IN THE 1-500 eV ENERGY RANGE",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/101_1738335329.pdf",
         "field": "Física atômica e molecular",
         "presentedBy": "Gabriel Luiz Cruz de Souza",
         "authors": [
           {
-            "author": "Nilton Fagner Oliveira Araújo",
+            "author": "Nilton Fagner Oliveira AraúJo",
             "universities": [
               "Universidade Federal de São Carlos - Campus Lagoa do Sino"
             ]
           },
           {
-            "author": "Gabriel Luiz Cruz de Souza",
+            "author": "Gabriel Luiz Cruz De Souza",
             "universities": [
               "Universidade Federal de São Carlos - Campus Lagoa do Sino"
             ]
@@ -7387,19 +5896,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "ROBERTO NAMOR SILVA SANTIAGO",
+            "author": "Roberto Namor Silva Santiago",
             "universities": [
               "Universidade Estadual do Ceará"
             ]
           },
           {
-            "author": "José barbosa da Silva",
+            "author": "José Barbosa Da Silva",
             "universities": [
               "Universidade Regional do Cariri"
             ]
           },
           {
-            "author": "Paulo de Tarso Cavalcante Freire",
+            "author": "Paulo De Tarso Cavalcante Freire",
             "universities": [
               "Universidade Federal do Ceará"
             ]
@@ -7417,13 +5926,13 @@
             ]
           },
           {
-            "author": "Antônio César Honorato Barreto",
+            "author": "AntôNio CéSar Honorato Barreto",
             "universities": [
               "Universidade Federal do Ceará"
             ]
           },
           {
-            "author": "Franscico Ferreira de Sousa",
+            "author": "Franscico Ferreira De Sousa",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -7436,7 +5945,7 @@
             ]
           },
           {
-            "author": "Hélcio Silva dos Santos",
+            "author": "HéLcio Silva Dos Santos",
             "universities": [
               "Universidade Regional do Cariri"
             ]
@@ -7452,13 +5961,13 @@
         "presentedBy": "Márcio Henrique Franco Bettega",
         "authors": [
           {
-            "author": "Luiz Vitorino dos Santos Dalagnol",
+            "author": "Luiz Vitorino Dos Santos Dalagnol",
             "universities": [
               "Universidade Federal do Paraná"
             ]
           },
           {
-            "author": "Márcio Henrique Franco Bettega",
+            "author": "MáRcio Henrique Franco Bettega",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -7475,22 +5984,6 @@
     "time": "14h00-15h30",
     "location": "Piso-Térreo - Guará",
     "presentations": [
-      {
-        "title": "Interactive Materials Design: Coupling Machine Learning, Molecular Simulations, and Immersive Environments",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/676_1740181152.pdf",
-        "field": "Simulação computacional e ciência de dados",
-        "presentedBy": "Caetano Rodrigues Miranda",
-        "authors": [
-          {
-            "author": "Caetano Rodrigues Miranda",
-            "universities": [
-              "Instituto de Física da USP"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4EP4"
-      },
       {
         "title": "INSIGHTS FROM INTERPRETABLE MACHINE LEARNING INTO GREEN HYDROGEN CATALYSIS",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/209_1739311512.pdf",
@@ -7520,7 +6013,7 @@
             ]
           },
           {
-            "author": "Alan Barros de Oliveira",
+            "author": "Alan Barros De Oliveira",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -7532,7 +6025,7 @@
             ]
           },
           {
-            "author": "Matheus dos Santos Barbosa",
+            "author": "Matheus Dos Santos Barbosa",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -7556,7 +6049,7 @@
             ]
           },
           {
-            "author": "Fabrício Vilela Parreira",
+            "author": "FabríCio Vilela Parreira",
             "universities": [
               "Vale S.A."
             ]
@@ -7590,7 +6083,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Vinícius do Nascimento da Rocha",
+            "author": "ViníCius Do Nascimento Da Rocha",
             "universities": [
               "Universidade Federal de Santa Maria"
             ]
@@ -7620,22 +6113,6 @@
     "location": "1º Subsolo - Karajás B",
     "presentations": [
       {
-        "title": "STRUCTURE AND PROPERTIES OF NOVEL HYBRID METAL HALIDE PEROVSKITES",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/774_1744493364.pdf",
-        "field": "Física dos materiais",
-        "presentedBy": "Alejandro Pedro Ayala",
-        "authors": [
-          {
-            "author": "Alejandro Pedro Ayala",
-            "universities": [
-              "Universidade Federal do Ceará"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ESZ"
-      },
-      {
         "title": "THEORETICAL STUDY OF CYANOACRYLATED TERTHIOPHENE BONDED TO ZnO (10-10) SURFACE FOR DYE-SENSITIZED SOLAR CELLS",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/693_1740184547.pdf",
         "field": "Física dos materiais",
@@ -7648,7 +6125,7 @@
             ]
           },
           {
-            "author": "Tales José da Silva",
+            "author": "Tales José Da Silva",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -7676,31 +6153,31 @@
             ]
           },
           {
-            "author": "Igor José dos Santos Thomaz",
+            "author": "Igor José Dos Santos Thomaz",
             "universities": [
               "universidade federal do pará"
             ]
           },
           {
-            "author": "João Vitor Rocha Nery",
+            "author": "JoãO Vitor Rocha Nery",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Jhonatan Ferreira de Amorim",
+            "author": "Jhonatan Ferreira De Amorim",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Francisco Ferreira de Sousa",
+            "author": "Francisco Ferreira De Sousa",
             "universities": [
               "Universidade Federal do Pará"
             ]
           },
           {
-            "author": "Paulo de Tarso Cavalcante Freire",
+            "author": "Paulo De Tarso Cavalcante Freire",
             "universities": [
               "Universidade Federal do Ceará"
             ]
@@ -7722,13 +6199,13 @@
             ]
           },
           {
-            "author": "Catalina Ruano Merchán",
+            "author": "Catalina Ruano MercháN",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
           },
           {
-            "author": "Wesley Kardex Cordeiro de Oliveira",
+            "author": "Wesley Kardex Cordeiro De Oliveira",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -7746,13 +6223,13 @@
             ]
           },
           {
-            "author": "Hélio Chacham",
+            "author": "HéLio Chacham",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
           },
           {
-            "author": "Mário Sérgio de Carvalho Mazzoni",
+            "author": "MáRio SéRgio De Carvalho Mazzoni",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -7794,7 +6271,7 @@
             ]
           },
           {
-            "author": "EMERSON CRISTIANO BARBANO",
+            "author": "Emerson Cristiano Barbano",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -7806,7 +6283,7 @@
             ]
           },
           {
-            "author": "Renato Mafra Moysés",
+            "author": "Renato Mafra MoyséS",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -7828,25 +6305,25 @@
         "presentedBy": "Márcio Santos Rocha",
         "authors": [
           {
-            "author": "TIAGO DE ASSIS MOURA",
+            "author": "Tiago De Assis Moura",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Milton Lopes de Lana Junior",
+            "author": "Milton Lopes De Lana Junior",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "CAIO HENRIQUE VIANA DA SILVA",
+            "author": "Caio Henrique Viana Da Silva",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Lara Ribeiro Américo",
+            "author": "Lara Ribeiro AméRico",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
@@ -7858,19 +6335,19 @@
             ]
           },
           {
-            "author": "Mariana da Costa Novo Pimenta Brandão",
+            "author": "Mariana Da Costa Novo Pimenta BrandãO",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Andreza Germana da Silva Subtil",
+            "author": "Andreza Germana Da Silva Subtil",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Márcio Santos Rocha",
+            "author": "MáRcio Santos Rocha",
             "universities": [
               "Fundação Universidade Federal de Viçosa"
             ]
@@ -7886,25 +6363,25 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Roberta Camila Araujo de Oliveira",
+            "author": "Roberta Camila Araujo De Oliveira",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "Tony Márcio Pereira da Silva",
+            "author": "Tony MáRcio Pereira Da Silva",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "Ammis Sánchez Alvarez",
+            "author": "Ammis SáNchez Alvarez",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "Renato Barbosa da Silva",
+            "author": "Renato Barbosa Da Silva",
             "universities": [
               "Universidade de Pernambuco"
             ]
@@ -7916,7 +6393,7 @@
             ]
           },
           {
-            "author": "José Ferraz de Moura Nunes Filho",
+            "author": "José Ferraz De Moura Nunes Filho",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
@@ -7950,13 +6427,13 @@
             ]
           },
           {
-            "author": "Camille Vitória Unger",
+            "author": "Camille VitóRia Unger",
             "universities": [
               "Universidade Federal do Paraná"
             ]
           },
           {
-            "author": "EMERSON CRISTIANO BARBANO",
+            "author": "Emerson Cristiano Barbano",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -8008,7 +6485,7 @@
             ]
           },
           {
-            "author": "Ricardo Costa de Santana",
+            "author": "Ricardo Costa De Santana",
             "universities": [
               "Universidade Federal de Goiás"
             ]
@@ -8026,7 +6503,7 @@
             ]
           },
           {
-            "author": "Tasso de Oliveira Sales",
+            "author": "Tasso De Oliveira Sales",
             "universities": [
               "Universidade Federal de Alagoas"
             ]
@@ -8062,19 +6539,19 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "FERNANDO DA R VAZ BANDEIRA DE MELO",
+            "author": "Fernando Da R Vaz Bandeira De Melo",
             "universities": [
               "Centro Brasileiro de Pesquisas Físicas"
             ]
           },
           {
-            "author": "GABRIEL DIAS CARVALHO",
+            "author": "Gabriel Dias Carvalho",
             "universities": [
               "Universidade de Pernambuco"
             ]
           },
           {
-            "author": "PEDRO SILVA CORREIA",
+            "author": "Pedro Silva Correia",
             "universities": [
               "Universidade Estadual de Santa Cruz"
             ]
@@ -8086,7 +6563,7 @@
             ]
           },
           {
-            "author": "Thiago Rodrigues de Oliveira",
+            "author": "Thiago Rodrigues De Oliveira",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -8108,7 +6585,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "TIAGO DEBARBA",
+            "author": "Tiago Debarba",
             "universities": [
               "Universidade Tecnológica Federal do Paraná"
             ]
@@ -8136,19 +6613,19 @@
         "presentedBy": "José Ferraz de Moura Nunes Filho",
         "authors": [
           {
-            "author": "Larissa Faneco Gonçalves",
+            "author": "Larissa Faneco GonçAlves",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "Luan Martins Torres de Moraes",
+            "author": "Luan Martins Torres De Moraes",
             "universities": [
               "Universidade Federal de Pernambuco"
             ]
           },
           {
-            "author": "IGOR EMANUEL GONÇALVES DE OLIVEIRA",
+            "author": "Igor Emanuel GonçAlves De Oliveira",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
@@ -8160,13 +6637,13 @@
             ]
           },
           {
-            "author": "Pedro Hugo de Figueirêdo",
+            "author": "Pedro Hugo De FigueirêDo",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
           },
           {
-            "author": "José Ferraz de Moura Nunes Filho",
+            "author": "José Ferraz De Moura Nunes Filho",
             "universities": [
               "Universidade Federal Rural de Pernambuco"
             ]
@@ -8202,7 +6679,7 @@
             ]
           },
           {
-            "author": "JOSÉ A. HOYOS",
+            "author": "José A. Hoyos",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -8218,7 +6695,7 @@
         "presentedBy": "PATRÍCIA DE ASSIS ALMEIDA",
         "authors": [
           {
-            "author": "PATRÍCIA DE ASSIS ALMEIDA",
+            "author": "PatríCia De Assis Almeida",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
@@ -8240,7 +6717,7 @@
             ]
           },
           {
-            "author": "Eric de Castro e Andrade",
+            "author": "Eric De Castro E Andrade",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -8314,13 +6791,13 @@
         "presentedBy": "Yara Galvão Gobato",
         "authors": [
           {
-            "author": "Caique Serati de Brito",
+            "author": "Caique Serati De Brito",
             "universities": [
               "Universidade Federal de São Carlos"
             ]
           },
           {
-            "author": "Bárbara Rosa",
+            "author": "BáRbara Rosa",
             "universities": [
               "Universidade Estadual de Campinas",
               "Technische Universität Berlin"
@@ -8333,7 +6810,7 @@
             ]
           },
           {
-            "author": "CAMILA CAVALINI",
+            "author": "Camila Cavalini",
             "universities": [
               "Universidade Federal de São Carlos"
             ]
@@ -8369,7 +6846,7 @@
             ]
           },
           {
-            "author": "Yara Galvão Gobato",
+            "author": "Yara GalvãO Gobato",
             "universities": [
               "Universidade Federal de São Carlos"
             ]
@@ -8385,7 +6862,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "GRACIANA DOS SANTOS DE SOUSA",
+            "author": "Graciana Dos Santos De Sousa",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -8403,7 +6880,7 @@
             ]
           },
           {
-            "author": "Guillermo Júnior Nogueira Soares",
+            "author": "Guillermo JúNior Nogueira Soares",
             "universities": [
               "Universidade Federal do Rio de Janeiro - Campus Caxias"
             ]
@@ -8421,7 +6898,7 @@
             ]
           },
           {
-            "author": "Maurício Pamplona Pires",
+            "author": "MauríCio Pamplona Pires",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -8433,7 +6910,7 @@
             ]
           },
           {
-            "author": "Patrícia Lustoza Souza",
+            "author": "PatríCia Lustoza Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -8485,7 +6962,7 @@
             ]
           },
           {
-            "author": "Maurício Pamplona Pires",
+            "author": "MauríCio Pamplona Pires",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -8497,7 +6974,7 @@
             ]
           },
           {
-            "author": "Patricia Lustoza de Souza",
+            "author": "Patricia Lustoza De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -8513,13 +6990,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Kaike Rosivan maia pacheco",
+            "author": "Kaike Rosivan Maia Pacheco",
             "universities": [
               "Universidade Federal do Paraná"
             ]
           },
           {
-            "author": "João Paulo Araújo Souza",
+            "author": "JoãO Paulo AraúJo Souza",
             "universities": [
               "Universidade de Brasília"
             ]
@@ -8603,7 +7080,7 @@
             ]
           },
           {
-            "author": "João Vitor Fagundes",
+            "author": "JoãO Vitor Fagundes",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -8615,7 +7092,7 @@
             ]
           },
           {
-            "author": "Américo Tristão Bernardes",
+            "author": "AméRico TristãO Bernardes",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -8627,51 +7104,11 @@
     ]
   },
   {
-    "session": "PL4 - Plenary 4",
-    "date": "2025/05/21",
-    "time": "17h00-18h00",
-    "location": "1º Subsolo - Karajás Auditório",
-    "presentations": [
-      {
-        "title": "Cold atoms: A wonderful platform for quantum physics",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/776_1744649718.pdf",
-        "field": "Física atômica e molecular",
-        "presentedBy": "Hanns-Christoph  Nägerl",
-        "authors": [
-          {
-            "author": "Hanns-Christoph  Nägerl",
-            "universities": [
-              "Universität Innsbruck"
-            ]
-          }
-        ],
-        "hour": "17h00-18h00",
-        "id": "4ET4"
-      }
-    ]
-  },
-  {
     "session": "CSDS3 - COMPUTER SIMULTAION DATA SCIENCE 3",
     "date": "2025/05/22",
     "time": "08h30-10h00",
     "location": "Piso-Térreo - Guará",
     "presentations": [
-      {
-        "title": "COMPUTATIONAL SIMULATION OF ENZYME CATALYSIS AND INHIBITION",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/738_1740773693.pdf",
-        "field": "Simulação computacional e ciência de dados",
-        "presentedBy": "Jeronimo Lameira Silva",
-        "authors": [
-          {
-            "author": "Jeronimo Lameira Silva",
-            "universities": [
-              "Universidade Federal do Pará- campus Belém"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4ERM"
-      },
       {
         "title": "PREDICTING DENGUE OUTBREAKS WITH MACHINE LEARNING",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/474_1739563662.pdf",
@@ -8679,7 +7116,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Américo Tristão Bernardes",
+            "author": "AméRico TristãO Bernardes",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -8703,7 +7140,7 @@
             ]
           },
           {
-            "author": "ALCIDES VOLPATO CARNEIRO DE CASTRO E SILVA",
+            "author": "Alcides Volpato Carneiro De Castro E Silva",
             "universities": [
               "Universidade Federal de Ouro Preto"
             ]
@@ -8719,7 +7156,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Gabriel Bruno Garcia de Souza",
+            "author": "Gabriel Bruno Garcia De Souza",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -8731,7 +7168,7 @@
             ]
           },
           {
-            "author": "Rosângela de Paiva",
+            "author": "RosâNgela De Paiva",
             "universities": [
               "Universidade Federal de São João Del Rei"
             ]
@@ -8777,7 +7214,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Bryan Douglas Nunes Assunção",
+            "author": "Bryan Douglas Nunes AssunçãO",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
@@ -8861,13 +7298,13 @@
             ]
           },
           {
-            "author": "RAFAELLA BARTZ PENA",
+            "author": "Rafaella Bartz Pena",
             "universities": [
               "Universidade de São Paulo Campus de São Carlos"
             ]
           },
           {
-            "author": "Thiago Rodrigues da Cunha",
+            "author": "Thiago Rodrigues Da Cunha",
             "universities": [
               "Instituto de Tecnologia e Pesquisa"
             ]
@@ -8903,32 +7340,32 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Helena Silva Gurgel do Amaral",
+            "author": "Helena Silva Gurgel Do Amaral",
             "universities": [
               "Universidade Federal Fluminense",
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Patrícia Pinto Abrantes",
+            "author": "PatríCia Pinto Abrantes",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "François Impens",
+            "author": "FrançOis Impens",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Paulo Américo Maia Neto",
+            "author": "Paulo AméRico Maia Neto",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
           },
           {
-            "author": "Reinaldo Faria de Melo e Souza",
+            "author": "Reinaldo Faria De Melo E Souza",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -8944,13 +7381,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "RANNA TORRES BARRETO",
+            "author": "Ranna Torres Barreto",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
           },
           {
-            "author": "Jeann César Rodrigues de Araújo",
+            "author": "Jeann CéSar Rodrigues De AraúJo",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
@@ -8974,7 +7411,7 @@
             ]
           },
           {
-            "author": "Acácio Aparecido de Castro Andrade",
+            "author": "AcáCio Aparecido De Castro Andrade",
             "universities": [
               "Universidade Federal de Uberlândia"
             ]
@@ -8996,13 +7433,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Pedro Diego da Silva e Silva",
+            "author": "Pedro Diego Da Silva E Silva",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
           },
           {
-            "author": "Ronald de Araújo Pereira",
+            "author": "Ronald De AraúJo Pereira",
             "universities": [
               "Universidade Federal do Maranhão"
             ]
@@ -9042,7 +7479,7 @@
             ]
           },
           {
-            "author": "Helgi Sigurðsson",
+            "author": "Helgi SigurðSson",
             "universities": [
               "University of Iceland / Háskóli Íslands"
             ]
@@ -9058,13 +7495,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Pedro Henrique Leitão Pereira",
+            "author": "Pedro Henrique LeitãO Pereira",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "Reinaldo Faria de Melo e Souza",
+            "author": "Reinaldo Faria De Melo E Souza",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -9088,7 +7525,7 @@
         "presentedBy": "Marcelo Paleologo E. de França Santos",
         "authors": [
           {
-            "author": "Marcelo Paleologo E. de França Santos",
+            "author": "Marcelo Paleologo E. De FrançA Santos",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -9104,7 +7541,7 @@
         "presentedBy": "Antonio Vidiella Barranco",
         "authors": [
           {
-            "author": "José Lucas Tagliaférro Bertassoli",
+            "author": "José Lucas TagliaféRro Bertassoli",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -9126,7 +7563,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "MARCUS BONANÇA",
+            "author": "Marcus BonançA",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -9172,7 +7609,7 @@
             ]
           },
           {
-            "author": "JOSE ANTONIO ROVERSI",
+            "author": "Jose Antonio Roversi",
             "universities": [
               "Universidade Estadual de Campinas",
               "Departamento de Eletrônica Quântica"
@@ -9191,35 +7628,13 @@
     "location": "Piso-Térreo - Salão Camarote B",
     "presentations": [
       {
-        "title": "Multidimensional spectroscopy of topological insulators",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/510_1739584178.pdf",
-        "field": "Sistemas fortemente correlacionados",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Thaís Victa Trevisan",
-            "universities": [
-              "Universidade de São Paulo"
-            ]
-          },
-          {
-            "author": "Michal Papaj",
-            "universities": [
-              "University of Houston"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4EFH"
-      },
-      {
         "title": "Nonlinear effects on charge fractionalization in critical chains",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/46_1738008643.pdf",
         "field": "Sistemas fortemente correlacionados",
         "presentedBy": "Rodrigo Gonçalves Pereira",
         "authors": [
           {
-            "author": "Rodrigo Gonçalves Pereira",
+            "author": "Rodrigo GonçAlves Pereira",
             "universities": [
               "Universidade Federal do Rio Grande do Norte"
             ]
@@ -9235,13 +7650,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Marcus Vinícius Marinho Pereira de Melo",
+            "author": "Marcus ViníCius Marinho Pereira De Melo",
             "universities": [
               "Instituto de Física da USP"
             ]
           },
           {
-            "author": "Eric de Castro e Andrade",
+            "author": "Eric De Castro E Andrade",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -9297,7 +7712,7 @@
         "presentedBy": "Vinícius Cerqueira Silva",
         "authors": [
           {
-            "author": "Vinícius Cerqueira Silva",
+            "author": "ViníCius Cerqueira Silva",
             "universities": [
               "Universidade de Brasília"
             ]
@@ -9313,7 +7728,7 @@
         "presentedBy": "Marcio Peron Franco de Godoy",
         "authors": [
           {
-            "author": "Bruno Trefilio Magalhães",
+            "author": "Bruno Trefilio MagalhãEs",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -9325,7 +7740,7 @@
             ]
           },
           {
-            "author": "Marcio Peron Franco de Godoy",
+            "author": "Marcio Peron Franco De Godoy",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -9341,7 +7756,7 @@
         "presentedBy": "Marcello Barbosa da Silva Neto",
         "authors": [
           {
-            "author": "Jaime F de Oliveira",
+            "author": "Jaime F De Oliveira",
             "universities": [
               "Centro Brasileiro de Pesquisas Físicas"
             ]
@@ -9371,7 +7786,7 @@
             ]
           },
           {
-            "author": "PEDRO VALE LOPES",
+            "author": "Pedro Vale Lopes",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -9413,7 +7828,7 @@
             ]
           },
           {
-            "author": "Marcello Barbosa da Silva Neto",
+            "author": "Marcello Barbosa Da Silva Neto",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -9431,52 +7846,13 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Surfaces and thin films at LFA/CDTN",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/723_1740583924.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "Waldemar A. A. Macedo",
-        "authors": [
-          {
-            "author": "Waldemar A. A. Macedo",
-            "universities": [
-              "Universidade Federal de Ouro Preto",
-              "Centro de Desenvolvimento da Tecnologia Nuclear"
-            ]
-          }
-        ],
-        "hour": "08h30-09h00",
-        "id": "4EQY"
-      },
-      {
-        "title": "Electronic structure caracterization of nanoparticles based catalysts",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/721_1740581129.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Jonder Morais",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          },
-          {
-            "author": "Maria do Carmo Martins Alves",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          }
-        ],
-        "hour": "09h00-09h20",
-        "id": "4EQW"
-      },
-      {
         "title": "Insights into CO2 adsorption and CO oxidation on ZnS",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/443_1740160837.pdf",
         "field": "Superfícies e filmes finos",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Pablo Ribeiro Alves de Oliveira",
+            "author": "Pablo Ribeiro Alves De Oliveira",
             "universities": [
               "Centro Brasileiro de Pesquisas Físicas"
             ]
@@ -9510,7 +7886,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Vinícius Pascotto Gastaldo",
+            "author": "ViníCius Pascotto Gastaldo",
             "universities": [
               "Universidade Federal de Mato Grosso do Sul",
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
@@ -9535,13 +7911,13 @@
             ]
           },
           {
-            "author": "Eduardo Granado Monteiro da Silva",
+            "author": "Eduardo Granado Monteiro Da Silva",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
           },
           {
-            "author": "Tarcísio Micheli Perfecto",
+            "author": "TarcíSio Micheli Perfecto",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
@@ -9553,7 +7929,7 @@
             ]
           },
           {
-            "author": "Adilson J A de Oliveira",
+            "author": "Adilson J A De Oliveira",
             "universities": [
               "Univerdade Federal de São Carlos"
             ]
@@ -9625,13 +8001,13 @@
             ]
           },
           {
-            "author": "Stephan Kümmel",
+            "author": "Stephan KüMmel",
             "universities": [
               "Universität Bayreuth"
             ]
           },
           {
-            "author": "Thiago Branquinho de Queiroz",
+            "author": "Thiago Branquinho De Queiroz",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -9647,7 +8023,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "GRACIELE MARTINS ARVELOS",
+            "author": "Graciele Martins Arvelos",
             "universities": [
               "Universidade Estadual Paulista"
             ]
@@ -9705,7 +8081,7 @@
             ]
           },
           {
-            "author": "Luan Orion de Oliveira Baraúna Ferreira",
+            "author": "Luan Orion De Oliveira BaraúNa Ferreira",
             "universities": [
               "INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS"
             ]
@@ -9809,7 +8185,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "CARLOS FRAJUCA",
+            "author": "Carlos Frajuca",
             "universities": [
               "Universidade Federal do Rio Grande",
               "Universidade Federal de São Paulo",
@@ -9823,7 +8199,7 @@
             ]
           },
           {
-            "author": "Fabio da Silva Bortoli",
+            "author": "Fabio Da Silva Bortoli",
             "universities": [
               "Instituto Federal de São Paulo"
             ]
@@ -9845,13 +8221,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "João Paulo Araújo Souza",
+            "author": "JoãO Paulo AraúJo Souza",
             "universities": [
               "Universidade de Brasília"
             ]
           },
           {
-            "author": "Kaike Rosivan maia pacheco",
+            "author": "Kaike Rosivan Maia Pacheco",
             "universities": [
               "Universidade Federal do Paraná"
             ]
@@ -9863,7 +8239,7 @@
             ]
           },
           {
-            "author": "Marcelo Lopes Pereira Júnior",
+            "author": "Marcelo Lopes Pereira JúNior",
             "universities": [
               "Universidade de Brasília"
             ]
@@ -9895,58 +8271,6 @@
         ],
         "hour": "11h00-11h20",
         "id": "4DRS"
-      },
-      {
-        "title": "THERMAL EXPANSION AND ELECTRICAL CONDUCTIVITY OF THE BATTERY MATERIAL Li3NbO4 IN THE CATION-ORDERED ROCKSALT PHASE",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/538_1739972273.pdf",
-        "field": "Física dos materiais",
-        "presentedBy": "Clenilton Costa dos Santos",
-        "authors": [
-          {
-            "author": "Micael Rocha de Azevêdo",
-            "universities": [
-              "Universidade Federal do Maranhão"
-            ]
-          },
-          {
-            "author": "Mariana Oliveira dos Santos",
-            "universities": [
-              "Universidade Federal do Ceará"
-            ]
-          },
-          {
-            "author": "Rafael Mendonça Almeida",
-            "universities": [
-              "Instituto Federal do Maranhão"
-            ]
-          },
-          {
-            "author": "Bartolomeu Cruz Viana Neto",
-            "universities": [
-              "Universidade Federal do Piauí"
-            ]
-          },
-          {
-            "author": "Alan Silva de Menezes",
-            "universities": [
-              "Universidade Federal do Maranhão"
-            ]
-          },
-          {
-            "author": "Rodolpho Mouta",
-            "universities": [
-              "Universidade Federal do Ceará"
-            ]
-          },
-          {
-            "author": "Clenilton Costa dos Santos",
-            "universities": [
-              "Universidade Federal do Maranhão"
-            ]
-          }
-        ],
-        "hour": "11h20-11h40",
-        "id": "4EGM"
       }
     ]
   },
@@ -9969,7 +8293,7 @@
             ]
           },
           {
-            "author": "Marcos Gil de Oliveira",
+            "author": "Marcos Gil De Oliveira",
             "universities": [
               "Universidade Federal Fluminense"
             ]
@@ -9993,19 +8317,19 @@
             ]
           },
           {
-            "author": "Braian Pinheiro da Silva",
+            "author": "Braian Pinheiro Da Silva",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           },
           {
-            "author": "Sebastião J. N. Pádua",
+            "author": "SebastiãO J. N. PáDua",
             "universities": [
               "Universidade Federal Fluminense"
             ]
           }
         ],
-        "hour": "10h30-10h50",
+        "hour": "11h00-11h20",
         "id": "4EAB"
       },
       {
@@ -10021,7 +8345,7 @@
             ]
           }
         ],
-        "hour": "10h50-11h10",
+        "hour": "11h20-11h40",
         "id": "4EEY"
       },
       {
@@ -10043,7 +8367,7 @@
             ]
           },
           {
-            "author": "Nara Ávila Moraes",
+            "author": "Nara áVila Moraes",
             "universities": [
               "Instituto de Física da USP"
             ]
@@ -10073,7 +8397,7 @@
             ]
           }
         ],
-        "hour": "11h10-11h30",
+        "hour": "11h40-12h00",
         "id": "4EEG"
       }
     ]
@@ -10084,22 +8408,6 @@
     "time": "10h30-12h00",
     "location": "Piso-Térreo - Salão Camarote A",
     "presentations": [
-      {
-        "title": "Spin and orbital textures in van der Waals matter",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/577_1740084475.pdf",
-        "field": "Semicondutores",
-        "presentedBy": "Paulo Eduardo de Faria Junior",
-        "authors": [
-          {
-            "author": "Paulo Eduardo de Faria Junior",
-            "universities": [
-              "University of Central Florida"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4EJ6"
-      },
       {
         "title": "Detection of Dirac fermions in crystalline topological insulators using magnetotransport measurements",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/273_1739452847.pdf",
@@ -10113,7 +8421,7 @@
             ]
           },
           {
-            "author": "Suelen de Castro",
+            "author": "Suelen De Castro",
             "universities": [
               "Universidade Federal de Itajubá"
             ]
@@ -10141,7 +8449,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Maurício Pamplona Pires",
+            "author": "MauríCio Pamplona Pires",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -10171,7 +8479,7 @@
             ]
           },
           {
-            "author": "PEDRO HENRIQUE PEREIRA",
+            "author": "Pedro Henrique Pereira",
             "universities": [
               "Universidade do Estado do Rio de Janeiro"
             ]
@@ -10183,7 +8491,7 @@
             ]
           },
           {
-            "author": "Patricia Lustoza de Souza",
+            "author": "Patricia Lustoza De Souza",
             "universities": [
               "Universidade Federal do Rio de Janeiro"
             ]
@@ -10212,7 +8520,7 @@
             ]
           },
           {
-            "author": "Fábio de Oliveira Jorge",
+            "author": "FáBio De Oliveira Jorge",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -10224,7 +8532,7 @@
             ]
           },
           {
-            "author": "Luis da Silva Zambom",
+            "author": "Luis Da Silva Zambom",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -10236,7 +8544,7 @@
             ]
           },
           {
-            "author": "Tiago Fiorini da Silva",
+            "author": "Tiago Fiorini Da Silva",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -10254,7 +8562,7 @@
             ]
           },
           {
-            "author": "RONALDO  DOMINGUES  MANSANO",
+            "author": "Ronaldo  Domingues  Mansano",
             "universities": [
               "Universidade de São Paulo"
             ]
@@ -10272,29 +8580,13 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Probing The Electronic Structure of Correlated Metals With Angle Resolved Photoemission Spectroscopy",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/743_1740968797.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "Fernando Assis Garcia",
-        "authors": [
-          {
-            "author": "Fernando Assis Garcia",
-            "universities": [
-              "Universidade de São Paulo"
-            ]
-          }
-        ],
-        "hour": "10h30-11h00",
-        "id": "4ERS"
-      },
-      {
         "title": "PROBING THE ATOMIC STRUCTURE OF IRON ON Ga₂O₃(100) SURFACE USING X-RAYPHOTOELECTRON DIFFRACTION",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/582_1740144754.pdf",
         "field": "Superfícies e filmes finos",
         "presentedBy": "",
         "authors": [
           {
-            "author": "Yosef Schmidt Abreu de Medeiros",
+            "author": "Yosef Schmidt Abreu De Medeiros",
             "universities": [
               "Universidade Federal de Jataí"
             ]
@@ -10306,7 +8598,7 @@
             ]
           },
           {
-            "author": "Abner de Siervo",
+            "author": "Abner De Siervo",
             "universities": [
               "Universidade Estadual de Campinas"
             ]
@@ -10328,52 +8620,6 @@
         "id": "4EJE"
       },
       {
-        "title": "Growth of high quality hexagonal boron nitride (h-BN) on surfaces of transition metals",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/590_1740124578.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Adrian Hemmi",
-            "universities": [
-              "Universität Zürich"
-            ]
-          },
-          {
-            "author": "Ari Paavo Seitsonen",
-            "universities": [
-              "École Normale Supérieure Paris"
-            ]
-          },
-          {
-            "author": "Michael S Altman",
-            "universities": [
-              "Hong Kong University of Science &amp; Technology"
-            ]
-          },
-          {
-            "author": "Marcella Iannuzzi",
-            "universities": [
-              "Universität Zürich"
-            ]
-          },
-          {
-            "author": "Thomas Greber",
-            "universities": [
-              "Universität Zürich"
-            ]
-          },
-          {
-            "author": "Huanyao Cun",
-            "universities": [
-              "Universität Zürich"
-            ]
-          }
-        ],
-        "hour": "11h20-11h40",
-        "id": "4EJP"
-      },
-      {
         "title": "Growth and characterization of topological insulator ( Bi2Te3 ) and magnetic topological insulator (MnBi2Te4) on GaAs (001) by molecular beam epitaxy",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/497_1739575260.pdf",
         "field": "Superfícies e filmes finos",
@@ -10386,14 +8632,14 @@
             ]
           },
           {
-            "author": "Gilberto Rodrigues da Silva Junior",
+            "author": "Gilberto Rodrigues Da Silva Junior",
             "universities": [
               "Fundação Universidade Federal de Viçosa",
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Sergio Luis de Abreu Mello",
+            "author": "Sergio Luis De Abreu Mello",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -10452,13 +8698,13 @@
         "presentedBy": "André Oliveira Guimarães",
         "authors": [
           {
-            "author": "Laísa Cabral Silva",
+            "author": "LaíSa Cabral Silva",
             "universities": [
               "Universidade Estadual do Norte Fluminense Darcy Ribeiro"
             ]
           },
           {
-            "author": "Marco Antonio Rodrigues de Ceia",
+            "author": "Marco Antonio Rodrigues De Ceia",
             "universities": [
               "Universidade Estadual do Norte Fluminense Darcy Ribeiro"
             ]
@@ -10470,7 +8716,7 @@
             ]
           },
           {
-            "author": "André Oliveira Guimarães",
+            "author": "André Oliveira GuimarãEs",
             "universities": [
               "Universidade Estadual do Norte Fluminense Darcy Ribeiro"
             ]
@@ -10486,13 +8732,13 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Wenderson Rodrigues Fialho da Silva",
+            "author": "Wenderson Rodrigues Fialho Da Silva",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Rafael Otoniel Ribeiro Rodrigues da Cunha",
+            "author": "Rafael Otoniel Ribeiro Rodrigues Da Cunha",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -10522,7 +8768,7 @@
         "presentedBy": "Cedric Rocha Leão",
         "authors": [
           {
-            "author": "Cedric Rocha Leão",
+            "author": "Cedric Rocha LeãO",
             "universities": [
               "Universidade Federal do ABC"
             ]
@@ -10538,7 +8784,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "ELINEI PINTO DOS SANTOS",
+            "author": "Elinei Pinto Dos Santos",
             "universities": [
               "Universidade Federal do Pará"
             ]
@@ -10550,7 +8796,7 @@
             ]
           },
           {
-            "author": "Fábio Lacerda Resende e Silva",
+            "author": "FáBio Lacerda Resende E Silva",
             "universities": [
               "Centro Federal de Educação Tecnológica de Minas Gerais"
             ]
@@ -10578,20 +8824,20 @@
         "presentedBy": "Gerson J. Ferreira",
         "authors": [
           {
-            "author": "João Victor Vilela Cassiano",
+            "author": "JoãO Victor Vilela Cassiano",
             "universities": [
               "Universidade Federal de Uberlândia",
               "Universidade de São Paulo"
             ]
           },
           {
-            "author": "Augusto de Lelis Araújo",
+            "author": "Augusto De Lelis AraúJo",
             "universities": [
               "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
             ]
           },
           {
-            "author": "Paulo Eduardo de Faria Junior",
+            "author": "Paulo Eduardo De Faria Junior",
             "universities": [
               "University of Central Florida",
               "Universität Regensburg"
@@ -10616,22 +8862,6 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
-        "title": "Tracking complex atomic events in nanoparticles under reaction conditions",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/751_1741367219.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "Fabiano Bernardi",
-        "authors": [
-          {
-            "author": "Fabiano Bernardi",
-            "universities": [
-              "Universidade Federal do Rio Grande do Sul"
-            ]
-          }
-        ],
-        "hour": "14h00-14h30",
-        "id": "4ES4"
-      },
-      {
         "title": "Revealing the role of ripples in phonon modes for MoS2and MoSe2: Insights from molecular dynamics and machinelearning",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/45_1738006394.pdf",
         "field": "Superfícies e filmes finos",
@@ -10644,7 +8874,7 @@
             ]
           },
           {
-            "author": "Gabriel Bruno Garcia de Souza",
+            "author": "Gabriel Bruno Garcia De Souza",
             "universities": [
               "Universidade Federal de Minas Gerais"
             ]
@@ -10668,7 +8898,7 @@
             ]
           },
           {
-            "author": "Rosângela de Paiva",
+            "author": "RosâNgela De Paiva",
             "universities": [
               "Universidade Federal de São João Del Rei"
             ]
@@ -10724,7 +8954,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Eduardo Nery Duarte de Araújo",
+            "author": "Eduardo Nery Duarte De AraúJo",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -10736,7 +8966,7 @@
             ]
           },
           {
-            "author": "Matheus Almeida de Souza",
+            "author": "Matheus Almeida De Souza",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -10748,13 +8978,13 @@
             ]
           },
           {
-            "author": "Luciano de Moura Guimarães",
+            "author": "Luciano De Moura GuimarãEs",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "Leonarde do Nascmento Rodrigues",
+            "author": "Leonarde Do Nascmento Rodrigues",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
@@ -10772,13 +9002,13 @@
             ]
           },
           {
-            "author": "Sergio Luis de Abreu Mello",
+            "author": "Sergio Luis De Abreu Mello",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
           },
           {
-            "author": "GABRIEL TOMAZ MASSARDI",
+            "author": "Gabriel Tomaz Massardi",
             "universities": [
               "Universidade Federal de Viçosa"
             ]
