@@ -41,20 +41,21 @@
   </div>
 
   <script>
-    // Sample data - replace with your JSON file data
     let sessions = [];
 
-    // Load sessions from JSON file (you'll need to replace this with your actual file)
-    fetch('sessions.json')
-      .then(response => response.json())
-      .then(data => {
-        sessions = data;
+    // Load sessions from JSON files in parallel
+    Promise.all([
+      fetch('sessions.json').then(response => response.json()),
+      fetch('intervals.json').then(response => response.json())
+    ])
+      .then(([sessionsData, intervalsData]) => {
+        sessions = [...sessionsData, ...intervalsData];
         displaySessions();
         updateButtons();
       })
       .catch(error => {
-        console.error('Error loading sessions:', error);
-        sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>O arquivo <code>sessions.json</code> está no lugar?</div>"
+        console.error('Error loading data:', error);
+        sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>Os arquivos <code>sessions.json</code> e <code>intervals.json</code> estão no lugar?</div>"
       });
 
     // Close any open modal when pressing Escape
@@ -97,7 +98,15 @@
         groups[key].sessions.push(session);
       });
 
-      return Object.values(groups);
+      // Sort groups by date and time
+      return Object.values(groups).sort((a, b) => {
+        // First compare dates
+        const dateComparison = a.date.localeCompare(b.date);
+        if (dateComparison !== 0) return dateComparison;
+        
+        // If dates are equal, compare times
+        return a.time.localeCompare(b.time);
+      });
     }
 
     // Display sessions grouped by date and time
@@ -141,8 +150,8 @@
                         </div>
                         <p class="font-medium text-lg">${selectedSession.session}</p>
                         <p class="text-sm text-gray-600">${selectedSession.location}</p>
-                       <p class="text-sm text-gray-600">${selectedSession.presentations.length} ${selectedSession.presentations.length > 1 ? "apresentações" : "apresentação"}</p>
-                                               <div class="mt-3 flex space-x-3">
+                        <p class="text-sm text-gray-600">${selectedSession.presentations.length} ${selectedSession.presentations.length > 1 ? "apresentações" : "apresentação"}</p>
+                        <div class="mt-3 flex space-x-3">
                             <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
                                     onclick="showPresentations('${selectedSession.session}')">
                                 Ver Apresentações
@@ -151,6 +160,11 @@
                                     onclick="toggleSessionOptions('${group.date}-${group.time}')">
                                 Trocar Seleção
                             </button>
+                            <a href="${createGoogleCalendarLink(group.date, group.time, selectedSession.session, selectedSession.location)}" 
+                               target="_blank"
+                               class="text-sm text-green-600 hover:text-green-800 flex items-center cursor-pointer">
+                               📅 Adicionar ao Calendário
+                            </a>
                         </div>
                     `;
           groupElement.appendChild(selectionInfo);
@@ -519,6 +533,50 @@
     // Get the session by name
     function getSessionByName(sessionName) {
       return sessions.find(s => s.session === sessionName);
+    }
+
+    // Create Google Calendar link
+    function createGoogleCalendarLink(date, timeStr, sessionName, location) {
+      try {
+        // Parse date (format: YYYY/MM/DD)
+        const [year, month, day] = date.split('/').map(Number);
+        
+        // Parse time (format: HHh00-HHh00 or HHhMM-HHhMM)
+        const timeRange = timeStr.split('-');
+        const startTimeStr = timeRange[0]; // e.g., "15h00" or "15h30"
+        const endTimeStr = timeRange[1] || ""; // e.g., "16h00" or "16h30"
+        
+        // Extract hours and minutes
+        const startTimeParts = startTimeStr.split('h');
+        const startHour = parseInt(startTimeParts[0], 10);
+        const startMinute = startTimeParts.length > 1 ? parseInt(startTimeParts[1], 10) : 0;
+        
+        let endHour, endMinute;
+        if (endTimeStr) {
+          const endTimeParts = endTimeStr.split('h');
+          endHour = parseInt(endTimeParts[0], 10);
+          endMinute = endTimeParts.length > 1 ? parseInt(endTimeParts[1], 10) : 0;
+        } else {
+          // Default to 2 hours later if no end time
+          endHour = startHour + 2;
+          endMinute = startMinute;
+        }
+        
+        // Create start and end date strings in the format YYYYMMDDTHHMMSS
+        const formatDigit = (num) => num.toString().padStart(2, '0');
+        
+        const startDateStr = `${year}${formatDigit(month)}${formatDigit(day)}T${formatDigit(startHour)}${formatDigit(startMinute)}00`;
+        const endDateStr = `${year}${formatDigit(month)}${formatDigit(day)}T${formatDigit(endHour)}${formatDigit(endMinute)}00`;
+        
+        // Create details string with session details
+        const details = `<b>Sessão:</b> ${sessionName}\n<b>Local:</b> ${location}`;
+        
+        // Build the Google Calendar URL
+        return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(sessionName)}&details=${encodeURIComponent(details)}&dates=${startDateStr}/${endDateStr}&ctz=America/Sao_Paulo`;
+      } catch (error) {
+        console.error('Error creating calendar link:', error);
+        return '#'; // Return fallback link
+      }
     }
 
     // Display presentations for a session

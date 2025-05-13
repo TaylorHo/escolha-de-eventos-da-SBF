@@ -1,0 +1,434 @@
+[
+  {
+    "session": "Cerimônia de Abertura",
+    "date": "2025/05/18",
+    "time": "16h00-17h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Cerimônia de Abertura",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "16h00-17h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Coquetel de boas vindas",
+    "date": "2025/05/18",
+    "time": "18h00-20h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Coquetel de boas vindas",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "18h00-20h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Café - Pausa",
+    "date": "2025/05/19",
+    "time": "10h00-10h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Café - Pausa",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "10h00-10h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Café - Pausa",
+    "date": "2025/05/20",
+    "time": "10h00-10h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Café - Pausa",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "10h00-10h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Café - Pausa",
+    "date": "2025/05/21",
+    "time": "10h00-10h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Café - Pausa",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "10h00-10h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Café - Pausa",
+    "date": "2025/05/22",
+    "time": "10h00-10h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Café - Pausa",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "10h00-10h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Almoço",
+    "date": "2025/05/19",
+    "time": "12h00-14h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Almoço",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "12h00-14h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Almoço",
+    "date": "2025/05/20",
+    "time": "12h00-14h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Almoço",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "12h00-14h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Almoço",
+    "date": "2025/05/21",
+    "time": "12h00-14h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Almoço",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "12h00-14h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Almoço",
+    "date": "2025/05/22",
+    "time": "12h00-14h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Almoço",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "12h00-14h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Plenário 1",
+    "date": "2025/05/18",
+    "time": "17h00-18h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Plenário 1",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "17h00-18h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Plenário 2",
+    "date": "2025/05/19",
+    "time": "17h00-18h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Plenário 2",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "17h00-18h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Plenário 3",
+    "date": "2025/05/20",
+    "time": "17h00-18h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Plenário 3",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "17h00-18h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Plenário 4",
+    "date": "2025/05/21",
+    "time": "17h00-18h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Plenário 4",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "17h00-18h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Plenário 5",
+    "date": "2025/05/22",
+    "time": "17h00-18h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Plenário 5",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "17h00-18h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Sessão de Posters + Pausa do Café",
+    "date": "2025/05/19",
+    "time": "15h30-17h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Sessão de Posters + Pausa do Café",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "15h30-17h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Sessão de Posters + Pausa do Café",
+    "date": "2025/05/20",
+    "time": "15h30-17h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Sessão de Posters + Pausa do Café",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "15h30-17h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Sessão de Posters + Pausa do Café",
+    "date": "2025/05/21",
+    "time": "15h30-17h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Sessão de Posters + Pausa do Café",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "15h30-17h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Sessão de Posters + Pausa do Café",
+    "date": "2025/05/22",
+    "time": "15h30-16h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Sessão de Posters + Pausa do Café",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "15h30-16h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Premiação de Posters",
+    "date": "2025/05/22",
+    "time": "16h30-17h00",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Premiação de Posters",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "16h30-17h00",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Discussão de Painel 1 - Big Science Projects in Physics",
+    "date": "2025/05/19",
+    "time": "18h00-19h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Discussão de Painel 1 - Big Science Projects in Physics",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "18h00-19h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Discussão de Painel 2 - Challenges in Physics Graduate Programs",
+    "date": "2025/05/20",
+    "time": "18h00-19h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Discussão de Painel 2 - Challenges in Physics Graduate Programs",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "18h00-19h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Discussão de Painel 3 - Celebration of Quantum Physics",
+    "date": "2025/05/21",
+    "time": "18h00-19h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Discussão de Painel 3 - Celebration of Quantum Physics",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "18h00-19h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  },
+  {
+    "session": "Cerimônia de Encerramento",
+    "date": "2025/05/22",
+    "time": "18h00-18h30",
+    "location": "Sem Localização",
+    "presentations": [
+      {
+        "title": "Cerimônia de Encerramento",
+        "abstract": "https://www1.fisica.org.br/~eosbf/2025/index.php/en/program",
+        "hour": "18h00-18h30",
+        "location": "Sem Localização",
+        "authors": [],
+        "presentedBy": "SBF",
+        "id": "",
+        "field": "SBF"
+      }
+    ]
+  }
+]

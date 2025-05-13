@@ -38,7 +38,7 @@
       title: row.querySelector("h4 a")?.textContent.trim() || "",
       abstract: row.querySelector("h4 a")?.href || "",
       field: (rawHTML.match(/<strong>Track:\s*<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
-      presentedBy: (rawHTML.match(/<strong>Speaker:<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim(),
+      presentedBy: (rawHTML.match(/<strong>Speaker:<\/strong>\s*(.*?)<br>/i)?.[1] || "").trim().toLocaleLowerCase().replace(/\b\w/g, char => char.toUpperCase()),
       authors,
       hour: row.querySelector("h3 > span")?.textContent.replaceAll("\n", "").trim().replaceAll(":", "h") || "",
       id: row.querySelector("h3 a")?.textContent.trim() || "",
