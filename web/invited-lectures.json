@@ -1,0 +1,1884 @@
+[
+  {
+    "session": "BIO1 - BIOLOGICAL PHYSICS 1",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Memory effects on bacteria navigation",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/764_1741808242.pdf",
+        "field": "Física biológica",
+        "presentedBy": "Rodrigo Soto",
+        "authors": [
+          {
+            "author": "Rodrigo Soto",
+            "universities": ["Universidad de Chile"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ESN"
+      }
+    ]
+  },
+  {
+    "session": "MAG1 - MAGNETISM 1: Spintronics and orbitronics",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Unraveling spin-orbital currents",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/289_1739469293.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Antonio Azevedo Da Costa",
+        "authors": [
+          {
+            "author": "Antonio Azevedo Da Costa",
+            "universities": ["Universidade Federal de Pernambuco"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DZN"
+      },
+      {
+        "title": "Orbitronics in two-dimensional materials",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/729_1740668132.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Tatiana G. Rappoport",
+        "authors": [
+          {
+            "author": "Tatiana G. Rappoport",
+            "universities": [
+              "Universidade do Minho",
+              "International Iberic Nanotechnology Laboratory"
+            ]
+          }
+        ],
+        "hour": "09h00-09h30",
+        "id": "4ERB"
+      },
+      {
+        "title": "Electron Tunneling and Spin-Dependent Phenomena: Developing Concepts for Random Access Memory",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/773_1744491879.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Marek Przybylski",
+        "authors": [
+          {
+            "author": "Marek Przybylski",
+            "universities": ["AGH University of Krakow"]
+          }
+        ],
+        "hour": "09h30-10h00",
+        "id": "4ESY"
+      }
+    ]
+  },
+  {
+    "session": "NAN1 - NANOMATERIALS 1",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "Chiral cobalt oxide nanoparticles templated by a D- and L-tripeptide enantiomeric for spin selectivity in electron transport.",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/59_1738103437.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Iseli LourençO Nantes",
+            "universities": ["Universidade Federal do ABC"]
+          },
+          {
+            "author": "Julia Delatorre Bronzato Zazyki",
+            "universities": ["Universidade Federal do ABC"]
+          },
+          {
+            "author": "Marcelo Yudi Icimoto",
+            "universities": ["Universidade Federal de São Paulo"]
+          },
+          {
+            "author": "Jefferson Bettini",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          },
+          {
+            "author": "Vani Xavier De Oliveira Junior",
+            "universities": ["Universidade Federal do ABC"]
+          },
+          {
+            "author": "Marcia Tsuyama Escote",
+            "universities": ["Universidade Federal do ABC"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DPG"
+      }
+    ]
+  },
+  {
+    "session": "SOF1 - SOFT MATTER 1",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "ENHANCING DEVICE FUNCTIONALITY THROUGH DEFECT ENGINEERING IN SURMOFS",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/749_1741787961.pdf",
+        "field": "Matéria mole",
+        "presentedBy": "Carlos CéSar Bof Bufon",
+        "authors": [
+          {
+            "author": "Carlos CéSar Bof Bufon",
+            "universities": [
+              "Universidade Estadual Paulista \"Júlio de Mesquita Filho\""
+            ]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ERZ"
+      }
+    ]
+  },
+  {
+    "session": "SS - SPECIAL SESSION",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Collaboration Opportunities at Joint Institute for Nuclear Research",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/141_1738756313.pdf",
+        "field": "Diversidade/sociedade",
+        "presentedBy": "Norbert KučErka",
+        "authors": [
+          {
+            "author": "Norbert KučErka",
+            "universities": ["Joint Institute for Nuclear Research"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DSQ"
+      },
+      {
+        "title": "Bridging Neutron-Based Analytical and Complementary Methods for Ecological Situation Assessment",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/777_1744650862.pdf",
+        "field": "Física ambiental e climática",
+        "presentedBy": "Wael Badawy",
+        "authors": [
+          {
+            "author": "Wael Badawy",
+            "universities": ["Joint Institute for Nuclear Research"]
+          }
+        ],
+        "hour": "09h00-09h30",
+        "id": "4ET6"
+      }
+    ]
+  },
+  {
+    "session": "STAT1 - STATISTICAL PHYSICS 1",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Converse Symmetry Breaking",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/762_1741720333.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Adilson E Motter",
+        "authors": [
+          {
+            "author": "Adilson E Motter",
+            "universities": ["Northwestern University"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ESK"
+      }
+    ]
+  },
+  {
+    "session": "TOP1 - TOPOLOGICAL MATTER 1",
+    "date": "2025/05/19",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás B",
+    "presentations": [
+      {
+        "title": "The quantum geometry of tellurene field effect transistors",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/155_1738885806.pdf",
+        "field": "Matéria topológica",
+        "presentedBy": "Marcello Barbosa Da Silva Neto",
+        "authors": [
+          {
+            "author": "Pierpaolo Fontana",
+            "universities": ["Universitat Autònoma de Barcelona"]
+          },
+          {
+            "author": "Victor Velasco Roland Da Silva",
+            "universities": [
+              "International School for Advanced Studies of Trieste"
+            ]
+          },
+          {
+            "author": "Chang Niu",
+            "universities": ["Purdue University"]
+          },
+          {
+            "author": "Peide Ye",
+            "universities": ["Purdue University"]
+          },
+          {
+            "author": "Pedro Vale Lopes",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Kaio Edson Marra De Souza",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Marcus Vinicius De Oliveira Moutinho",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Caio Lewenkopf",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Marcello Barbosa Da Silva Neto",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DTC"
+      }
+    ]
+  },
+  {
+    "session": "BIO2 - BIOLOGICAL PHYSICS 2",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "SPECIATION ON ISLANDS FAVORED BY MIGRATION",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/739_1740782152.pdf",
+        "field": "Física biológica",
+        "presentedBy": "Sabrina Borges Lino Araujo",
+        "authors": [
+          {
+            "author": "Sabrina Borges Lino Araujo",
+            "universities": ["Universidade Federal do Paraná"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ERN"
+      }
+    ]
+  },
+  {
+    "session": "MAG2 - MAGNETISM 2: Spintronics and magnetic Textures",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Designing Topological Spin Textures: Insights from First-Principles",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/664_1740176608.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Angela Burlamaqui Klautau",
+        "authors": [
+          {
+            "author": "Angela Burlamaqui Klautau",
+            "universities": ["Universidade Federal do Pará"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ENN"
+      },
+      {
+        "title": "Light-Controlled Spin Current Injection in 2D Materials",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/752_1741372262.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Flavio Garcia",
+        "authors": [
+          {
+            "author": "Rodrigo Torrao Victor",
+            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
+          },
+          {
+            "author": "Syed Hamza Safeer Gardezi",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "John Fredy Ricardo Marroquin",
+            "universities": ["Universidade de Brasília"]
+          },
+          {
+            "author": "Marcio Costa",
+            "universities": ["Universidade Federal Fluminense"]
+          },
+          {
+            "author": "Victor Carozo",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "Luiz Carlos Sampaio",
+            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
+          },
+          {
+            "author": "Flavio Garcia",
+            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
+          }
+        ],
+        "hour": "11h30-12h00",
+        "id": "4ES6"
+      }
+    ]
+  },
+  {
+    "session": "NAN2 - NANOMATERIALS 2",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "NOVEL PATHWAYS FOR MORPHOLOGICAL AND MECHANICAL CHARACTERIZATION OF ULTRATHIN 2D MATERIALS USING ATOMIC FORCE MICROSCOPY",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/61_1740748265.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Bernardo Ruegger Almeida Neves",
+            "universities": ["Universidade Federal de Minas Gerais"]
+          },
+          {
+            "author": "Luana De Avila",
+            "universities": ["Universidade Federal de Minas Gerais"]
+          },
+          {
+            "author": "Jan Plutnar",
+            "universities": ["Institute of Chemical Technology Prague"]
+          },
+          {
+            "author": "Zdenek Sofer",
+            "universities": ["Institute of Chemical Technology Prague"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4DPJ"
+      }
+    ]
+  },
+  {
+    "session": "SOF2 - SOFT MATTER 2",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "Theoretical Studies of Electronic Structure of Molecules Interacting with Phospholipid Bilayers",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/756_1741574240.pdf",
+        "field": "Matéria mole",
+        "presentedBy": "Kaline Coutinho",
+        "authors": [
+          {
+            "author": "Kaline Coutinho",
+            "universities": ["Instituto de Física da USP"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ESD"
+      }
+    ]
+  },
+  {
+    "session": "STAT2 - STATISTICAL PHYSICS 2",
+    "date": "2025/05/19",
+    "time": "10h30-12h10",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Complex networks applied to brain-computer interfaces",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/737_1740772935.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Gabriela Castellano",
+        "authors": [
+          {
+            "author": "Gabriela Castellano",
+            "universities": ["Universidade Estadual de Campinas"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ERK"
+      },
+      {
+        "title": "Economic Inequality: A Bias-Driven or Random Outcome? An Economics vs. Econophysics Approach",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/767_1743688782.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Ben Hur Francisco Cardoso",
+        "authors": [
+          {
+            "author": "Ben Hur Francisco Cardoso",
+            "universities": ["Petróleo Brasileiro S.A, Logistics Planning"]
+          }
+        ],
+        "hour": "11h00-11h30",
+        "id": "4ESR"
+      }
+    ]
+  },
+  {
+    "session": "SUP1 - SUPERCONDUCTIVITY 1",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Anomalous Magnetoresistance in the Normal Phase of Bi3Ni Superconductor",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/274_1739454553.pdf",
+        "field": "Supercondutividade",
+        "presentedBy": "Milton Andre Tumelero",
+        "authors": [
+          {
+            "author": "Milton Andre Tumelero",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4DYZ"
+      }
+    ]
+  },
+  {
+    "session": "TOP2 - TOPOLOGICAL MATTER 2",
+    "date": "2025/05/19",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás B",
+    "presentations": [
+      {
+        "title": "Chiral states in α-T3 lattices",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/353_1739532427.pdf",
+        "field": "Matéria topológica",
+        "presentedBy": "Diego Rabelo Da Costa",
+        "authors": [
+          {
+            "author": "Diego Rabelo Da Costa",
+            "universities": ["Universidade Federal do Ceará"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4E6A"
+      }
+    ]
+  },
+  {
+    "session": "BIO3 - BIOLOGICAL PHYSICS 3",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Exploring Retinal Function through In Vivo Imaging of Photoreceptor Dynamics",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/740_1740805644.pdf",
+        "field": "Física biológica",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Denise Valente",
+            "universities": ["Universidade de Pernambuco"]
+          },
+          {
+            "author": "Kari V. Vienola",
+            "universities": ["University of Turku / Turun yliopisto"]
+          },
+          {
+            "author": "Robert J. Zawadzki",
+            "universities": ["University of California Davis"]
+          },
+          {
+            "author": "Ravi S. Jonnal",
+            "universities": ["University of California Davis"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ERP"
+      }
+    ]
+  },
+  {
+    "session": "MAG3 - MAGNETISM 3: Magnetic anisotropy and materials",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Hard-axis collapse and recoil-curve overshoot in thin magnetic films",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/375_1739540410.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Julian Penkov Geshev",
+        "authors": [
+          {
+            "author": "Antonio Marcos Helgueira De Andrade",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Lucas Felipe Santos De Azeredo",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "HeloíSa S. Acosta",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Ygor Fernandes",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Alexandre Da Cas Viegas",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Luis Gustavo Pereira",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Julian Penkov Geshev",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4EA2"
+      },
+      {
+        "title": "Thermomagnetic effects and magnetic anisotropy: an experimental and theoretical overview.",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/328_1739490713.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Marcio Assolin Correa",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "Artur De Morais",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "NíVia Luciana Costa De Siqueira",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "JoãO De Medeiros Dantas Neto",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "Romuald Trequia Doumbi",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "Awilvhygon M. D. Freitas",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "Sophie A. De Oliveira",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          },
+          {
+            "author": "Felipe Bohn",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          }
+        ],
+        "hour": "15h00-15h15",
+        "id": "4E4A"
+      }
+    ]
+  },
+  {
+    "session": "NAN3 - NANOMATERIALS 3",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "EFFECT OF ELECTRIC FIELD IN THE STABILITY OF REDOX-EXFOLIATED LAYERED TRANSITION METAL DICHALCOGENIDES",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/391_1739544710.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "Isabel Cristina Dos Santos Carvalho",
+        "authors": [
+          {
+            "author": "Yan Dalton Rodrigues Machado",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "Gabriela A. Prando",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "Leonardo De Farias Araujo",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "Leandro Vitor Da Silva",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Maiara Oliveira Salles",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Daniel Grasseschi",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          },
+          {
+            "author": "Walter Margulis",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          },
+          {
+            "author": "Nikolaos Chalmpes",
+            "universities": ["Cornell University"]
+          },
+          {
+            "author": "Richard A. Vaia",
+            "universities": ["Air Force Research Laboratory"]
+          },
+          {
+            "author": "Anderson S. L. Gomes",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "Isabel Cristina Dos Santos Carvalho",
+            "universities": [
+              "Pontifícia Universidade Católica do Rio de Janeiro"
+            ]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4EAQ"
+      }
+    ]
+  },
+  {
+    "session": "OPT1 - OPTICS AND  PHOTONICS 1",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Graphene-based Optical Modulators for High-Speed Applications",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/734_1740762434.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "LúCia Akemi Miyazato Saito",
+        "authors": [
+          {
+            "author": "LúCia Akemi Miyazato Saito",
+            "universities": ["Mackenzie Presbyterian University"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ERG"
+      }
+    ]
+  },
+  {
+    "session": "SUP2 - SUPERCONDUCTIVITY 2",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Unveiling Helical Superconductivity in Al/NiBr2 Thin Films",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/412_1739549032.pdf",
+        "field": "Supercondutividade",
+        "presentedBy": "Elia Strambini",
+        "authors": [
+          {
+            "author": "Elia Strambini",
+            "universities": [
+              "Istituto Nanoscienze - Consiglio Nazionale delle Ricerche"
+            ]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4EBK"
+      }
+    ]
+  },
+  {
+    "session": "TOP3 - TOPOLOGICAL MATTER 3",
+    "date": "2025/05/19",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás B",
+    "presentations": [
+      {
+        "title": "Exploring topological transport in Pt2HgSe3 nanoribbons: Insights for spintronic device integration",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/163_1738950823.pdf",
+        "field": "Matéria topológica",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Rafael L. H. Freire",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          },
+          {
+            "author": "Felipe Crasto De Lima",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          },
+          {
+            "author": "Roberto Hiroki Miwa",
+            "universities": ["Universidade Federal de Uberlândia"]
+          },
+          {
+            "author": "Adalberto Fazzio",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4DTM"
+      }
+    ]
+  },
+  {
+    "session": "PL2 - Plenary 2",
+    "date": "2025/05/19",
+    "time": "17h00-18h00",
+    "location": "1º Subsolo - Karajás Auditório",
+    "presentations": [
+      {
+        "title": "Hybrid Magnon Modes",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/548_1739997056.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Axel Hoffmann",
+        "authors": [
+          {
+            "author": "Axel Hoffmann",
+            "universities": ["University of Illinois Urbana Champaign"]
+          }
+        ],
+        "hour": "17h00-18h00",
+        "id": "4EGY"
+      }
+    ]
+  },
+  {
+    "session": "BIO4 - BIOLOGICAL PHYSICS 4",
+    "date": "2025/05/20",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "Frequency encoding in cell signaling",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/725_1740589554.pdf",
+        "field": "Física biológica",
+        "presentedBy": "Silvina Ponce Dawson",
+        "authors": [
+          {
+            "author": "Silvina Ponce Dawson",
+            "universities": [
+              "Universidad de Buenos Aires",
+              "ICTP-SAIFR",
+              "Consejo Nacional de Investigaciones Cientificas y Tecnicas"
+            ]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ER2"
+      },
+      {
+        "title": "Brain dynamics: data analysis and numerical simulation of neuronal circuits",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/569_1740078967.pdf",
+        "field": "Física biológica",
+        "presentedBy": "Fernanda Selingardi Matias",
+        "authors": [
+          {
+            "author": "Fernanda Selingardi Matias",
+            "universities": ["Universidade Federal de Alagoas"]
+          }
+        ],
+        "hour": "09h00-09h30",
+        "id": "4EHT"
+      }
+    ]
+  },
+  {
+    "session": "MAG4 - MAGNETISM 4: Spintronics and magnonics",
+    "date": "2025/05/20",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Spin pumping by nuclear spin waves",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/731_1740692379.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Sergio Machado Rezende",
+        "authors": [
+          {
+            "author": "Sergio Machado Rezende",
+            "universities": ["Universidade Federal de Pernambuco"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ERD"
+      }
+    ]
+  },
+  {
+    "session": "NAN4 - NANOMATERIALS 4",
+    "date": "2025/05/20",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "Optical spectroscopy studies of defects in atomically thin materials",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/733_1740761484.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "Bruno R. Carvalho",
+        "authors": [
+          {
+            "author": "Bruno R. Carvalho",
+            "universities": ["Universidade Federal do Rio Grande do Norte"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ERF"
+      }
+    ]
+  },
+  {
+    "session": "OPT2 - OPTICS AND  PHOTONICS 2",
+    "date": "2025/05/20",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Terahertz Cavity Phonon Polaritons in the DSC Regime",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/40_1737993244.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "Felix G. G. Hernandez",
+        "authors": [
+          {
+            "author": "Felix G. G. Hernandez",
+            "universities": ["Universidade de São Paulo"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DNP"
+      }
+    ]
+  },
+  {
+    "session": "STAT3 - STATISTICAL PHYSICS 3",
+    "date": "2025/05/20",
+    "time": "08h30-10h10",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Unraveling the Mysteries: Exploring a Second-Order Phase Transition in Chaotic Systems",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/735_1740766368.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Edson Denis Leonel",
+        "authors": [
+          {
+            "author": "Edson Denis Leonel",
+            "universities": ["Universidade Estadual Paulista"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ERH"
+      },
+      {
+        "title": "From Ernst Ising’s Disappointment to Frustration: Unraveling the Enigma of Anomalies in 1D Models",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/736_1740768505.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Onofre Rojas",
+        "authors": [
+          {
+            "author": "Onofre Rojas",
+            "universities": ["Universidade Federal de Lavras"]
+          }
+        ],
+        "hour": "09h00-09h30",
+        "id": "4ERJ"
+      }
+    ]
+  },
+  {
+    "session": "SUP3 - SUPERCONDUCTIVITY 3",
+    "date": "2025/05/20",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Topological superconductivity in spin-orbit assisted altermagnets",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/481_1741816357.pdf",
+        "field": "Supercondutividade",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Vanuildo Silva De Carvalho",
+            "universities": ["Universidade Federal de Goiás"]
+          },
+          {
+            "author": "Hermann Freire",
+            "universities": ["Universidade Federal de Goiás"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4EED"
+      }
+    ]
+  },
+  {
+    "session": "DIV1 - DIVERSITY/SOCIETY 1",
+    "date": "2025/05/20",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "THE BRAZILIAN NETWORK OF WOMAN IN NANOSCIENCE: HISTORY AND GENDER INCLUSION IMPACT",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/217_1739366759.pdf",
+        "field": "Diversidade/sociedade",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Solange Binotto Fagan",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Laura Osmari Vendrame",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Laura Alicia  Geracitano Monserrat",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Eliana Martins Lima",
+            "universities": ["Universidade Federal de Goiás"]
+          },
+          {
+            "author": "ZéLia Maria Da Costa Ludwig",
+            "universities": ["Universidade Federal de Juiz de Fora"]
+          },
+          {
+            "author": "Rogelma Maria Da Silva Ferreira",
+            "universities": ["Universidade Federal do Recôncavo da Bahia"]
+          },
+          {
+            "author": "Marcela Mohallem Oliveira",
+            "universities": ["Universidade Tecnológica Federal do Paraná"]
+          },
+          {
+            "author": "Alcineia ConceiçãO Oliveira",
+            "universities": ["Universidade Federal do Ceará"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4DWR"
+      }
+    ]
+  },
+  {
+    "session": "MAG5 - MAGNETISM 5:  Magnetic nanoparticles and novel materials",
+    "date": "2025/05/20",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Addressing energy crisis step-by-step: opportunities for magnetic nanosystems",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/722_1740583857.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Fanny BéRon",
+        "authors": [
+          {
+            "author": "Fanny BéRon",
+            "universities": ["Universidade Estadual de Campinas"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4EQX"
+      }
+    ]
+  },
+  {
+    "session": "OPT3 - OPTICS AND  PHOTONICS 3",
+    "date": "2025/05/20",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Quantum frequency conversion driven by classically nonseparable light",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/741_1740832642.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Rafael Ferreira Pinto Do Rego Barros",
+            "universities": ["Instituto de Física da USP"]
+          },
+          {
+            "author": "André Luiz Santos Junior",
+            "universities": ["Universidade Federal Fluminense"]
+          },
+          {
+            "author": "Antonio Zelaquett Khoury",
+            "universities": ["Universidade Federal Fluminense"]
+          },
+          {
+            "author": "Robert Fickler",
+            "universities": [
+              "Tampere University of Technology / Tampereen teknillinen yliopisto"
+            ]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ERQ"
+      }
+    ]
+  },
+  {
+    "session": "STAT4 - STATISTICAL PHYSICS 4",
+    "date": "2025/05/20",
+    "time": "10h30-12h00",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Analytical methods in epidemiological surveillance of respiratory infections",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/778_1744727695.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Marcelo Ferreira Da Costa Gomes",
+        "authors": [
+          {
+            "author": "Marcelo Ferreira Da Costa Gomes",
+            "universities": ["Instituto Oswaldo Cruz"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ETA"
+      }
+    ]
+  },
+  {
+    "session": "DIV2 - DIVERSITY/SOCIETY 2",
+    "date": "2025/05/20",
+    "time": "14h00-15h30",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "IMPACT OF AN ENVIRONMENTAL EDUCATION PROGRAM ON KNOWLEDGE, AWARENESS, AND BEHAVIOR OF LOW-INCOME STUDENTS OF A PUBLIC BRAZILIAN SCHOOL",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/411_1739548823.pdf",
+        "field": "Diversidade/sociedade",
+        "presentedBy": "Fabio David Alves AarãO Reis",
+        "authors": [
+          {
+            "author": "Fabiana Gomes Ferreira",
+            "universities": ["Universidade Federal Fluminense"]
+          },
+          {
+            "author": "Ismael Segundo Da Silva Carrasco",
+            "universities": ["Universidade de Brasília"]
+          },
+          {
+            "author": "Fabio David Alves AarãO Reis",
+            "universities": ["Universidade Federal Fluminense"]
+          }
+        ],
+        "hour": "15h00-15h30",
+        "id": "4EBJ"
+      }
+    ]
+  },
+  {
+    "session": "MAG6 - MAGNETISM 6: Advanced magnetic characterization and applications & Nomination and selection of Nobel Prize laureates",
+    "date": "2025/05/20",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Probing magnetic interfaces with X-ray spectroscopies",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/663_1740176197.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Thiago J. A. Mori",
+        "authors": [
+          {
+            "author": "Thiago J. A. Mori",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ENM"
+      },
+      {
+        "title": "The Nobel Prize in Physics",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/772_1744376600.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Olle Eriksson",
+        "authors": [
+          {
+            "author": "Olle Eriksson",
+            "universities": ["Uppsala University"]
+          }
+        ],
+        "hour": "15h00-15h30",
+        "id": "4ESX"
+      }
+    ]
+  },
+  {
+    "session": "NAN6 - NANOMATERIALS 6",
+    "date": "2025/05/20",
+    "time": "14h00-15h30",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "THEORETICAL STUDY OF LINKERS ADSORPTION ON PRISTINE GRAPHENE FOR BIOSENSING APPLICATIONS",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/214_1739354359.pdf",
+        "field": "Nanomateriais",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Solange Binotto Fagan",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "JúLia Vaz Schultz",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Mariana Zancan Tonel",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Ivana Zanella Da Silva",
+            "universities": ["Universidade Franciscana"]
+          },
+          {
+            "author": "Telma Domingues",
+            "universities": ["International Iberic Nanotechnology Laboratory"]
+          },
+          {
+            "author": "JéRôMe Borme",
+            "universities": ["International Iberic Nanotechnology Laboratory"]
+          },
+          {
+            "author": "Pedro Alpuim",
+            "universities": ["International Iberic Nanotechnology Laboratory"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4DWN"
+      }
+    ]
+  },
+  {
+    "session": "OPT4 - OPTICS AND  PHOTONICS 4",
+    "date": "2025/05/20",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Modular microwave-optical quantum transduction",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/364_1739538253.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "Rodrigo Da Silva Benevides",
+        "authors": [
+          {
+            "author": "Rodrigo Da Silva Benevides",
+            "universities": ["Universidade de São Paulo"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4E6N"
+      }
+    ]
+  },
+  {
+    "session": "STAT5 - STATISTICAL PHYSICS 5",
+    "date": "2025/05/20",
+    "time": "14h00-15h30",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Toward the Modeling of Organic Thin-Film Growth",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/744_1740993158.pdf",
+        "field": "Física estatística",
+        "presentedBy": "Ismael Segundo Da Silva Carrasco",
+        "authors": [
+          {
+            "author": "Ismael Segundo Da Silva Carrasco",
+            "universities": ["Universidade de Brasília"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ERT"
+      }
+    ]
+  },
+  {
+    "session": "PL3 - Plenary 3",
+    "date": "2025/05/20",
+    "time": "17h00-18h00",
+    "location": "1º Subsolo - Karajás Auditório",
+    "presentations": [
+      {
+        "title": "A multiscale approach for magnetization dynamics",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/601_1740149873.pdf",
+        "field": "Magnetismo",
+        "presentedBy": "Olle Eriksson",
+        "authors": [
+          {
+            "author": "Olle Eriksson",
+            "universities": ["Uppsala University"]
+          }
+        ],
+        "hour": "17h00-18h00",
+        "id": "4EK4"
+      }
+    ]
+  },
+  {
+    "session": "ATO1 - ATOMIC AND MOLECULAR PHYSICS 1",
+    "date": "2025/05/21",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Matter-Antimatter Asymmetry in the Universe: Spectroscopy of Trapped Antihydrogen and Method for Direct Comparison with Hydrogen",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/719_1740438655.pdf",
+        "field": "Física atômica e molecular",
+        "presentedBy": "Claudio Lenz Cesar",
+        "authors": [
+          {
+            "author": "Claudio Lenz Cesar",
+            "universities": ["Universidade Federal do Rio de Janeiro"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4EQT"
+      }
+    ]
+  },
+  {
+    "session": "MED1 - MEDICAL PHYSICS 1",
+    "date": "2025/05/21",
+    "time": "08h30-10h00",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Nanothermometry for Cancer Theranostics",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/43_1737999235.pdf",
+        "field": "Física médica",
+        "presentedBy": "Andris Figueiroa Bakuzis",
+        "authors": [
+          {
+            "author": "Andris Figueiroa Bakuzis",
+            "universities": ["Universidade Federal de Goiás"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4DNS"
+      }
+    ]
+  },
+  {
+    "session": "OPT5 - OPTICS AND  PHOTONICS 5",
+    "date": "2025/05/21",
+    "time": "08h30-10h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "INTENSITY CORRELATIONS IN FOUR-WAVE MIXING PROCESS",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/753_1741400388.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Natalia Rodrigues De Melo",
+            "universities": ["Universidade Federal Rural de Pernambuco"]
+          },
+          {
+            "author": "Alexandre Andrade Cavalcanti De Almeida",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "Ammis SáNches áLvarez",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "Mateus Rattes Lima Da Motta",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "Marco Polo Moreno De Souza",
+            "universities": ["Fundação Universidade Federal de Rondônia"]
+          },
+          {
+            "author": "Sandra Sampaio Vianna",
+            "universities": ["Universidade Federal de Pernambuco"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ESA"
+      }
+    ]
+  },
+  {
+    "session": "SCS2 - STRONGLY CORRELATED SYSTEMS 2",
+    "date": "2025/05/21",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Magnetism in symmetry-enforced nodal-line semimetals",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/310_1739478128.pdf",
+        "field": "Sistemas fortemente correlacionados",
+        "presentedBy": "Mariana Malard",
+        "authors": [
+          {
+            "author": "Mariana Malard",
+            "universities": ["Universidade de Brasília"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4E2H"
+      }
+    ]
+  },
+  {
+    "session": "ATO2 - ATOMIC AND MOLECULAR PHYSICS 2",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Collective saturation of the transmission of light by a dense cloud of cold atoms",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/769_1744036834.pdf",
+        "field": "Física atômica e molecular",
+        "presentedBy": "Raul Celistrino Teixeira",
+        "authors": [
+          {
+            "author": "Raul Celistrino Teixeira",
+            "universities": ["Univerdade Federal de São Carlos"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4EST"
+      }
+    ]
+  },
+  {
+    "session": "CSDS1 - COMPUTER SIMULTAION DATA SCIENCE 1",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "Non-graphitic nanocarbons",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/726_1740592609.pdf",
+        "field": "Simulação computacional e ciência de dados",
+        "presentedBy": "Eduardo Costa GirãO",
+        "authors": [
+          {
+            "author": "Eduardo Costa GirãO",
+            "universities": ["Universidade Federal do Piauí"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ER4"
+      }
+    ]
+  },
+  {
+    "session": "MED2 - MEDICAL PHYSICS 2",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "THE IMPORTANCE OF MEDICAL PHYSICIST IN HEALTHCARE",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/499_1741021565.pdf",
+        "field": "Física médica",
+        "presentedBy": "Francisco Glaildo Almeida Sampaio",
+        "authors": [
+          {
+            "author": "Francisco Glaildo Almeida Sampaio",
+            "universities": ["Hospital Ophir Loyola"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4EEZ"
+      }
+    ]
+  },
+  {
+    "session": "OPT6 - OPTICS AND  PHOTONICS 6",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Analytical Evaluation of Total Loss in Tubular Hollow-Core Fibers Throughout the Fabrication Process",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/356_1739535581.pdf",
+        "field": "Óptica e fotônica",
+        "presentedBy": "Jonas Henrique OsóRio",
+        "authors": [
+          {
+            "author": "Duanny Silva Onorio",
+            "universities": ["Universidade Federal de Lavras"]
+          },
+          {
+            "author": "Flavio Augusto De Melo Marques",
+            "universities": ["Universidade Federal de Lavras"]
+          },
+          {
+            "author": "Alexandre Alberto Chaves Cotta",
+            "universities": ["Universidade Federal de Lavras"]
+          },
+          {
+            "author": "Jefferson Esquina Tsuchida",
+            "universities": ["Universidade Federal de Lavras"]
+          },
+          {
+            "author": "Alexandre Bessa Dos Santos",
+            "universities": ["Universidade Federal de Juiz de Fora"]
+          },
+          {
+            "author": "Jonas Henrique OsóRio",
+            "universities": ["Universidade Federal de Lavras"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4E6D"
+      }
+    ]
+  },
+  {
+    "session": "SCS3 - STRONGLY CORRELATED SYSTEMS 3",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "TRIMERS IN THE EXTENDED HUBBARD MODEL",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/421_1739551595.pdf",
+        "field": "Sistemas fortemente correlacionados",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Rene Rodrigues Montenegro Filho",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "David Rafael De Barros Silva",
+            "universities": ["Universidade Federal de Pernambuco"]
+          },
+          {
+            "author": "Diego Alejandro Cogollo Aponte",
+            "universities": ["Universidade Federal de Campina Grande"]
+          },
+          {
+            "author": "MauríCio Domingues Coutinho Filho",
+            "universities": ["Universidade Federal de Pernambuco"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4EBW"
+      }
+    ]
+  },
+  {
+    "session": "SEM2 - SEMICONDUCTORS 2",
+    "date": "2025/05/21",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "Electrical Manipulation of Intervalley Trions in Twisted MoSe2 Homobilayers at Room Temperature",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/192_1739280510.pdf",
+        "field": "Semicondutores",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "BáRbara Rosa",
+            "universities": ["Universidade Estadual de Campinas"]
+          },
+          {
+            "author": "Paulo Eduardo De Faria Junior",
+            "universities": ["Universität Regensburg"]
+          },
+          {
+            "author": "Alisson Ronieri Cadore",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          },
+          {
+            "author": "Yuhui Yang",
+            "universities": ["Technische Universität Berlin"]
+          },
+          {
+            "author": "Aris Koulas-Simos",
+            "universities": ["Technische Universität Berlin"]
+          },
+          {
+            "author": "Chirag Palekar",
+            "universities": ["Technische Universität Berlin"]
+          },
+          {
+            "author": "Seth Ariel Tongay",
+            "universities": ["Arizona State University"]
+          },
+          {
+            "author": "Jaroslav Fabian",
+            "universities": ["Universität Regensburg"]
+          },
+          {
+            "author": "Stephan Reitzenstein",
+            "universities": ["Technische Universität Berlin"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4DVR"
+      }
+    ]
+  },
+  {
+    "session": "ATO3 - ATOMIC AND MOLECULAR PHYSICS 3",
+    "date": "2025/05/21",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás A",
+    "presentations": [
+      {
+        "title": "Van der Waals interaction between atom and thermally emissive dielectric surface",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/771_1744205110.pdf",
+        "field": "Física atômica e molecular",
+        "presentedBy": "JoãO Carlos De Aquino Carvalho",
+        "authors": [
+          {
+            "author": "JoãO Carlos De Aquino Carvalho",
+            "universities": ["Federal University of Pernambuco"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ESW"
+      }
+    ]
+  },
+  {
+    "session": "CSDS2 - COMPUTER SIMULTAION DATA SCIENCE 2",
+    "date": "2025/05/21",
+    "time": "14h00-15h30",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "Interactive Materials Design: Coupling Machine Learning, Molecular Simulations, and Immersive Environments",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/676_1740181152.pdf",
+        "field": "Simulação computacional e ciência de dados",
+        "presentedBy": "Caetano Rodrigues Miranda",
+        "authors": [
+          {
+            "author": "Caetano Rodrigues Miranda",
+            "universities": ["Instituto de Física da USP"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4EP4"
+      }
+    ]
+  },
+  {
+    "session": "MAT6 - MATERIALS PHYSICS 6",
+    "date": "2025/05/21",
+    "time": "14h00-15h30",
+    "location": "1º Subsolo - Karajás B",
+    "presentations": [
+      {
+        "title": "STRUCTURE AND PROPERTIES OF NOVEL HYBRID METAL HALIDE PEROVSKITES",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/774_1744493364.pdf",
+        "field": "Física dos materiais",
+        "presentedBy": "Alejandro Pedro Ayala",
+        "authors": [
+          {
+            "author": "Alejandro Pedro Ayala",
+            "universities": ["Universidade Federal do Ceará"]
+          }
+        ],
+        "hour": "14h00-14h30",
+        "id": "4ESZ"
+      }
+    ]
+  },
+  {
+    "session": "PL4 - Plenary 4",
+    "date": "2025/05/21",
+    "time": "17h00-18h00",
+    "location": "1º Subsolo - Karajás Auditório",
+    "presentations": [
+      {
+        "title": "Cold atoms: A wonderful platform for quantum physics",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/776_1744649718.pdf",
+        "field": "Física atômica e molecular",
+        "presentedBy": "Hanns-Christoph  NäGerl",
+        "authors": [
+          {
+            "author": "Hanns-Christoph  NäGerl",
+            "universities": ["Universität Innsbruck"]
+          }
+        ],
+        "hour": "17h00-18h00",
+        "id": "4ET4"
+      }
+    ]
+  },
+  {
+    "session": "CSDS3 - COMPUTER SIMULTAION DATA SCIENCE 3",
+    "date": "2025/05/22",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Guará",
+    "presentations": [
+      {
+        "title": "COMPUTATIONAL SIMULATION OF ENZYME CATALYSIS AND INHIBITION",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/738_1740773693.pdf",
+        "field": "Simulação computacional e ciência de dados",
+        "presentedBy": "Jeronimo Lameira Silva",
+        "authors": [
+          {
+            "author": "Jeronimo Lameira Silva",
+            "universities": ["Universidade Federal do Pará- campus Belém"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4ERM"
+      }
+    ]
+  },
+  {
+    "session": "SCS5 - STRONGLY CORRELATED SYSTEMS 5",
+    "date": "2025/05/22",
+    "time": "08h30-10h00",
+    "location": "Piso-Térreo - Salão Camarote B",
+    "presentations": [
+      {
+        "title": "Multidimensional spectroscopy of topological insulators",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/510_1739584178.pdf",
+        "field": "Sistemas fortemente correlacionados",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "ThaíS Victa Trevisan",
+            "universities": ["Universidade de São Paulo"]
+          },
+          {
+            "author": "Michal Papaj",
+            "universities": ["University of Houston"]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4EFH"
+      }
+    ]
+  },
+  {
+    "session": "SUR1 - SURFACE AND THIN FILMS 1",
+    "date": "2025/05/22",
+    "time": "08h30-10h20",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Surfaces and thin films at LFA/CDTN",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/723_1740583924.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "Waldemar A. A. Macedo",
+        "authors": [
+          {
+            "author": "Waldemar A. A. Macedo",
+            "universities": [
+              "Universidade Federal de Ouro Preto",
+              "Centro de Desenvolvimento da Tecnologia Nuclear"
+            ]
+          }
+        ],
+        "hour": "08h30-09h00",
+        "id": "4EQY"
+      },
+      {
+        "title": "Tracking complex atomic events in nanoparticles under reaction conditions",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/751_1741367219.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "Fabiano Bernardi",
+        "authors": [
+          {
+            "author": "Fabiano Bernardi",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          }
+        ],
+        "hour": "09h00-09h30",
+        "id": "4ES4"
+      },
+      {
+        "title": "Electronic structure caracterization of nanoparticles based catalysts",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/721_1740581129.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Jonder Morais",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          },
+          {
+            "author": "Maria Do Carmo Martins Alves",
+            "universities": ["Universidade Federal do Rio Grande do Sul"]
+          }
+        ],
+        "hour": "09h30-10h00",
+        "id": "4EQW"
+      }
+    ]
+  },
+  {
+    "session": "QIST4 - QUANTUM INFORMATION SICENCE AND TECHNOLOGY 4",
+    "date": "2025/05/22",
+    "time": "10h30-12h00",
+    "location": "1º Subsolo - Karajás C",
+    "presentations": [
+      {
+        "title": "Polariton Engineering with Quantum Materials",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/779_1746473217.pdf",
+        "field": "Ciência e tecnologia da informação quântica",
+        "presentedBy": "Ingrid David Barcelos",
+        "authors": [
+          {
+            "author": "Ingrid David Barcelos",
+            "universities": [
+              "CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"
+            ]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ETB"
+      }
+    ]
+  },
+  {
+    "session": "SEM5 - SEMICONDUCTORS 5",
+    "date": "2025/05/22",
+    "time": "10h30-12h00",
+    "location": "Piso-Térreo - Salão Camarote A",
+    "presentations": [
+      {
+        "title": "Spin and orbital textures in van der Waals matter",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/577_1740084475.pdf",
+        "field": "Semicondutores",
+        "presentedBy": "Paulo Eduardo De Faria Junior",
+        "authors": [
+          {
+            "author": "Paulo Eduardo De Faria Junior",
+            "universities": ["University of Central Florida"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4EJ6"
+      }
+    ]
+  },
+  {
+    "session": "SUR2 - SURFACE AND THIN FILMS 2",
+    "date": "2025/05/22",
+    "time": "10h30-12h00",
+    "location": "Piso-Mezanino - Marajó",
+    "presentations": [
+      {
+        "title": "Probing The Electronic Structure of Correlated Metals With Angle Resolved Photoemission Spectroscopy",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/743_1740968797.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "Fernando Assis Garcia",
+        "authors": [
+          {
+            "author": "Fernando Assis Garcia",
+            "universities": ["Universidade de São Paulo"]
+          }
+        ],
+        "hour": "10h30-11h00",
+        "id": "4ERS"
+      },
+      {
+        "title": "Growth of high quality hexagonal boron nitride (h-BN) on surfaces of transition metals",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/590_1740124578.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Adrian Hemmi",
+            "universities": ["Universität Zürich"]
+          },
+          {
+            "author": "Ari Paavo Seitsonen",
+            "universities": ["École Normale Supérieure Paris"]
+          },
+          {
+            "author": "Michael S Altman",
+            "universities": ["Hong Kong University of Science &amp; Technology"]
+          },
+          {
+            "author": "Marcella Iannuzzi",
+            "universities": ["Universität Zürich"]
+          },
+          {
+            "author": "Thomas Greber",
+            "universities": ["Universität Zürich"]
+          },
+          {
+            "author": "Huanyao Cun",
+            "universities": ["Universität Zürich"]
+          }
+        ],
+        "hour": "11h20-11h40",
+        "id": "4EJP"
+      }
+    ]
+  },
+  {
+    "session": "PL5 - Plenary 5",
+    "date": "2025/05/22",
+    "time": "17h00-18h00",
+    "location": "1º Subsolo - Karajás Auditório",
+    "presentations": [
+      {
+        "title": "Molecular Modeling of Solvent Effects on Structural and Electronic Properties of Molecular Probes",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/780_1746539770.pdf",
+        "field": "Matéria mole",
+        "presentedBy": "Kaline Coutinho",
+        "authors": [
+          {
+            "author": "Kaline Coutinho",
+            "universities": ["Instituto de Física da USP"]
+          }
+        ],
+        "hour": "17h00-18h00",
+        "id": "4ETC"
+      }
+    ]
+  }
+]

@@ -85,24 +85,6 @@
         ],
         "hour": "09h20-09h40",
         "id": "4ECA"
-      },
-      {
-        "title": "Cellular Griffiths-like phase",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/68_1738163282.pdf",
-        "field": "Física biológica",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Lucas Cesar Gomes Alvarinho Squillante",
-            "universities": ["Universidade Estadual Paulista"]
-          },
-          {
-            "author": "Mariano De Souza",
-            "universities": ["Universidade Estadual Paulista"]
-          }
-        ],
-        "hour": "09h40-10h00",
-        "id": "4DPS"
       }
     ]
   },
@@ -2889,24 +2871,6 @@
     "location": "Piso-Térreo - Guará",
     "presentations": [
       {
-        "title": "Análise Cartográfica sob a Óptica da Física: Um Olhar Decolonial",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/570_1740079668.pdf",
-        "field": "Diversidade/sociedade",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Fernando Henrique Martins Da Silva",
-            "universities": ["Universidade Federal da Bahia"]
-          },
-          {
-            "author": "Ana Paula Garcia Boscatti",
-            "universities": ["Universidade Federal da Bahia"]
-          }
-        ],
-        "hour": "14h30-14h50",
-        "id": "4EHV"
-      },
-      {
         "title": "A DIALOG ON ETHNIC RELATIONS AND VALUING INDIGENOUS KNOWLEDGE IN THE PHYSICAL SCIENCES",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/615_1742426587.pdf",
         "field": "Diversidade/sociedade",
@@ -2935,8 +2899,26 @@
             ]
           }
         ],
-        "hour": "14h50-15h10",
+        "hour": "14h00-14h20",
         "id": "4EKP"
+      },
+      {
+        "title": "Análise Cartográfica sob a Óptica da Física: Um Olhar Decolonial",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/570_1740079668.pdf",
+        "field": "Diversidade/sociedade",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Fernando Henrique Martins Da Silva",
+            "universities": ["Universidade Federal da Bahia"]
+          },
+          {
+            "author": "Ana Paula Garcia Boscatti",
+            "universities": ["Universidade Federal da Bahia"]
+          }
+        ],
+        "hour": "14h20-14h40",
+        "id": "4EHV"
       },
       {
         "title": "EMPOWERING GIRLS IN PHYSICS: OVERCOMING BARRIERS THROUGH RESEARCH PROJECTS",
@@ -2967,7 +2949,7 @@
             ]
           }
         ],
-        "hour": "15h10-15h30",
+        "hour": "14h40-15h00",
         "id": "4EFF"
       }
     ]
@@ -3086,7 +3068,7 @@
             "universities": ["Universidad Técnica Federico Santa María"]
           }
         ],
-        "hour": "14h30-14h50",
+        "hour": "14h00-14h20",
         "id": "4EBF"
       },
       {
@@ -3116,7 +3098,7 @@
             "universities": ["Universidade Federal do Pará"]
           }
         ],
-        "hour": "14h50-15h10",
+        "hour": "14h20-14h40",
         "id": "4ECX"
       },
       {
@@ -3168,8 +3150,22 @@
             "universities": ["University of Porto"]
           }
         ],
-        "hour": "15h10-15h30",
+        "hour": "14h40-15h00",
         "id": "4EDB"
+      },
+      {
+        "title": "Do you trust your Advisor",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/783_1747148723.pdf",
+        "field": "Física dos materiais",
+        "presentedBy": "Eiji Kawahira",
+        "authors": [
+          {
+            "author": "Eiji Kawahira",
+            "universities": ["Versatus"]
+          }
+        ],
+        "hour": "15h00-15h20",
+        "id": "4ETF"
       }
     ]
   },
@@ -3365,7 +3361,7 @@
         "presentedBy": "",
         "authors": [
           {
-            "author": "Krissia Zawadzki",
+            "author": "Krissia De Zawadzki",
             "universities": ["Universidade de São Paulo"]
           },
           {
@@ -3719,6 +3715,32 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
+        "title": "IMPACT OF CT RECONSTRUCTION METHODS ON NOISE TEXTURE AND ELECTRONIC NOISE SUPPRESSION",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/248_1741000682.pdf",
+        "field": "Física médica",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Elsa Bifano Pimenta",
+            "universities": ["Instituto de Física da USP"]
+          },
+          {
+            "author": "Paulo Costa",
+            "universities": ["Instituto de Física da USP"]
+          },
+          {
+            "author": "Luuk Johannes Oostveen",
+            "universities": ["Radboud University Medical Center"]
+          },
+          {
+            "author": "Ioannis Sechopoulos",
+            "universities": ["Radboud University Medical Center"]
+          }
+        ],
+        "hour": "09h00-09h20",
+        "id": "4DXY"
+      },
+      {
         "title": "INVESTIGATION OF LASER SINTERED AL2O3:Mg FOR APPLICATIONS IN LUMINESCENCE DOSIMETRY AREA",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/139_1738685978.pdf",
         "field": "Física médica",
@@ -3737,7 +3759,7 @@
             "universities": ["Instituto de Física da USP"]
           }
         ],
-        "hour": "09h30-09h50",
+        "hour": "09h20-09h40",
         "id": "4DSN"
       }
     ]
@@ -3862,10 +3884,10 @@
         "title": "Speeding up Lindblad dynamics via time-rescaling engineering",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/26_1737490722.pdf",
         "field": "Ciência e tecnologia da informação quântica",
-        "presentedBy": "BertúLio De Lima Bernaardo",
+        "presentedBy": "BertúLio De Lima Bernardo",
         "authors": [
           {
-            "author": "BertúLio De Lima Bernaardo",
+            "author": "BertúLio De Lima Bernardo",
             "universities": ["Universidade Federal da Paraíba"]
           }
         ],
@@ -5875,6 +5897,20 @@
     "location": "1º Subsolo - Karajás B",
     "presentations": [
       {
+        "title": "On the use of windowing of THz time-domain spectroscopy signals",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/136_1738671680.pdf",
+        "field": "Física dos materiais",
+        "presentedBy": "Esteban Marulanda Ardila",
+        "authors": [
+          {
+            "author": "Esteban Marulanda Ardila",
+            "universities": ["Universidade de São Paulo"]
+          }
+        ],
+        "hour": "09h00-09h20",
+        "id": "4DSJ"
+      },
+      {
         "title": "Physical picture for emergent quasi-symmetries in crystals",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/300_1739472563.pdf",
         "field": "Física dos materiais",
@@ -5897,44 +5933,8 @@
             "universities": ["Universidade Federal de Uberlândia"]
           }
         ],
-        "hour": "08h30-09h00",
-        "id": "4E22"
-      },
-      {
-        "title": "On the use of windowing of THz time-domain spectroscopy signals",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/136_1738671680.pdf",
-        "field": "Física dos materiais",
-        "presentedBy": "Esteban Marulanda Ardila",
-        "authors": [
-          {
-            "author": "Esteban Marulanda Ardila",
-            "universities": ["Universidade de São Paulo"]
-          }
-        ],
-        "hour": "09h00-09h20",
-        "id": "4DSJ"
-      },
-      {
-        "title": "The SYK charging advantage as a random walk on graphs",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/336_1744314982.pdf",
-        "field": "Física dos materiais",
-        "presentedBy": "Dario Rosa",
-        "authors": [
-          {
-            "author": "Francisco Divi",
-            "universities": ["Perimeter Institute"]
-          },
-          {
-            "author": "Jeff Murugan",
-            "universities": ["University of Cape Town"]
-          },
-          {
-            "author": "Dario Rosa",
-            "universities": ["universidade estadual paulista"]
-          }
-        ],
         "hour": "09h20-09h40",
-        "id": "4E4J"
+        "id": "4E22"
       },
       {
         "title": "STRUCTURAL MODIFICATIONS INDUCED BY HYDROSTATIC PRESSURE ON LEAD METASILICATE PHASES",
@@ -6395,35 +6395,9 @@
   {
     "session": "SUR1 - SURFACE AND THIN FILMS 1",
     "date": "2025/05/22",
-    "time": "08h30-10h00",
+    "time": "08h30-10h20",
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
-      {
-        "title": "Insights into CO2 adsorption and CO oxidation on ZnS",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/443_1740160837.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Pablo Ribeiro Alves De Oliveira",
-            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
-          },
-          {
-            "author": "Pedro Venezuela",
-            "universities": ["Universidade Federal Fluminense"]
-          },
-          {
-            "author": "Fernando Stavale",
-            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
-          },
-          {
-            "author": "Jorge Anibal Boscoboinik",
-            "universities": ["Brookhaven National Laboratory"]
-          }
-        ],
-        "hour": "09h20-09h40",
-        "id": "4ECS"
-      },
       {
         "title": "High pressure quadruple perovskite manganite LaMn3Mn4O12 Thin Films Stabilized At Room Pressure Via Epitaxial Strain",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/172_1739188646.pdf",
@@ -6480,7 +6454,7 @@
             ]
           }
         ],
-        "hour": "09h40-10h00",
+        "hour": "10h00-10h20",
         "id": "4DTX"
       }
     ]
@@ -6744,6 +6718,20 @@
         ],
         "hour": "11h00-11h20",
         "id": "4DRS"
+      },
+      {
+        "title": "Electrical Characterization of Materials and Quantum Solutions",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/781_1746643204.pdf",
+        "field": "Física dos materiais",
+        "presentedBy": "Bruno Duarte - Keysight Technologies MediçãO Brasil Ltda",
+        "authors": [
+          {
+            "author": "Bruno Duarte - Keysight Technologies MediçãO Brasil Ltda",
+            "universities": ["Keysight Technologies Medição Brasil Ltda."]
+          }
+        ],
+        "hour": "11h20-11h50",
+        "id": "4ETD"
       }
     ]
   },
@@ -7227,6 +7215,32 @@
     "location": "Piso-Mezanino - Marajó",
     "presentations": [
       {
+        "title": "Insights into CO2 adsorption and CO oxidation on ZnS",
+        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/443_1740160837.pdf",
+        "field": "Superfícies e filmes finos",
+        "presentedBy": "",
+        "authors": [
+          {
+            "author": "Pablo Ribeiro Alves De Oliveira",
+            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
+          },
+          {
+            "author": "Pedro Venezuela",
+            "universities": ["Universidade Federal Fluminense"]
+          },
+          {
+            "author": "Fernando Stavale",
+            "universities": ["Centro Brasileiro de Pesquisas Físicas"]
+          },
+          {
+            "author": "Jorge Anibal Boscoboinik",
+            "universities": ["Brookhaven National Laboratory"]
+          }
+        ],
+        "hour": "14h00-14h20",
+        "id": "4ECS"
+      },
+      {
         "title": "Revealing the role of ripples in phonon modes for MoS2and MoSe2: Insights from molecular dynamics and machinelearning",
         "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/45_1738006394.pdf",
         "field": "Superfícies e filmes finos",
@@ -7257,7 +7271,7 @@
             "universities": ["Universidade Federal de São João Del Rei"]
           }
         ],
-        "hour": "14h30-14h50",
+        "hour": "14h20-14h40",
         "id": "4DNV"
       },
       {
@@ -7291,58 +7305,8 @@
             "universities": ["Freie Universität Berlin"]
           }
         ],
-        "hour": "14h50-15h10",
+        "hour": "14h40-15h00",
         "id": "4EKD"
-      },
-      {
-        "title": "Photoinduced Growth of Tellurium Nanosheets on a Cd1-xMnxTe matrix",
-        "abstract": "https://www.eventweb.com.br/eosbf2025/specific-files/manuscripts/eosbf2025/600_1740148723.pdf",
-        "field": "Superfícies e filmes finos",
-        "presentedBy": "",
-        "authors": [
-          {
-            "author": "Eduardo Nery Duarte De AraúJo",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Thamires Cordeiro Soares",
-            "universities": ["Universidade Estadual de Campinas"]
-          },
-          {
-            "author": "Matheus Almeida De Souza",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Paulo Victor Sciammarella Maia",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Luciano De Moura GuimarãEs",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Leonarde Do Nascmento Rodrigues",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Sukarno Olavo Ferreira",
-            "universities": ["Fundação Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Leandro Gutierrez Rizzi",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Sergio Luis De Abreu Mello",
-            "universities": ["Universidade Federal de Viçosa"]
-          },
-          {
-            "author": "Gabriel Tomaz Massardi",
-            "universities": ["Universidade Federal de Viçosa"]
-          }
-        ],
-        "hour": "15h10-15h30",
-        "id": "4EK2"
       }
     ]
   }
