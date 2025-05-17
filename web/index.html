@@ -22,8 +22,13 @@
     <h1 class="text-xl font-bold text-gray-800">EOSBF 2025 | Escolha de Sessões</h1>
     <div class="flex space-x-3 items-center justify-center">
       <a href="https://www.eventweb.com.br/eosbf2025/home-event/schedule.php?q=&area=todas&sessao=todas&tipo=1#trabalhos"
-        target="_blank">Lista
+        target="_blank" class="cursor-pointer">Lista
         oficial de trabalhos</a>
+      <button id="shareUrlBtn"
+        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer"
+        onclick="shareSelections()">
+        🔗 Compartilhar
+      </button>
       <button id="viewSummaryBtn"
         class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
         📋 Ver Resumo
@@ -42,45 +47,6 @@
 
   <script>
     let sessions = [];
-
-    // Load sessions from JSON files in parallel
-    Promise.all([
-      fetch('oral-sessions.json').then(response => response.json()),
-      fetch('invited-lectures.json').then(response => response.json()),
-      fetch('intervals.json').then(response => response.json())
-    ])
-      .then(([oralSessionsData, invitedLecturesData, intervalsData]) => {
-        // Create a map to merge sessions with the same name
-        const sessionsMap = new Map();
-        
-        // Process oral sessions
-        oralSessionsData.forEach(session => {
-          sessionsMap.set(session.session, session);
-        });
-        
-        // Process invited lectures, merging presentations if session already exists
-        invitedLecturesData.forEach(session => {
-          if (sessionsMap.has(session.session)) {
-            // Merge presentations from both arrays
-            const existingSession = sessionsMap.get(session.session);
-            existingSession.presentations = [
-              ...existingSession.presentations,
-              ...session.presentations
-            ];
-          } else {
-            sessionsMap.set(session.session, session);
-          }
-        });
-        
-        // Convert map back to array and add intervals
-        sessions = [...sessionsMap.values(), ...intervalsData];
-        displaySessions();
-        updateButtons();
-      })
-      .catch(error => {
-        console.error('Error loading data:', error);
-        sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>Os arquivos <code>oral-sessions.json</code>, <code>invited-lectures.json</code> e <code>intervals.json</code> estão no lugar?</div>"
-      });
 
     // Close any open modal when pressing Escape
     document.addEventListener("keydown", (event) => {
@@ -279,24 +245,270 @@
       const { session, date, time } = sessionData;
       const key = `${date}-${time}`;
 
-      // Get current selections from localStorage
+      // Get current selections from URL
       let selectedSessions = getSelectedSessions();
 
       // Update selection
       selectedSessions[key] = session;
 
-      // Save to localStorage
-      localStorage.setItem('selectedSessions', JSON.stringify(selectedSessions));
+      // Save to URL
+      updateUrlWithSelections(selectedSessions);
 
       // Refresh the display
       displaySessions();
       updateButtons();
     }
 
-    // Get selected sessions from localStorage
+    // Update URL with selected sessions using compact format
+    function updateUrlWithSelections(selectedSessions) {
+      const newUrl = new URL(window.location.href);
+      
+      if (Object.keys(selectedSessions).length > 0) {
+        // Create a compact array of session IDs for the URL
+        const sessionIds = [];
+        
+        // For each date-time key, get the session ID
+        Object.entries(selectedSessions).forEach(([key, sessionName]) => {
+          // Find the session object to get a unique identifier
+          const session = sessions.find(s => s.session === sessionName);
+          if (session) {
+            // Create a compact ID using the session name and date-time
+            const sessionId = createSessionId(session, key);
+            sessionIds.push(sessionId);
+          }
+        });
+        
+        if (sessionIds.length > 0) {
+          newUrl.searchParams.set('s', sessionIds.join('-'));
+        } else {
+          newUrl.searchParams.delete('s');
+        }
+      } else {
+        newUrl.searchParams.delete('s');
+      }
+      
+      // Update URL without reloading the page
+      window.history.pushState({}, '', newUrl);
+    }
+    
+    // Create a unique but short ID for a session
+    function createSessionId(session, dateTimeKey) {
+      // Extract date and time from the key
+      const [date, time] = dateTimeKey.split('-');
+      
+      console.log(`Creating ID for session: "${session.session}" with date: ${date}, time: ${time}`);
+      
+      // Process the date to a simpler format (MMDD)
+      const dateSimple = date.replace(/\//g, '').substring(4); // Remove slashes and get only month and day
+      
+      // Process the time to a simpler format (HHMM)
+      // Extract only the start time and remove any non-digit characters
+      const timeStart = time.split('-')[0]; // Get only start time
+      const timeSimple = timeStart.replace(/\D/g, ''); // Remove all non-digits
+      
+      // Pad to ensure we have 4 digits
+      const timeSimplePadded = timeSimple.padStart(4, '0').substring(0, 4);
+      
+      // Create a hash of the session name (use only first 4 chars for compactness)
+      const sessionHash = hashString(session.session).substring(0, 4);
+      
+      // Combine them all
+      const sessionId = `${dateSimple}${timeSimplePadded}${sessionHash}`;
+      console.log(`Generated session ID: ${sessionId} from date: ${dateSimple}, time: ${timeSimplePadded}, hash: ${sessionHash}`);
+      
+      return sessionId;
+    }
+    
+    // Get selected sessions from URL using compact format
     function getSelectedSessions() {
-      const stored = localStorage.getItem('selectedSessions');
-      return stored ? JSON.parse(stored) : {};
+      const urlParams = new URLSearchParams(window.location.search);
+      const sessionsParam = urlParams.get('s');
+      
+      if (!sessionsParam) {
+        return {};
+      }
+      
+      const selectedSessions = {};
+      const sessionIds = sessionsParam.split('-');
+      
+      console.log('Loading sessions from URL:', sessionIds);
+      
+      // Loop through all session IDs in the URL
+      sessionIds.forEach(sessionId => {
+        // Parse the session ID to extract date and time
+        const dateTime = parseSessionId(sessionId);
+        
+        if (dateTime) {
+          console.log(`Parsed dateTime from ID ${sessionId}:`, dateTime);
+          
+          // Find matching session
+          const matchedSession = findSessionByIdAndDateTime(sessionId, dateTime);
+          if (matchedSession) {
+            console.log(`Found matching session:`, matchedSession.session);
+            selectedSessions[dateTime] = matchedSession.session;
+          } else {
+            console.warn(`No matching session found for dateTime: ${dateTime}`);
+          }
+        } else {
+          console.warn(`Could not parse dateTime from ID: ${sessionId}`);
+        }
+      });
+      
+      console.log('Final selected sessions:', selectedSessions);
+      return selectedSessions;
+    }
+    
+    // Parse a session ID back to its date-time key
+    function parseSessionId(sessionId) {
+      if (sessionId.length >= 8) { // Ensure we have enough characters
+        // Extract date part (MMDD)
+        const month = sessionId.substring(0, 2);
+        const day = sessionId.substring(2, 4);
+        
+        // Extract time part (HHMM)
+        const hour = sessionId.substring(4, 6);
+        const minute = sessionId.substring(6, 8);
+        
+        console.log(`Parsing session ID ${sessionId}: month=${month}, day=${day}, hour=${hour}, minute=${minute}`);
+        
+        // Reconstruct the date-time key
+        const eventYear = 2025; // Hard-coded for this specific event
+        
+        // Create the basic date-time without specific formatting yet
+        const dateKey = `${eventYear}/${month}/${day}`;
+        const baseTimeKey = `${hour}${minute}`; // Just digits
+        
+        console.log(`Base date-time: ${dateKey}-${baseTimeKey}`);
+        
+        // Look for matching sessions to determine the right format
+        const matchingSessions = sessions.filter(s => s.date === dateKey);
+        
+        if (matchingSessions.length > 0) {
+          console.log(`Found ${matchingSessions.length} sessions on date ${dateKey}`);
+          
+          // Try to find a session with matching time (start time only)
+          for (const session of matchingSessions) {
+            // Extract just the digits from the start time for comparison
+            const sessionTimeStart = session.time.split('-')[0];
+            const sessionTimeDigits = sessionTimeStart.replace(/\D/g, '');
+            
+            console.log(`Comparing ${baseTimeKey} with ${sessionTimeDigits} from ${session.time}`);
+            
+            // If we find a matching time, use that session's time format
+            if (sessionTimeDigits === baseTimeKey || 
+                // Handle special cases where padding might differ
+                (sessionTimeDigits.length >= 3 && baseTimeKey.endsWith(sessionTimeDigits)) ||
+                (baseTimeKey.length >= 3 && sessionTimeDigits.endsWith(baseTimeKey))) {
+              
+              console.log(`Found matching session with time ${session.time}`);
+              return `${dateKey}-${session.time}`;
+            }
+          }
+          
+          // If no exact match found, use the first session's time format as template
+          const templateSession = matchingSessions[0];
+          const timeFormat = templateSession.time;
+          
+          // Check if time format uses h or : and reconstruct accordingly
+          let reconstructedTime;
+          if (timeFormat.includes('h')) {
+            reconstructedTime = `${hour}h${minute}`;
+            if (timeFormat.includes('-')) {
+              // If the format includes a range, try to reconstruct it
+              const rangeMatch = timeFormat.match(/(\d+h\d+)-(\d+h\d+)/);
+              if (rangeMatch) {
+                const timeRange = rangeMatch[2]; // End time
+                reconstructedTime += `-${timeRange}`;
+              }
+            }
+          } else if (timeFormat.includes(':')) {
+            reconstructedTime = `${hour}:${minute}`;
+            if (timeFormat.includes('-')) {
+              // If the format includes a range, try to reconstruct it
+              const rangeMatch = timeFormat.match(/(\d+:\d+)-(\d+:\d+)/);
+              if (rangeMatch) {
+                const timeRange = rangeMatch[2]; // End time
+                reconstructedTime += `-${timeRange}`;
+              }
+            }
+          } else {
+            // Unknown format, just use the basic format
+            reconstructedTime = `${hour}h${minute}`;
+          }
+          
+          console.log(`Reconstructed time: ${reconstructedTime}`);
+          return `${dateKey}-${reconstructedTime}`;
+        } else {
+          // No sessions found on this date, use a basic format
+          console.log(`No sessions found on date ${dateKey}, using basic format`);
+          return `${dateKey}-${hour}h${minute}`;
+        }
+      }
+      return null;
+    }
+    
+    // Find a session by its ID and date-time
+    function findSessionByIdAndDateTime(sessionId, dateTime) {
+      // Extract the hash part from the session ID (characters after position 8)
+      const sessionHash = sessionId.substring(8);
+      
+      // Get the date and time parts
+      const [datePart, timePart] = dateTime.split('-');
+      
+      console.log(`Looking for session with date: ${datePart}, time: ${timePart}, hash: ${sessionHash}`);
+      
+      // Find all sessions matching this date
+      const matchingSessions = sessions.filter(s => s.date === datePart);
+      console.log(`Found ${matchingSessions.length} sessions for date ${datePart}`);
+      
+      // From these, find sessions with matching time start
+      // We need to be flexible with time format
+      const timeStart = timePart.split('-')[0];
+      const timeMatchingSessions = matchingSessions.filter(s => {
+        const sessionTimeStart = s.time.split('-')[0];
+        // Normalize both times to remove h/: for comparison
+        const normalizedTimeStart = timeStart.replace(/[h:]/g, '');
+        const normalizedSessionTimeStart = sessionTimeStart.replace(/[h:]/g, '');
+        return normalizedTimeStart === normalizedSessionTimeStart;
+      });
+      
+      console.log(`Found ${timeMatchingSessions.length} sessions matching time ${timeStart}`);
+      
+      // From these, find the one with the matching hash
+      for (const session of timeMatchingSessions) {
+        const sessionNameHash = hashString(session.session).substring(0, 4);
+        console.log(`Comparing ${sessionNameHash} with ${sessionHash}`);
+        if (sessionNameHash === sessionHash) {
+          return session;
+        }
+      }
+      
+      // If exact hash match fails, try partial match
+      for (const session of timeMatchingSessions) {
+        if (hashString(session.session).includes(sessionHash)) {
+          return session;
+        }
+      }
+      
+      // If we have only one session at this time slot, just return it
+      if (timeMatchingSessions.length === 1) {
+        console.log('Only one session at this time slot, selecting it');
+        return timeMatchingSessions[0];
+      }
+      
+      return null;
+    }
+    
+    // Create a simple hash from a string for compact IDs
+    function hashString(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32bit integer
+      }
+      // Convert to a base36 string for compactness
+      return Math.abs(hash).toString(36);
     }
 
     // Extract the start time from format like "08h00-09h00" or "14h30-15h30"
@@ -360,7 +572,7 @@
               <ul class="text-sm space-y-1 pl-4">
                 ${sortedPresentations.map(pres => `
                   <li>
-                    <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800">
+                    <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800 cursor-pointer">
                       ${pres.hour}: ${pres.title}
                     </a>
                   </li>
@@ -400,11 +612,17 @@
             ${sessionsList}
           </div>
           <div class="border-t border-gray-300 p-4 flex justify-between">
-            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
-                    onclick="exportSelections()">
-              🖨️ Imprimir Agenda
-            </button>
-            <button class="bg-gray-300 hover:bg-gray-400 text-gray-700 px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+            <div class="flex space-x-3">
+              <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 cursor-pointer"
+                      onclick="exportSelections()">
+                🖨️ Imprimir Agenda
+              </button>
+              <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 cursor-pointer"
+                      onclick="shareSelections()">
+                🔗 Compartilhar Agenda
+              </button>
+            </div>
+            <button class="bg-gray-300 hover:bg-gray-400 text-gray-700 px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 cursor-pointer"
                     onclick="closeSummaryModal()">
               Fechar
             </button>
@@ -502,7 +720,7 @@
           printHTML += `
             <div class="p-4 bg-blue-50 rounded-md mb-4">
               <div class="font-bold text-gray-900">
-                ${pres.hour}: <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">${pres.title}</a>
+                ${pres.hour}: <a href="${pres.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800 cursor-pointer">${pres.title}</a>
               </div>
          `;
 
@@ -546,7 +764,7 @@
 
     // Clear all selections
     function clearAllSelections() {
-      localStorage.removeItem('selectedSessions');
+      updateUrlWithSelections({});
       displaySessions();
       updateButtons();
     }
@@ -556,7 +774,7 @@
       let selectedSessions = getSelectedSessions();
       delete selectedSessions[key];
 
-      localStorage.setItem('selectedSessions', JSON.stringify(selectedSessions));
+      updateUrlWithSelections(selectedSessions);
 
       displaySessions();
       updateButtons();
@@ -654,7 +872,7 @@
 
         presentationsHTML += `
                 <div class="border border-gray-300 p-4 rounded-lg mb-4 bg-white shadow-sm">
-                    <h3 class="font-bold text-lg mb-2 text-gray-800 cursor-pointer"><a href="${presentation.abstract}" target="_blank">${presentation.title}</a> &#8599;</h3>
+                    <h3 class="font-bold text-lg mb-2 text-gray-800"><a href="${presentation.abstract}" target="_blank" class="text-blue-600 hover:text-blue-800 cursor-pointer">${presentation.title}</a> &#8599;</h3>
                     <div class="flex flex-wrap gap-2 mb-3">
                         <span class="bg-blue-100 text-blue-800 text-xs text-center px-2 py-1 rounded">
                             &#127891; ${presentation.field}
@@ -731,8 +949,135 @@
 
     // Check for selections on load to update buttons
     window.onload = function () {
-      updateButtons();
+      // Load data first, then initialize UI
+      Promise.all([
+        fetch('oral-sessions.json').then(response => response.json()),
+        fetch('invited-lectures.json').then(response => response.json()),
+        fetch('intervals.json').then(response => response.json())
+      ])
+      .then(([oralSessionsData, invitedLecturesData, intervalsData]) => {
+        // Process the data (existing code from the Promise.all callback)
+        const sessionsMap = new Map();
+        
+        // Process oral sessions
+        oralSessionsData.forEach(session => {
+          sessionsMap.set(session.session, session);
+        });
+        
+        // Process invited lectures, merging presentations if session already exists
+        invitedLecturesData.forEach(session => {
+          if (sessionsMap.has(session.session)) {
+            // Merge presentations from both arrays
+            const existingSession = sessionsMap.get(session.session);
+            existingSession.presentations = [
+              ...existingSession.presentations,
+              ...session.presentations
+            ];
+          } else {
+            sessionsMap.set(session.session, session);
+          }
+        });
+        
+        // Convert map back to array and add intervals
+        sessions = [...sessionsMap.values(), ...intervalsData];
+        
+        console.log('Data loaded, checking for URL parameters');
+        
+        // Now check if we have URL parameters and update the UI
+        try {
+          if (window.location.search.includes('s=')) {
+            console.log('Found session parameters in URL');
+            const selectedSessions = getSelectedSessions();
+            console.log('Selected sessions from URL:', selectedSessions);
+            
+            if (Object.keys(selectedSessions).length > 0) {
+              // Force redisplay with selections
+              displaySessions();
+              console.log('UI updated with selections from URL');
+            }
+          } else {
+            // No URL parameters, just display the sessions
+            displaySessions();
+          }
+        } catch (err) {
+          console.error('Error loading sessions from URL:', err);
+          // Still display sessions even if there was an error
+          displaySessions();
+        }
+        
+        // Update UI states
+        updateButtons();
+      })
+      .catch(error => {
+        console.error('Error loading data:', error);
+        sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>Os arquivos <code>oral-sessions.json</code>, <code>invited-lectures.json</code> e <code>intervals.json</code> estão no lugar?</div>"
+      });
     };
+
+    // Share selections by copying URL to clipboard
+    function shareSelections() {
+      const url = window.location.href;
+      
+      // Try to use the modern clipboard API with fallback
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url)
+          .then(showSuccessToast)
+          .catch(err => {
+            console.error('Clipboard API failed:', err);
+            fallbackCopyToClipboard(url);
+          });
+      } else {
+        fallbackCopyToClipboard(url);
+      }
+    }
+    
+    // Fallback method for copying to clipboard
+    function fallbackCopyToClipboard(text) {
+      // Create a temporary input to copy the URL
+      const tempInput = document.createElement('input');
+      tempInput.value = text;
+      tempInput.style.position = 'fixed';
+      tempInput.style.opacity = '0';
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      
+      try {
+        // Copy URL to clipboard
+        const success = document.execCommand('copy');
+        if (success) {
+          showSuccessToast();
+        } else {
+          throw new Error('Could not copy text');
+        }
+      } catch (err) {
+        console.error('Fallback clipboard copy failed:', err);
+        alert('Não foi possível copiar o URL. Por favor, copie manualmente da barra de endereço.');
+      }
+      
+      // Clean up
+      document.body.removeChild(tempInput);
+    }
+    
+    // Show success toast when URL is copied
+    function showSuccessToast() {
+      const toast = document.createElement('div');
+      toast.className = 'fixed bottom-4 right-4 bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded shadow-md z-50';
+      toast.innerHTML = `
+        <div class="flex items-center">
+          <div class="py-1"><svg class="fill-current h-6 w-6 text-green-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM6.7 9.29L9 11.6l4.3-4.3 1.4 1.42L9 14.4l-3.7-3.7 1.4-1.42z"/></svg></div>
+          <div>
+            <p class="font-bold">URL copiada para área de transferência!</p>
+            <p class="text-sm">Compartilhe com seus colegas.</p>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(toast);
+      
+      // Remove toast after 3 seconds
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }
   </script>
 </body>
 
