@@ -77,11 +77,15 @@
       const groups = {};
 
       sessions.forEach(session => {
-        const key = `${session.date}-${session.time}`;
+        // Extract just the start time without the end time
+        const startTime = session.time.split('-')[0];
+        const key = `${session.date}-${startTime}`;
+        
         if (!groups[key]) {
           groups[key] = {
             date: session.date,
-            time: session.time,
+            time: startTime, // Only use start time for grouping
+            fullTimeRange: session.time, // Keep the full time range for display
             sessions: []
           };
         }
@@ -95,7 +99,16 @@
         if (dateComparison !== 0) return dateComparison;
         
         // If dates are equal, compare times
-        return a.time.localeCompare(b.time);
+        // Convert times to minutes for numeric comparison
+        const getMinutes = (timeStr) => {
+          const parts = timeStr.replace(/[h:]/, '').split(/[h:]/);
+          if (parts.length >= 2) {
+            return parseInt(parts[0]) * 60 + parseInt(parts[1] || 0);
+          }
+          return parseInt(parts[0]) * 60;
+        };
+        
+        return getMinutes(a.time) - getMinutes(b.time);
       });
     }
 
@@ -114,55 +127,78 @@
 
         const groupHeader = document.createElement('h2');
         groupHeader.className = 'text-2xl font-semibold mb-3 text-gray-700';
-        groupHeader.innerHTML = `${dateFormatted} ${group.time}`;
+        // Use fullTimeRange if available for display purposes
+        const displayTime = group.fullTimeRange || group.time;
+        groupHeader.innerHTML = `${dateFormatted} ${displayTime}`;
         groupElement.appendChild(groupHeader);
 
-        const alreadySelected = group.sessions.some(session =>
-          selectedSessions[`${session.date}-${session.time}`]);
+        // For selection purposes, use only the start time
+        const alreadySelected = group.sessions.some(session => {
+          const sessionStartTime = session.time.split('-')[0];
+          const key = `${session.date}-${sessionStartTime}`;
+          return selectedSessions[key];
+        });
 
         if (alreadySelected) {
-          const selectedSessionKey = `${group.date}-${group.time}`;
+          // Get the selected session using only the start time
+          const startTime = group.time; // This is already the start time from our updated grouping function
+          const selectedSessionKey = `${group.date}-${startTime}`;
           const selectedSessionId = selectedSessions[selectedSessionKey];
-          const selectedSession = group.sessions.find(s => s.session === selectedSessionId);
+          // Use case-insensitive comparison
+          const selectedSession = group.sessions.find(s => 
+            s.session.toLowerCase() === selectedSessionId.toLowerCase()
+          );
 
+          // Check if session was found (should not happen with our fixes, but good defensive coding)
+          if (!selectedSession) {
+            // Skip this group or show a default message
+            const errorMsg = document.createElement('div');
+            errorMsg.className = 'p-3 bg-red-50 text-red-700 rounded-md';
+            errorMsg.innerText = `Não foi possível encontrar a sessão "${selectedSessionId}" neste horário.`;
+            groupElement.appendChild(errorMsg);
+            return;
+          }
+
+          // Normal case when selected session is found - we now handle case sensitivity 
+          // and start time issues, so we should always find the session
           const selectionInfo = document.createElement('div');
           selectionInfo.className = 'p-4 bg-blue-50 border border-blue-200 rounded-lg mb-3 relative';
           selectionInfo.innerHTML = `
-                        <div class="absolute top-2 right-2">
-                            <button class="text-red-500 hover:text-red-700 cursor-pointer text-2xl" 
-                                    data-key="${group.date}-${group.time}"
-                                    onclick="removeSession('${group.date}-${group.time}')">
-                                &cross;
-                            </button>
-                        </div>
-                        <div class="flex items-center mb-2">
-                            <span class="bg-green-200 text-green-800 text-xs font-medium px-2 py-1 rounded">&#9989; Selecionada</span>
-                        </div>
-                        <p class="font-medium text-lg">${selectedSession.session}</p>
-                        <p class="text-sm text-gray-600">${selectedSession.location}</p>
-                        <p class="text-sm text-gray-600">${selectedSession.presentations.length} ${selectedSession.presentations.length > 1 ? "apresentações" : "apresentação"}</p>
-                        <div class="mt-3 flex space-x-3">
-                            <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
-                                    onclick="showPresentations('${selectedSession.session}')">
-                                Ver Apresentações
-                            </button>
-                            <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
-                                    onclick="toggleSessionOptions('${group.date}-${group.time}')">
-                                Trocar Seleção
-                            </button>
-                            <a href="${createGoogleCalendarLink(group.date, group.time, selectedSession.session, selectedSession.location)}" 
-                               target="_blank"
-                               class="text-sm text-green-600 hover:text-green-800 flex items-center cursor-pointer">
-                               📅 Adicionar ao Calendário
-                            </a>
-                        </div>
-                    `;
+                      <div class="absolute top-2 right-2">
+                          <button class="text-red-500 hover:text-red-700 cursor-pointer text-2xl" 
+                                  data-key="${group.date}-${startTime}"
+                                  onclick="removeSession('${group.date}-${startTime}')">
+                              &cross;
+                          </button>
+                      </div>
+                      <div class="flex items-center mb-2">
+                          <span class="bg-green-200 text-green-800 text-xs font-medium px-2 py-1 rounded">&#9989; Selecionada</span>
+                      </div>
+                      <p class="font-medium text-lg">${selectedSession.session}</p>
+                      <p class="text-sm text-gray-600">${selectedSession.location}</p>
+                      <p class="text-sm text-gray-600">${selectedSession.presentations.length} ${selectedSession.presentations.length > 1 ? "apresentações" : "apresentação"}</p>
+                      <div class="mt-3 flex space-x-3">
+                          <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
+                                  onclick="showPresentations('${selectedSession.session}')">
+                              Ver Apresentações
+                          </button>
+                          <button class="text-sm text-blue-600 hover:text-blue-800 flex items-center cursor-pointer"
+                                  onclick="toggleSessionOptions('${group.date}-${startTime}')">
+                              Trocar Seleção
+                          </button>
+                          <a href="${createGoogleCalendarLink(group.date, displayTime, selectedSession.session, selectedSession.location)}" 
+                             target="_blank"
+                             class="text-sm text-green-600 hover:text-green-800 flex items-center cursor-pointer">
+                             📅 Adicionar ao Calendário
+                          </a>
+                      </div>
+                  `;
           groupElement.appendChild(selectionInfo);
 
           // Add hidden session options that will be shown when "Trocar Seleção" is clicked
           const sessionsContainer = document.createElement('div');
           sessionsContainer.className = 'hidden session-options grid grid-cols-1 md:grid-cols-3 gap-4';
-          sessionsContainer.id = `session-options-${group.date}-${group.time}`;
+          sessionsContainer.id = `session-options-${group.date}-${startTime}`;
 
           group.sessions.forEach(session => {
             const sessionCard = createSessionCard(session, group.date, group.time);
@@ -189,7 +225,12 @@
 
     // Toggle session options visibility
     function toggleSessionOptions(key) {
-      const optionsContainer = document.getElementById(`session-options-${key}`);
+      // Ensure we're using the start time only for the key
+      const [date, fullTime] = key.split('-');
+      const startTime = fullTime.split('-')[0];
+      const normalizedKey = `${date}-${startTime}`;
+      
+      const optionsContainer = document.getElementById(`session-options-${normalizedKey}`);
       if (optionsContainer) {
         optionsContainer.classList.toggle('hidden');
         // Also hide the selection info when showing options
@@ -243,7 +284,9 @@
     // Select a session
     function selectSession(sessionData) {
       const { session, date, time } = sessionData;
-      const key = `${date}-${time}`;
+      // Extract start time only
+      const startTime = time.split('-')[0];
+      const key = `${date}-${startTime}`;
 
       // Get current selections from URL
       let selectedSessions = getSelectedSessions();
@@ -270,11 +313,24 @@
         // For each date-time key, get the session ID
         Object.entries(selectedSessions).forEach(([key, sessionName]) => {
           // Find the session object to get a unique identifier
-          const session = sessions.find(s => s.session === sessionName);
+          // Use case-insensitive comparison
+          const session = sessions.find(s => 
+            s.session.toLowerCase() === sessionName.toLowerCase()
+          );
           if (session) {
             // Create a compact ID using the session name and date-time
             const sessionId = createSessionId(session, key);
             sessionIds.push(sessionId);
+          } else {
+            // Create a fallback ID using just the session name hash and date-time
+            const [date, time] = key.split('-');
+            const dateSimple = date.replace(/\//g, '').substring(4);
+            const timeStart = time.split('-')[0];
+            const timeSimple = timeStart.replace(/\D/g, '');
+            const timeSimplePadded = timeSimple.padStart(4, '0').substring(0, 4);
+            const sessionHash = hashString(sessionName).substring(0, 4);
+            const fallbackId = `${dateSimple}${timeSimplePadded}${sessionHash}`;
+            sessionIds.push(fallbackId);
           }
         });
         
@@ -296,7 +352,18 @@
       // Extract date and time from the key
       const [date, time] = dateTimeKey.split('-');
       
-      console.log(`Creating ID for session: "${session.session}" with date: ${date}, time: ${time}`);
+      // Add safety check if session or session.session is undefined
+      if (!session || !session.session) {
+        // Create a fallback hash based on date and time
+        const dateSimple = date.replace(/\//g, '').substring(4);
+        // Extract only the start time if it includes a range
+        const timeStart = time.split('-')[0]; 
+        const timeSimple = timeStart.replace(/\D/g, '');
+        const timeSimplePadded = timeSimple.padStart(4, '0').substring(0, 4);
+        const fallbackHash = hashString(dateTimeKey).substring(0, 4);
+        const fallbackId = `${dateSimple}${timeSimplePadded}${fallbackHash}`;
+        return fallbackId;
+      }
       
       // Process the date to a simpler format (MMDD)
       const dateSimple = date.replace(/\//g, '').substring(4); // Remove slashes and get only month and day
@@ -310,11 +377,10 @@
       const timeSimplePadded = timeSimple.padStart(4, '0').substring(0, 4);
       
       // Create a hash of the session name (use only first 4 chars for compactness)
-      const sessionHash = hashString(session.session).substring(0, 4);
+      const sessionHash = hashString(session.session.toLowerCase()).substring(0, 4);
       
       // Combine them all
       const sessionId = `${dateSimple}${timeSimplePadded}${sessionHash}`;
-      console.log(`Generated session ID: ${sessionId} from date: ${dateSimple}, time: ${timeSimplePadded}, hash: ${sessionHash}`);
       
       return sessionId;
     }
@@ -331,30 +397,20 @@
       const selectedSessions = {};
       const sessionIds = sessionsParam.split('-');
       
-      console.log('Loading sessions from URL:', sessionIds);
-      
       // Loop through all session IDs in the URL
       sessionIds.forEach(sessionId => {
         // Parse the session ID to extract date and time
         const dateTime = parseSessionId(sessionId);
         
         if (dateTime) {
-          console.log(`Parsed dateTime from ID ${sessionId}:`, dateTime);
-          
           // Find matching session
           const matchedSession = findSessionByIdAndDateTime(sessionId, dateTime);
           if (matchedSession) {
-            console.log(`Found matching session:`, matchedSession.session);
             selectedSessions[dateTime] = matchedSession.session;
-          } else {
-            console.warn(`No matching session found for dateTime: ${dateTime}`);
           }
-        } else {
-          console.warn(`Could not parse dateTime from ID: ${sessionId}`);
         }
       });
       
-      console.log('Final selected sessions:', selectedSessions);
       return selectedSessions;
     }
     
@@ -369,8 +425,6 @@
         const hour = sessionId.substring(4, 6);
         const minute = sessionId.substring(6, 8);
         
-        console.log(`Parsing session ID ${sessionId}: month=${month}, day=${day}, hour=${hour}, minute=${minute}`);
-        
         // Reconstruct the date-time key
         const eventYear = 2025; // Hard-coded for this specific event
         
@@ -378,21 +432,15 @@
         const dateKey = `${eventYear}/${month}/${day}`;
         const baseTimeKey = `${hour}${minute}`; // Just digits
         
-        console.log(`Base date-time: ${dateKey}-${baseTimeKey}`);
-        
         // Look for matching sessions to determine the right format
         const matchingSessions = sessions.filter(s => s.date === dateKey);
         
         if (matchingSessions.length > 0) {
-          console.log(`Found ${matchingSessions.length} sessions on date ${dateKey}`);
-          
-          // Try to find a session with matching time (start time only)
+          // Try to find a session with matching start time (ignoring end time)
           for (const session of matchingSessions) {
             // Extract just the digits from the start time for comparison
             const sessionTimeStart = session.time.split('-')[0];
             const sessionTimeDigits = sessionTimeStart.replace(/\D/g, '');
-            
-            console.log(`Comparing ${baseTimeKey} with ${sessionTimeDigits} from ${session.time}`);
             
             // If we find a matching time, use that session's time format
             if (sessionTimeDigits === baseTimeKey || 
@@ -400,47 +448,28 @@
                 (sessionTimeDigits.length >= 3 && baseTimeKey.endsWith(sessionTimeDigits)) ||
                 (baseTimeKey.length >= 3 && sessionTimeDigits.endsWith(baseTimeKey))) {
               
-              console.log(`Found matching session with time ${session.time}`);
-              return `${dateKey}-${session.time}`;
+              return `${dateKey}-${sessionTimeStart}`;
             }
           }
           
           // If no exact match found, use the first session's time format as template
           const templateSession = matchingSessions[0];
-          const timeFormat = templateSession.time;
+          const timeFormat = templateSession.time.split('-')[0]; // Use only start time
           
           // Check if time format uses h or : and reconstruct accordingly
           let reconstructedTime;
           if (timeFormat.includes('h')) {
             reconstructedTime = `${hour}h${minute}`;
-            if (timeFormat.includes('-')) {
-              // If the format includes a range, try to reconstruct it
-              const rangeMatch = timeFormat.match(/(\d+h\d+)-(\d+h\d+)/);
-              if (rangeMatch) {
-                const timeRange = rangeMatch[2]; // End time
-                reconstructedTime += `-${timeRange}`;
-              }
-            }
           } else if (timeFormat.includes(':')) {
             reconstructedTime = `${hour}:${minute}`;
-            if (timeFormat.includes('-')) {
-              // If the format includes a range, try to reconstruct it
-              const rangeMatch = timeFormat.match(/(\d+:\d+)-(\d+:\d+)/);
-              if (rangeMatch) {
-                const timeRange = rangeMatch[2]; // End time
-                reconstructedTime += `-${timeRange}`;
-              }
-            }
           } else {
             // Unknown format, just use the basic format
             reconstructedTime = `${hour}h${minute}`;
           }
           
-          console.log(`Reconstructed time: ${reconstructedTime}`);
           return `${dateKey}-${reconstructedTime}`;
         } else {
           // No sessions found on this date, use a basic format
-          console.log(`No sessions found on date ${dateKey}, using basic format`);
           return `${dateKey}-${hour}h${minute}`;
         }
       }
@@ -455,15 +484,14 @@
       // Get the date and time parts
       const [datePart, timePart] = dateTime.split('-');
       
-      console.log(`Looking for session with date: ${datePart}, time: ${timePart}, hash: ${sessionHash}`);
+      // Extract start time only
+      const timeStart = timePart.split('-')[0];
       
       // Find all sessions matching this date
       const matchingSessions = sessions.filter(s => s.date === datePart);
-      console.log(`Found ${matchingSessions.length} sessions for date ${datePart}`);
       
       // From these, find sessions with matching time start
       // We need to be flexible with time format
-      const timeStart = timePart.split('-')[0];
       const timeMatchingSessions = matchingSessions.filter(s => {
         const sessionTimeStart = s.time.split('-')[0];
         // Normalize both times to remove h/: for comparison
@@ -472,27 +500,24 @@
         return normalizedTimeStart === normalizedSessionTimeStart;
       });
       
-      console.log(`Found ${timeMatchingSessions.length} sessions matching time ${timeStart}`);
-      
       // From these, find the one with the matching hash
       for (const session of timeMatchingSessions) {
-        const sessionNameHash = hashString(session.session).substring(0, 4);
-        console.log(`Comparing ${sessionNameHash} with ${sessionHash}`);
-        if (sessionNameHash === sessionHash) {
+        const sessionNameHash = hashString(session.session.toLowerCase()).substring(0, 4);
+        const lowerSessionHash = sessionHash.toLowerCase();
+        if (sessionNameHash === lowerSessionHash) {
           return session;
         }
       }
       
-      // If exact hash match fails, try partial match
+      // If exact hash match fails, try partial match with case-insensitivity
       for (const session of timeMatchingSessions) {
-        if (hashString(session.session).includes(sessionHash)) {
+        if (hashString(session.session.toLowerCase()).includes(sessionHash.toLowerCase())) {
           return session;
         }
       }
       
       // If we have only one session at this time slot, just return it
       if (timeMatchingSessions.length === 1) {
-        console.log('Only one session at this time slot, selecting it');
         return timeMatchingSessions[0];
       }
       
@@ -771,11 +796,21 @@
 
     // Remove a session selection
     function removeSession(key) {
+      // Make sure we're using only the start time in the key
+      const [date, fullTime] = key.split('-');
+      const startTime = fullTime.split('-')[0];
+      const normalizedKey = `${date}-${startTime}`;
+      
+      // Get current selections
       let selectedSessions = getSelectedSessions();
-      delete selectedSessions[key];
+      
+      // Remove the selection
+      delete selectedSessions[normalizedKey];
 
+      // Update URL
       updateUrlWithSelections(selectedSessions);
 
+      // Refresh UI
       displaySessions();
       updateButtons();
     }
@@ -793,7 +828,16 @@
 
     // Get the session by name
     function getSessionByName(sessionName) {
-      return sessions.find(s => s.session === sessionName);
+      if (!sessionName) {
+        return null;
+      }
+      
+      // Use case-insensitive comparison
+      const session = sessions.find(s => 
+        s.session.toLowerCase() === sessionName.toLowerCase()
+      );
+      
+      return session;
     }
 
     // Create Google Calendar link
@@ -835,15 +879,36 @@
         // Build the Google Calendar URL
         return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(sessionName)}&details=${encodeURIComponent(details)}&dates=${startDateStr}/${endDateStr}&ctz=America/Sao_Paulo`;
       } catch (error) {
-        console.error('Error creating calendar link:', error);
-        return '#'; // Return fallback link
+        // Return fallback link
+        return '#';
       }
     }
 
     // Display presentations for a session
     function showPresentations(sessionName) {
       const session = getSessionByName(sessionName);
-      if (!session) return;
+      if (!session) {
+        // Display a warning to the user
+        const warningToast = document.createElement('div');
+        warningToast.className = 'fixed bottom-4 right-4 bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded shadow-md z-50';
+        warningToast.innerHTML = `
+          <div class="flex items-center">
+            <div class="py-1"><svg class="fill-current h-6 w-6 text-red-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 0C4.477 0 0 4.477 0 10c0 5.523 4.477 10 10 10s10-4.477 10-10c0-5.523-4.477-10-10-10zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm0-13a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0V6a1 1 0 0 0-1-1zm0 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg></div>
+            <div>
+              <p class="font-bold">Erro ao carregar a sessão</p>
+              <p class="text-sm">Não foi possível encontrar detalhes para a sessão "${sessionName}".</p>
+            </div>
+          </div>
+        `;
+        document.body.appendChild(warningToast);
+        
+        // Remove toast after 5 seconds
+        setTimeout(() => {
+          warningToast.remove();
+        }, 5000);
+        
+        return;
+      }
 
       // Close summary modal if open
       closeSummaryModal();
@@ -966,13 +1031,33 @@
         
         // Process invited lectures, merging presentations if session already exists
         invitedLecturesData.forEach(session => {
-          if (sessionsMap.has(session.session)) {
+          // Check both exact match and case-insensitive match
+          const exactMatch = sessionsMap.has(session.session);
+          const lowerCaseSession = session.session.toLowerCase();
+          
+          // Find case-insensitive match if no exact match
+          let matchedKey = exactMatch ? session.session : null;
+          if (!exactMatch) {
+            // Look for case-insensitive match
+            for (const [key] of sessionsMap) {
+              if (key.toLowerCase() === lowerCaseSession) {
+                matchedKey = key;
+                break;
+              }
+            }
+          }
+          
+          if (matchedKey) {
             // Merge presentations from both arrays
-            const existingSession = sessionsMap.get(session.session);
+            const existingSession = sessionsMap.get(matchedKey);
             existingSession.presentations = [
               ...existingSession.presentations,
               ...session.presentations
             ];
+            // If we found a case-insensitive match, use the more canonical format
+            if (!exactMatch) {
+              existingSession.session = session.session; // Use the case from invited lectures
+            }
           } else {
             sessionsMap.set(session.session, session);
           }
@@ -981,26 +1066,20 @@
         // Convert map back to array and add intervals
         sessions = [...sessionsMap.values(), ...intervalsData];
         
-        console.log('Data loaded, checking for URL parameters');
-        
         // Now check if we have URL parameters and update the UI
         try {
           if (window.location.search.includes('s=')) {
-            console.log('Found session parameters in URL');
             const selectedSessions = getSelectedSessions();
-            console.log('Selected sessions from URL:', selectedSessions);
             
             if (Object.keys(selectedSessions).length > 0) {
               // Force redisplay with selections
               displaySessions();
-              console.log('UI updated with selections from URL');
             }
           } else {
             // No URL parameters, just display the sessions
             displaySessions();
           }
         } catch (err) {
-          console.error('Error loading sessions from URL:', err);
           // Still display sessions even if there was an error
           displaySessions();
         }
@@ -1009,7 +1088,6 @@
         updateButtons();
       })
       .catch(error => {
-        console.error('Error loading data:', error);
         sessionsContainer.innerHTML = "<div style='text-align: center; width: 100%;'>Erro ao carregar as sessões.<br/>Os arquivos <code>oral-sessions.json</code>, <code>invited-lectures.json</code> e <code>intervals.json</code> estão no lugar?</div>"
       });
     };
@@ -1023,7 +1101,7 @@
         navigator.clipboard.writeText(url)
           .then(showSuccessToast)
           .catch(err => {
-            console.error('Clipboard API failed:', err);
+            // Fallback if clipboard API fails
             fallbackCopyToClipboard(url);
           });
       } else {
@@ -1050,7 +1128,6 @@
           throw new Error('Could not copy text');
         }
       } catch (err) {
-        console.error('Fallback clipboard copy failed:', err);
         alert('Não foi possível copiar o URL. Por favor, copie manualmente da barra de endereço.');
       }
       
