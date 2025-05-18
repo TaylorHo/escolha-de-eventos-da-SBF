@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EOSBF 2025 | Sessões</title>
+  <title>EOSBF 2025 | Escolha de Sessões</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <style>
@@ -18,35 +18,81 @@
 
 <body class="bg-gray-50 p-6 font-sans pb-20">
   <!-- Fixed Top Buttons -->
-  <div class="fixed top-0 left-0 right-0 bg-white shadow-md p-3 z-10 flex justify-between items-center">
-    <h1 class="text-xl font-bold text-gray-800">EOSBF 2025 | Escolha de Sessões</h1>
-    <div class="flex space-x-3 items-center justify-center">
-      <a href="https://www.eventweb.com.br/eosbf2025/home-event/schedule.php?q=&area=todas&sessao=todas&tipo=1#trabalhos"
-        target="_blank" class="cursor-pointer">Lista
-        oficial de trabalhos</a>
-      <button id="shareUrlBtn"
-        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer"
-        onclick="shareSelections()">
-        🔗 Compartilhar
-      </button>
-      <button id="viewSummaryBtn"
-        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
-        📋 Ver Resumo
-      </button>
-      <button id="clearAllBtn"
-        class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
-        &cross; Limpar escolhas
-      </button>
+  <div class="fixed top-0 left-0 right-0 bg-white shadow-md p-3 z-10">
+    <!-- Desktop Header -->
+    <div class="hidden md:flex justify-between items-center">
+      <div>
+        <h1 class="text-xl font-bold text-gray-800">EOSBF 2025</h1>
+        <p class="text-sm text-gray-600">Escolha de Sessões</p>
+      </div>
+      <div class="flex space-x-3 items-center justify-center">
+        <a href="https://www.eventweb.com.br/eosbf2025/home-event/schedule.php?q=&area=todas&sessao=todas&tipo=1#trabalhos"
+          target="_blank" class="cursor-pointer">Lista
+          oficial de trabalhos</a>
+        <button id="shareUrlBtn"
+          class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer"
+          onclick="shareSelections()">
+          🔗 Compartilhar
+        </button>
+        <button id="viewSummaryBtn"
+          class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
+          📋 Ver Resumo
+        </button>
+        <button id="clearAllBtn"
+          class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
+          &cross; Limpar escolhas
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Header -->
+    <div class="flex md:hidden justify-between items-center">
+      <div>
+        <h1 class="text-lg font-bold text-gray-800">EOSBF 2025</h1>
+        <p class="text-xs text-gray-600">Escolha de Sessões</p>
+      </div>
+      <div class="flex space-x-2 items-center">
+        <button id="shareUrlBtnMobile"
+          class="bg-green-500 hover:bg-green-600 text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200 flex items-center cursor-pointer"
+          onclick="shareSelections()">
+          🔗
+        </button>
+        <button id="viewSummaryBtnMobile"
+          class="bg-green-500 hover:bg-green-600 text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200 flex items-center cursor-pointer opacity-50 pointer-events-none">
+          📋
+        </button>
+        <button id="mobileMenuBtn" class="text-gray-500 hover:text-gray-700 text-xl px-1 py-1">
+          ☰
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobileMenu" class="hidden md:hidden mt-3 p-3 bg-gray-100 rounded-b-lg">
+      <div class="flex flex-col space-y-3">
+        <a href="https://www.eventweb.com.br/eosbf2025/home-event/schedule.php?q=&area=todas&sessao=todas&tipo=1#trabalhos"
+          target="_blank" class="cursor-pointer text-blue-600">Lista oficial de trabalhos</a>
+        <button id="clearAllBtnMobile"
+          class="bg-red-500 hover:bg-red-600 text-white px-3 py-1.5 rounded-md text-sm font-medium transition-colors duration-200 flex items-center justify-center cursor-pointer opacity-50 pointer-events-none">
+          &cross; Limpar escolhas
+        </button>
+      </div>
     </div>
   </div>
 
-  <div class="max-w-[1800px] mx-auto bg-white rounded-lg shadow-sm p-6 mt-16">
+  <div class="max-w-[1800px] mx-auto bg-white rounded-lg shadow-sm p-6 mt-16 md:mt-20">
     <!-- Sessions Groups Container -->
     <div id="sessionsContainer"></div>
   </div>
 
   <script>
     let sessions = [];
+
+    // Toggle mobile menu
+    document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+      const mobileMenu = document.getElementById('mobileMenu');
+      mobileMenu.classList.toggle('hidden');
+    });
 
     // Close any open modal when pressing Escape
     document.addEventListener("keydown", (event) => {
@@ -60,15 +106,21 @@
     function updateButtons() {
       const clearButton = document.getElementById('clearAllBtn');
       const summaryButton = document.getElementById('viewSummaryBtn');
+      const clearButtonMobile = document.getElementById('clearAllBtnMobile');
+      const summaryButtonMobile = document.getElementById('viewSummaryBtnMobile');
       const selectedSessions = getSelectedSessions();
       const hasSelections = Object.keys(selectedSessions).length > 0;
 
       if (hasSelections) {
         clearButton.classList.remove('opacity-50', 'pointer-events-none');
         summaryButton.classList.remove('opacity-50', 'pointer-events-none');
+        clearButtonMobile.classList.remove('opacity-50', 'pointer-events-none');
+        summaryButtonMobile.classList.remove('opacity-50', 'pointer-events-none');
       } else {
         clearButton.classList.add('opacity-50', 'pointer-events-none');
         summaryButton.classList.add('opacity-50', 'pointer-events-none');
+        clearButtonMobile.classList.add('opacity-50', 'pointer-events-none');
+        summaryButtonMobile.classList.add('opacity-50', 'pointer-events-none');
       }
     }
 
@@ -1010,7 +1062,9 @@
 
     // Set onclick for the buttons
     document.getElementById('clearAllBtn').onclick = clearAllSelections;
+    document.getElementById('clearAllBtnMobile').onclick = clearAllSelections;
     document.getElementById('viewSummaryBtn').onclick = showSessionsSummary;
+    document.getElementById('viewSummaryBtnMobile').onclick = showSessionsSummary;
 
     // Check for selections on load to update buttons
     window.onload = function () {
